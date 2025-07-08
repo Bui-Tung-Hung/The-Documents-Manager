@@ -1,0 +1,1152 @@
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 1, 'orig_elements': 'eJzVlt1u4zYQhV+F0HUo8E+imKumLVBsUQRBN1u0SIOAFEc2G1k0KCnZZNF370i2N4mTLTYXvrAB2zrDQ5Hixxnx6ksGLaygG26Cz05JVhpegPSCGl0xqgQztCobRovKGi/rsnQMshOSrWCw3g4W+3zJ6hiTD50doJ91ax/iONwsISyWA0a0ETnDTtv4ffDDEsMl34TXMXTD1PPqipe5PCGCy9xcn5CdLLZSvilnM+qsf+gHWE1PcRE+Q/txbWvI/sWGJrRw40OCeojpYTL8PE1929LZFUyxs2HAdQix+9Cfte1fcTwH8PnaN9k89W4x2sX8gFcZdIvseo72w80q+tAEmJdPMFFQJijXl7w45exU6an3GnvedOPKQUIXn+Y0wOdpaTJJBGFETK7hYT1P5FNX41IuYgqP4C8nH3bYB6WVV75UgtZSS6occ9QKCcitsb7WRVWX7PCgiuo5KMmqXD2R2ZMb89GCWpCRnL0EdW5TskO4g29BEg6cs7amHrSnqmg8ddxVVNYFqzWrWGkPD0nyLYat1NXz9NmXs/loIV2T38hPJCc9qfHGz1BdhqGFtxDJ2jZCKU910VRUcV5R66ChrGQgK6FFIeThEVUv8qgoipw9MdmTG/PRItLkDkteSTSRWPhyvGJ4zckpxgP5kyRi310MpWpAKSUpNwbwrYU/biqGXFnhgUvOcbYHhCjUBEaLvJwhbiRH45x3qtK5ea1n+9FivEjxLnjwZJ3iGhDaMKTgxmkeJPRTdG4+Ib/EuGiBLCGBeyCLZHHVCPZYhb6fzEMkCdDuxxrIsMSvdS30xHaeNGExJrwOaFtOd7XTUH1soX0gTUxk7GFq/CeOqbNt6IdQEwz39TK2NqHpPqbbPn9X0S5AONOApJpLPAI5aWllPKf4RnWV5tpLUx5wMwnO8wJ3i9pW7Z0ui83uksbMu2lfq6Mu3F9HJR96guMSHJhMI39XEfd4RpUl5r91osQiLjytHMM3rtcWauYaMAfNfyzbGg84UubFXAC2usS/DcJy6vJKz/7jRdZjSi7JH7a/t134exSC6122/5gspqW927T9sJijeR1X34XTgHHeSU5xbyNE4IJahkwbbRqhK46fQx6bhGQvcO70Dp9kJudv6OPGeR7tinxc2keA9BbMDtvfC7Jy1rDKKdpwUyNIKWklS0eNk8CYtZX25oAgpZB59QzkTu/AKaan0vpKHznIcBvIhU0ru8fxd+jBpnpJOnSs38tSu0ZKXzQUZMGpYqykRoLBiUGpgMmCwSGTUgnxlGQTq63+ys7oXLyhj5vlr/Y2OvKpf7yNCcLwDZ5j//j/NK//A4o7VXA=', 'uuid': 'f4e5fec5-5907-4ccd-88e6-efd1cd7775bb'}
+3 2 0 2
+
+g u A 2
+
+] L C . s c [
+
+7 v 2 6 7 3 0 . 6 0 7 1 : v i X r a
+
+Provided proper attribution is provided, Google hereby grants permission to reproduce the tables and figures in this paper solely for use in journalistic or scholarly works.
+
+Attention Is All You Need
+
+Ashish Vaswani∗ Google Brain avaswani@google.com
+
+Noam Shazeer∗ Google Brain noam@google.com
+
+Niki Parmar∗ Google Research nikip@google.com
+
+Jakob Uszkoreit∗ Google Research usz@google.com
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 1, 'orig_elements': 'eJzVlcFvmzAUxv8Vi3Nt2cYG3FMzTZq6TVW1dYcprSJjP4hVwBGYrem0/32GZFHX9tAdcsgJfd97jzz7py8sfyXQQAtdWDmbnKNEcw20gBwrWVAsosClqQwGU1Qmt6VmqkzOUNJC0FYHHWd+Jcb73rpOBxhm3eitH8NqDa5eh+jkihMah/b+T2fDOtoZ29kb77owTS6XjGdEnSFepETenaG/OmUZySfNGSXZS73rj0YybIcA7XSSa/cAzdeNNpD8joXKNbCyrgcTfL+dGt5P6+8rnW5h8hYhxLtwvrscFk3z3Y9XAJZsbJXM63f1qOv5kMsEujq5m90hrFpvXeVgvkJOucSUY5bfMHnO6LnIp+lNnFx1Y1tCH7vYtFOAh+l6ks9N/EX00Xcw3I6csxx98L5uAH2BAXRv1qiZOi7q2SXGt9MLw3Yz73zjQjOf8TlLBSkHVeYYGBdYZAXHikqOs1xF21JQRXFEljyVRDxhudcHdqmg08hzfeIsF87qDl2RiLCFxz3O+KCcom+d+wH94MIW+Qrd+N53wSM9TVyYgYSdQcCOb+JrFOOSmQwryw0WnGa4UHlctsqETDNtKtBH5JtmghRP+O71gacoJGEv9YnzvR0pE2y818Mj+qTdAP2/kX3Xa9ehZm64n+v/G9vcsEowmWFRCo4F0xIrZSTWmRWq1FYJbY4a22KOZXqI7U5LSYoZcy5e1elJY72M/7AaXfvGD+P92nVPg8uQm6pkc6he1K12zZuJUi3TUsevaFWY+FFlzGIlSoVLKqiQGa9opo5JNCZuCmbMXzoT3WuV73TKC8Jf0XP/yRJdlEPotQmvELr7A48/rEg=', 'uuid': 'd6186285-6dec-48f4-82c0-3ffeebfd3c40'}
+Llion Jones∗ Google Research llion@google.com
+
+Aidan N. Gomez∗ † University of Toronto aidan@cs.toronto.edu
+
+Łukasz Kaiser∗ Google Brain lukaszkaiser@google.com
+
+Illia Polosukhin∗ ‡ illia.polosukhin@gmail.com
+
+Abstract
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 1, 'orig_elements': 'eJx1VF2P2zYQ/CsLPVuCpfPX3VuKXoMCbRqgDoLicDBoaWURpUiFpGyrQf57ZinftU3TJ5tL7u7szGifPmdsuGcbD7rJHiirqnJ5Xx23uap3m3xVVXf5bnXf5rwpq7It7ze7dpktKOs5qkZFhZzPWe2cb7RVkUM6GzW5MR461qcuIrK9r4olkm7xi25ihzBKpvDgtI2S+fRUru6KzYJW5V1RPS/o5bzeroudnFeb+2L33/P8HoEsTCFyL5O811c2vw+q5uwLLlpt+NBoz3V0fpIHPwr8241VPUvsTYzgQjv7c3hjzB9ufMfcFEPTZgm+PY3qlIZ8ytiesucUDfHQu0a3mmcKl9U6X1Z5ud2X64dy+bDaSvaAzIMd+yN7vCoFU+Sr0JPtO6bG9WDQRgr8aWRbM0WvbGjGWuAQGrAJpDzTUQVuCLHa9YPhK2Gm0XvgJucRtGdnRklShiyPPv3Ei/N/BoqdiqRtbcaGSVlCIxT2+NuQoobTqSABdOQQaWDfOg9kp1cEJjhpYkEkyvG/StwKIO7deOqkg3phlHquO2V16Av6yDR4N7gAEAB3oaBllBecGLPudESH0fMiddkLGQKF/eLGQHCGzSREfKdHWFCjw8A2CPaLjt0rTTUnrP8gKpCke1Qr6PGKmbV8EUFKAw/1CmjsTRCjUqOoAugMnbsIPMxxoyc6EEdhlCJQQ1v6NCqj40SXDj7D5cwldBwUpMEI+i91NDMmD+21lxdBnywcVcMRmNFwQGmgkvqAoW1Bv41+bkoCj88cqNoVK/rhl8cPCTlY+/jrnqpluaJHezI6dDny87fsewjz7TQLggbenaW7OycRIe5VhyiR5AbPYTQR1M4OkjgI5h7wETxOc16VIADg/2AAhJ9Ehu47ENzrUOgHWvAec714BAU4n69xGzl3bY4WufJxHjvUQqxrsRCKHak2yhhCl0CFe+iuWFOjpiRt2k709v0HYFcUeohBrVfz94YaAv41uXZBDDFHExk3wVvv+hSEyOyVODb5+2YNFb+1L53Y4iFkx2QXRlNo6vDI30wFHtUwmEnaauyDsa4hfzsaGAFPbzSKfyFNlF0xiZeS0Y8oNLvdKH+aTWV0D2jN37PI3i5kJcVpSFvvnfJArs+8l4X05fkrnQAabQ==', 'uuid': '3f17288d-e345-4370-9305-09d94c6ac121'}
+The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 1, 'orig_elements': 'eJx1VNGO2zYQ/JWFni3Bku07372l6DUo0KYBekFQHA4GLa0kohSpkJRtNci/Z5byXds0fbK55O7Ozoz26XPGhge28aCb7J6yelNVd+XxmJe7m32+LY9trrZtnW+a3b6p6nZd7TfZirKBo2pUVMj5nNXO+UZbFTmks1Gzm+KhZ931EZHbu6pYI+kaP+sm9gjflEt4dNpGyXx6Kreb4mZF23JTVM8rejnvbnfFXs7bm7ti/9/z8h6BLMwh8iCTvNcXNr+PqubsCy5abfjQaM91dH6WBz8K/OuNVQNL7E2M4EI7+3N4Y8wfbnrH3BRj02YJvu0m1aUhnzK2XfacoiEeBtfoVnOisFpXu3xd5eXtY7m7L9f321vJHpF5sNNwZI9XpWCKfBF6sseeqXEDGLSRAn+a2NZM0SsbmqkWOIQGbAIpz3RUgRtCrHbDaPhCmGnyHrjJeQTtyZlJkpQhy5NPP/Hs/J+BYq8iaVubqWFSltAIhT3+NqSo4XQqSAAdOUQa2bfOA1n3isAEJ00siEQ5/leJawHEvZu6XjqoF0Zp4LpXVoehoI9Mo3ejCwABcGcKWkZ5wYkx615HdJg8r1KXRyFDoLBfXRkIzrCZhYjv9AgranQY2QbBftaxf6Wp5oT1H0QFknSPagU9XDCzli8iSGngoUEBjb0KYlRqFFUAnaF3Z4GHOa70RAfiKExSBGpoS58mZXSc6dzDZ7hcuISOo4I0GEH/pY5mweShvfbyIujOwlE1HIEZDQeUBiqpDxjaFvTb5JemJPD4xIGqfbGlH355+JCQg7WPvz5StS639GA7o0OfIz9/y36AMN9OsyJo4N1JurtTEhHiXnSIEklu8BwmE0Ht4iCJg2AeAB/B47zkVQkCAP4PBkD4SWTovwPBvQ6FfqAF7zHXi0dQgPPlGreRc9fmaJErH5exQy3EuhYLodiTaqOMIXQJVLiHNsWOGjUnadN2orfvPwC7ojBADGq9Wr431BDwr8m1C2KIJZrIuAreejekIERmr8Sxyd9Xa6j4rX2pY4uHkB2TnRlNoanDI381FXhU42hmaauxD6a6hvztZGAEPL3SKP6FNFF2xSxeSkY/otDidqN8t5jK6AHQmr9nkb1dyEqK85i23jvlgVyf+FEW0pfnr+SXG1A=', 'is_continuation': True, 'uuid': 'd46a9e86-11bd-48fe-80de-29dcc697efad'}
+more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English- to-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 1, 'orig_elements': 'eJx1VF2P2zYQ/CsLPVuCLX/d3VuKXoMCbRqgDoLicDBoaSURpUiFpPzRIP89s5Tu2qbpk80ld3d2ZrRPnzM23LONR11nD5StTut6fb9b5vU9L/PNulznarPa5Q2fdiXvN8tdWWYLynqOqlZRIedzVjnna21V5JDORt3cGI8d67aLiOzvy2KJpDl+0XXsEN6tpvDgtI2S+fS02qyL3YI2q3VRPi/o5bzdb4s7OW9298Xdf8/TewSycAuRe5nkvb6y+X1QFWdfcNFow8dae66i8zd58KPAn2+s6llib2IEF9rZn8MbY/5w4zvmuhjqJkvwbTuqNg35lLFts+cUDfHYu1o3mhOF5bLc5ssyX+0Pq+3Davmw2Uv2gMyjHfsTe7xaCabIV6EnO3RMtevBoI0U+NPItmKKXtlQj5XAITRgE0h5ppMKXBNilesHw1fCTKP3wE3OI2jPzoySpAxZHn36iRfn/wwUOxVJ28qMNZOyhEYo7PG3JkU1p1NBAujEIdLAvnEeyNpXBCY4aWJBJMrxv0rMBRD3bmw76aBeGKWeq05ZHfqCPjIN3g0uAATAXShoGeUFJ8asOh3RYfS8SF0OQoZAYb+YGQjOsLkJEd/pERZU6zCwDYL9omP3SlPFCes/iAok6R7VCnq8YmYtX0SQ0sBDvQIaOwtiVGoUVQCdoXMXgYc5ZnqiA3EURikCNbSlT6MyOt7o0sFnuJy4hI6DgjQYQf+lTmbC5KG99vIi6NbCURUcgRkNB5QGKqkPGNoW9Nvop6Yk8PjMgcq7YkM//PL4ISEHax9/PVC5XG3o0bZGhy5Hfv6WfQ9hvp1mQdDAu7N0d+ckIsS96hAlktzgOYwmgtrJQRIHwdwDPoKn25RXJggA+D8YAOEnkaH7DgT3OhT6gRa8x1wvHkEBzqdr3EbOXZOjRa58nMYOlRDrGiyE4o5UE2UMoUugwj20LrZUq1uSNm0nevv+A7ArCj3EoMar6XtDDQH/mly5IIaYoomMWfDGuz4FITJ7JY5N/p6toeK39qWWLR5Cdkx2YTSFpg6P/Gwq8KiGwdykrcY+GKsK8jejgRHwdKZR/AtpouyKm3gpGf2EQpPbjfLtZCqje0Cr/55F9nYhKynehrT13ikP5PrMB1lIX56/AoQYGr4=', 'is_continuation': True, 'uuid': '0099abc1-8866-44ce-8c2f-222daf501f88'}
+Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 1, 'orig_elements': 'eJxlVE1v2zAM/SuCz7bhePnsrcB26DAEw9bL0BUBbdExEVnyRDltWuy/j7KTtsEutkWR1ON7T354TdBghzbsSCc3KlmUy2ZVzausKtbLbL5ZrrP1Zr3K5jPcYNM0i7ooklQlHQbQEEBqXpPaOa/JQkAe1wZObgi7FmnfBomsNmVeSNE5/kQ6tBJezqZw78iGWPnwMCvWMbTYrPLyMVWX9XK9yhdxvSjm+af/11O+BBI+ccAuTvKdntH87KHG5K9sNGRwp8ljHZw/xYTPEf55x0KHMXYbgnBBzt7xrTG/3LBF1Hmvm2SEb/cD7MchHxK0++RxjHLYdU5TQzhSWBblIivKbLa6ny1uZsXNfBWre6nc2aGr0EvWLGIK+BzpSX4PZTlbffkzgFG1s8FTNUQQufpGHMjulfCLXhErD1a7Lldf4eAq1XvXO0atPPYG6pj5Y7tl9UShVYymyeAykJJCxQF8kPTQohI1nQ8qOIVHMIOIJ2E5gTRCrm5Zvtt06nRnDEGqNDLtrZTHVtT1k3HO7RryHNS94GPp2wla4QQNj8ktsKoQrar9UBMYc1Jkj84cpZisAEB/UsC9iKNcM+F4cv6Qq62D7n1MrsHIS7uQSUwPkv42YKq6wQTKWgStrseO+HrwonFAnzUeZemYxn1hziNLMrylV1hL6ljl5OFVj55l7yNki+Bligm5lstARsDSgd5YSj9SlKowXJi70K1F68EGg8wTV+oInkCuQjzADV5Up71cq2gKjRUwTtOgZefL6SUWMSNuwyLksyClsyijctYdpe91dxFV5JChe2eZKiPaOT+eR1Y4+XBcOuFtGqpJmsp+gx5tPeE4Eoth6WUkjgXIcAB+GbduSYNVoqcUvQ9pnPhTw4nPHEW7RlBu4CiPzC3aX3krZlyNm35wekQcVSBR6B3x3iOE6K9OHHKMeTKpGGMyYgfMJJSI2+pa/nwewqVVdAH4us3jZQ2nfvwfbMHHlCPex6v69/EfPCHNVw==', 'uuid': 'c5b91dcf-1a01-4012-aa41-101a6b2d7ded'}
+∗Equal contribution. Listing order is random. Jakob proposed replacing RNNs with self-attention and started the effort to evaluate this idea. Ashish, with Illia, designed and implemented the first Transformer models and has been crucially involved in every aspect of this work. Noam proposed scaled dot-product attention, multi-head attention and the parameter-free position representation and became the other person involved in nearly every detail. Niki designed, implemented, tuned and evaluated
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 1, 'orig_elements': 'eJxlVE1v2zAM/SuCz7YRu0nT9lZgO3QYgmHrZeiKgJbomKgseaKcNi3630fZST+wi21RJPX43pPvXjK02KOLWzLZlcp0uz6vNeoCm7OLYtmuquLCLLCAarVcnetli02V5SrrMYKBCFLzkmnvgyEHEXlaWzj4MW47pF0XJbK+rMuFFB3jj2RiJ+Hzag4PnlxMlXd31eIihVaX67K+z9VpfX6xLldpvVosy7P/13O+BDI+cMQ+TfKDntD+GkBj9iobLVncGgqoow+HlPAlwT/uOOgxxa5jFC7Iuxu+tva3HzeIphxMm03w3W6E3TTkXYZul91PUY7b3htqCScK60W9KhZ1Ua1vq9VVtbharlP1IJVbN/YNBsmqEqaIT4me7M9Y19X6698RrNLexUDNmECU6jtxJLdTwi8GRawCOOP7Un2DB9+oIfjBMxoVcLCgU+bPzYbVI8VOMdq2gNNASgoVRwhR0mOHCtvWh6iiV7gHO4p4EpYTyCCU6prlu8vnTjfWEuTKINPOSXlqRf0wG+fYrqXAUd0KPpa+vaAVTtDylNwBqwbRKR1GTWDtQZHbe7uXYnICAMNBAQ8ijvLtjOPRh4dSbTz072OyBisv42MhMTNK+tuAuepHG6noEIz6PHbCN0AQjSOGog0oS8807QtzAVmS4S29QS2pU5WXR1ADBpa9j5AdQpApZuRGLgNZAUsP9MZS/pGiXMXxxNyJbiNajy5aZJ65UnsIBHIV0gF+DKI67eRaJVMYbIBxngYd+1DPL7GInXBbFiGfBCkdRZmUc34vfT93F1FFDhl68I6psaKdD9N55ISTD8flM962JU3SVPZbDOj0jGNPLIal54k4FiDjA/DztHVNBpwSPaXofUjrxZ8GDnzkKNk1gfIjJ3lkbtH+k7dSxqdx8w9OT4iTCiQKvSPeBYSY/NWLQ/YpTyYVY8xG7IGZhBJxm9by5wsQT62SCyDorkyXNR6G6X+wgZBS9nibrurr/T9pcc4p', 'is_continuation': True, 'uuid': '10f4925e-e5ff-4768-ac5b-fdd3d0e9c887'}
+countless model variants in our original codebase and tensor2tensor. Llion also experimented with novel model variants, was responsible for our initial codebase, and efficient inference and visualizations. Lukasz and Aidan spent countless long days designing various parts of and implementing tensor2tensor, replacing our earlier codebase, greatly improving results and massively accelerating our research.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 1, 'orig_elements': 'eJzVk19r2zAUxb+K8NMGsZFk2bL7lnZsBEYIS8sYWQiydO2I2VKQlbVZ2Xef5GTQbYU9bdA3n6NzuX9+ePOYQA8DGL/TKrlCCcZAGS9YylWJU1bzPK2wqlLFaymoKJqSVckMJQN4oYQXoeYxkdY6pY3wME66Fyd79Ls96G7vg8NrmuFQdPHvtfL7YJfkbB+sNj5WbjaE4ozOUFnxrN7O0E/NcZ2xqGmFs/xPfc4HIxlPo4chbrLSD9CvD0JC8j08tLqHndIOpLfuFANv4viXFyMGiN7c+3ALbc1inPf9J3tcAqjsoNpkGt90R9FNS24SMF2yndzR7wardKthOiHFtEgxTQm/JcUVwVeMx+pDqNyZ49CACykSZ/LwEM+TfD6GGvzRui/oAK61bgCF7vdhLiQ8emdtF76undAmQ1OW/CX7AUYQTu6z2NifDtNuS+Gc8Por3Ma2of/v7EWbYygD8YbQPGUta9NKSJaqhhW1ahpZ5+pfssdVtHhOs2pif9GMnDUrcUae0VP+xbLPyejRjTUtODASkDVoCUcnerQwka6IE6GVsxLGUZsOractR/RquVitEcWEv56h9za8XIOQ+xm6mc/Q3Xr+C/u31vrQ+xnoVUM45JSkpChkykpF00YykfJKAlVQClLh/wCdZsUT5hW7SMKekVP4JQGnT4GTp1zujAxH7KzT30Cd/8vtD9GIqyw=', 'uuid': '33c49720-6dcf-495d-b15d-0c5649f7dcd5'}
+†Work performed while at Google Brain. ‡Work performed while at Google Research.
+
+31st Conference on Neural Information Processing Systems (NIPS 2017), Long Beach, CA, USA.
+
+1
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJzNVclu5DYQ/RVC55agffFtgMlhLkaQ+BI0Gg2KLEkcU6TCxXaPMf+eIttO2u1GbgFykqpU7/HVRu1fE5CwgnJHwZM7kvQNg6HNWTow3qY1rZp0HIs67YqJdePYFtVYJTuSrOAop44i5jVhWhsuFHVgoy3pSXt3XEDMi0NPN5RZjqA3/7PgbkF3W5zdmxbKBeR+X5RNNuxIV2bNYUfezb5+M4c86z+ZMRjtxJ6sgzVk8at4Afn7RhkkP/HDJCQcuTDAnDanEPA1SH/7ougKwffFOayD0Oqb/SLlH9rfA/Bs41MSpavZ0zkmuE9Azckheq07rpqLSUAsX5mXTZqXadE9FM1dkd/VXUBviDwqv45gMKoMmhy8hNIk35QzmnsWDg6h7rRFNQ/Cyaj+ukNsGHJWVTQd8oKm9dj0ad9PQ9pWZcu6nvFq7P/LDuV9cA191scenM2iKbM62E1eZ+VnO4b/v3skhXqMyNfEOmqw3IrDCzqa4qJdRZx+b2RshXCQLZotBvDNFMPQnTv2kaBrLwi6a/xs/C9PVBb1LWjZdhfYqrkGW+/sIzzh2bfh3aX28ho90oVTRX2ZF7UCb6i8TVJfkHySwBYd8BKoUQJrfoOhzqvLLPpriuegoJ21nt9H/hp/WYWyvsZLr9WMFA1ME86PeLrNUnxo5KdEvusfMOlnwX4ENfCySW1iQod/3+DfgHljcCzJuYb4cM/aPNodkaiL2EUbl+J8rGSFFYcbt6Y6EKo4mXEhOTF/E+y7wzUJEYpsmIZgXlKzIwt9AjICKDIJs8oTAcxylMIuyEQtQcsB0RNxCxDEEbptRlO2QKSy8KcHxYDgRgCO/Bx1OEOVfbuECIaPeOMglWdLoHzfq4+YFTmFgjNW0gjdV82O4Lo3h4zc+xWM9pZgU7AA9qzcinA407jEyqNip8nm7RLVjtorTo1Apaj/n6p8PN/G0zEHNEzKIT4xU1TjsPneIHxf4X+hrMM9dMgub9V7agwNA/IQmvfz8Bf3BTKf', 'uuid': '6f0f7771-0d59-4d8c-8ef7-72ca1ac148bc'}
+Introduction
+
+Recurrent neural networks, long short-term memory [13] and gated recurrent [7] neural networks in particular, have been firmly established as state of the art approaches in sequence modeling and transduction problems such as language modeling and machine translation [35, 2, 5]. Numerous efforts have since continued to push the boundaries of recurrent language models and encoder-decoder architectures [38, 24, 15].
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJxlVEtv2zgQ/isDnW1BUq3ayS3AYoHFAkXRzWXhBgZDjcRBKFJLUnbUIP+9M4zduNmbOJzH9xhq/1KgxRFdOlBX3EKhlW7rpq/WfbOp15tK1+sb3d6sd9uqbncbhX23K1ZQjJhUp5LimpdCex86ciphzGerFj+ng0EaTOLI9qYpKy46x0/UJcPhz/VbePLkklTu93W1kxCPKm8eVnA5N5u2bOTcVpty8//zWz4HirjEhKMw+UrPaP+ZlMbilS96snjoKKBOPiyS8IfAP984NaLE7lJiLci7v+Kdtf/6+QtiV05dX2T4bpjVkEnuC3RD8ZCjMR1G31FPmCVsqqZdV8263t7X7W1d3W62uZrcU658KWJSgQV3HT5zoN01fJ3wOeXqWpLnYLMblLD8e9ZGER6bqt7+qQQ+/VCCUXh9bPa5bq+afWo+NotG/UAM0outCMzGz9EuxatQmfh4cPP4iIELmterTt9QzyGwNsBU0UZIy0RaWbtAnzGB9uM0pwwMlPVugGQQ4jI+eguTjyQ3EXyf4+Q4GZTrgGHIZ8T/ZnQaYwl3lgZH5wbvlckDeztFrv1tWKIRV5K7wIAOA68hqF/9ZKChrkPH1bKhYNIKVOSUfnY6dzhjmgIeieX4LZ/Tv89NUzd1RvuOvWfOF3CQSrg3JNAMikosyxuARMoCv4w55P7azh1DmFRg6dCejYQTJcOs2A/KxPFZjZPFuIKTIW3gEZkw1+nA41h1UAlEYgzvPHmJh2Ri5jbiyEvOKrmYe6YIlkZK8KiSNjJB6eBj/DWoBDZY3D358ARG5OE8PGIHUczoeSrf0jgFf8z/i482MCjsOY0YzMIyBT8P5rwbF5opkH6KsG/qhywm4+voXHzt6P6TPG6mbtlJG/15ruDO2wcTBpZ/VMJbYKiIFxOt4iccxA4UgzslYHP/ixaSeWXO1eAVGH9i0mEFAUfOjaW8H171/HP4ogIvFx3xXh7F68NPJUHKYg==', 'uuid': '51f5f721-5243-4d98-bfc0-2200b100ccf5'}
+Recurrent models typically factor computation along the symbol positions of the input and output sequences. Aligning the positions to steps in computation time, they generate a sequence of hidden states ht, as a function of the previous hidden state ht−1 and the input for position t. This inherently sequential nature precludes parallelization within training examples, which becomes critical at longer sequence lengths, as memory constraints limit batching across examples. Recent work has achieved
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJxlVEtv4zYQ/isDnW3Bkq21k1uAYoFFgUXR5lK4gUGLI3EQilRJyo42yH/vDGNvvOlNHM7jewy1fy3Q4oAuHUgX91Cs1ncKm3WzvOu6arnR6+NSHVW33DZ613YVVjtUxQKKAZPSKimueS1a74MmpxLGfLZq9lM6GKTeJI5s7+pyxUWX+Jl0Mhz+Ur2HR08uSeV+X612EqqaXXn3tIDrud40ZS3nZrUpN/8/v+dzoIhzTDgIkz/oBe1fo2qxeOOLjiweNAVskw+zJPwm8C83Tg0osYeUWAvy7lt8sPZvP31H1OWouyLDd/2k+kxyX6Dri6ccjekweE0dYZawXtXNclUvq+1j1dxXq/vNNleTe86Vr0VMKrDgTuMLB5pdzdcJX1KuriR5ClYOLSUsf59aowhP9araflUCn34owSi8Pjf7UjU3zdb152bRqB+IQXqxFYHZ+CnauXgTKiMfD24ajhi4oH676fQntlMIrA0wVbQR0jxSq6ydocuYoPXDOKUMDJT1rodkEOI8HL2F0UeSmwi+y3FynAzKaWAY8hnx3wldi7GEB0u9o0uDj8rkgb0dI9f+MizRgAvJnaFHh4HXENTPfjLQkNbouFo2FExagIqc0k2uzR0umMaAJ2I5fsnn9H+muq7qKqP9wN4x5ys4SCU8GhJoBkUlluUdQCJlgV/GFHL/1k6aIYwqsHRoL0bCmZJhVuwHZeL4oobRYlzA2VBr4IhMmOvawONYdVAJRGIMHzx5iftkYuY24MBLziq5mHumCJYGSnBUqTUyQbXBx/hzUAlssLh79uEZjMjDeXhCDVHM6Hgq39IwBn/K/4vPNjAo7DiNGMzMMgU/9eayG1eaKVD7HGFfV09ZTMan6VJ86+h+LY+bqVt20kZ/mSu48/bBiIHlH5TwFhgq4tVEq/gJB7EDxWCtBGzuf9VCMm/MuRm8AOPPTDosIODAubGU98Ornn8O31Xg5aITPsqjeHv6D/8Zy1c=', 'is_continuation': True, 'uuid': 'e4b4e418-d102-4ce8-8e30-e59be3b2b757'}
+significant improvements in computational efficiency through factorization tricks [21] and conditional computation [32], while also improving model performance in case of the latter. The fundamental constraint of sequential computation, however, remains.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJxtUk1vnEAM/SsW5wUBC0vJLVIvOXRVqblUq9XKzHhhGpih87EfivLf6yHpKkpyYvxsPz8/vHtOaKSJtD8omdxBUlXrtu6aNi2w/ZZWa9ykbZ5j2tVlvhbHqqO8SVaQTORRokfueU6EMVYqjZ7cEo94NcEfBlL94Blp2jLLuekNPyvpB4Y3xSs8G6V97NztirzJNiso6yLb7Fdwi9sqW8e4zuus+SJe6hlI3NV5muImP9WFxl8zCkpeOHFUIx2ksiS8sddY8D3Kf8tonChi996zF8roB3c/jr9N2BLJbJbHZJGv+4D9suQuId0n+wV1/jAZqY6KFgvLvKzTvEyL5rGo74r8rlocG5V+WjqfE+fRsuFa0oWBsuQNEk8Xv3TH2mDH+BbKU9bhIFFjKPOi0hQsjnGfTyTr/B1J0X5kcd4G4YMleVtxS/5sLGv6iq5u32tqPtJJEmaajcNuJCbUP4wk1hX9mNmhgw5TRzYSvbzjuY2GicSAWrnJwYAngi7yEaAGPgXqeUmYWQ+YI8RBNLJ7PTj6G0gLgimOiwhqCd6idjKIFF6pY84xD5zQKhMceHRPbgU4juYcm27dzC5pJt5ZC0UOzsoPfKBgqUfLxAY837AFqdidOJdJGeHPzFXGAhfH139dDnblCop2n8GDjvOg4yzCkc4g0C35hj0azJlOZFfgghgAv3IFLUFwJONIYfSfoMVSEiUyI59xsJbbQL/+xSz+IX+dlyveorXo1Ykeo/Ev+39pB0Qm', 'uuid': 'c80e13ec-ced8-4202-8a0b-77bfe380d8c0'}
+Attention mechanisms have become an integral part of compelling sequence modeling and transduc- tion models in various tasks, allowing modeling of dependencies without regard to their distance in the input or output sequences [2, 19]. In all but a few cases [27], however, such attention mechanisms are used in conjunction with a recurrent network.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJzVU01v2zAM/SuEz7Hhr8RObh0GDL0UBZYdhqAIaIu2hcqSJ8l1s6L/fZTTDdvQ6w676T2SenykdHqJSNFI2p+liA4QZXUmiqwu4rbbZnGZCYob2qdxVaW7ruqwrss82kA0kkeBHrnmJWqNsUJq9ORWrPBiZn8eSPaDZ6ba50nKRW/8IoUfmN5lV3oyUvtQeTplaZVUGyjSNKkeNvALl0VSBrxNt+/iNZ+JyF2cpzE4uZfPpD5P2FL0yoFOKjoLaan1xl5CwsfQ/ltE40iBu/GeZyGNvnU3Sn018x2RSCbRRWv7up+xX02eItJ99LCyzp9HI2QnaR1hnubbOM3jrDpm20OWHsoqVE9cedbz2JDlrDz05Ok5jCe61eAH6WAx9hEWgsmayThikuBoUbvO2JHsBhBYiBSgbQfp2cpsCci1Ay1S98DmZmtJtwSoBUjNs0DBtLqEcHAWzmA0xwF/eoWR2gG1dCN4A8LiAr0yDSoQNJEWfKEkBw35hUjztdPsVwFeJh8TOP7ZJ6BSZnHACJzsNU+mRe1ZeDTc74SWE0jJ77iqh5s4zm1iO7BFTQs4z48JTLeOAK1nUfBBQV1rvs2opL8Adp71Ggr2OC41iVUWHXDcKwonbls9EQxmti54X58l3GdpCp/uv7gkbMdfpvUB3KG1LPFEx7AbXtLfH4TSLOPKKi6aAuOybYoYqyyPC0qpyrt6v6P9P/0gdaCKXZ7U1w9yxVX5hus6qd/Ba/5/+0Fy+IDtY2/NrMXv2zpKXnH0+vADh5yDag==', 'uuid': '4673207d-6d71-4c04-9fee-9e276ad97fa4'}
+In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output. The Transformer allows for significantly more parallelization and can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs.
+
+2 Background
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJx1VNuO4zYM/RXCz4lhOxcn87bb6xZosMCkD0UQBLJF28LIkivJyQSD+feStjNI09k3iSIPDw9JHd4i1NiiCScloyeIkjJbLLaymC9Xy3y+zNflXGwqOhUrWchlXslNGs0gajEIKYKgmLeotNZJZURAP9y1uNo+nBpUdRPIkm+zOKGgyX5RMjRkXqejubPKBI48HNIkj/MZLDbbOD3O4HZfbtbxku+rZBVn/7+P/mSI/NUHbLmS7+oV9XMnSoze6aFSGk9SOSyDdVd2+JnpTy9GtMi2LyGQFsqab/6L1n/bfoco405W0UDf1L2ohyIPEZo6Og5WH06tlapSOEiYJdlqnmTzNN+nq6c0eVrmQ7QyL0PkW+SDcCS4kfhKhu2GXgO+slJRumbf3mm+lCpgTA9IntLUXc+VPIanaXYfv3mM3wn99UoQGLIkzT9FyLZ3CNtHgD+sEf5X0nH3Y4hV/h8S2SNGY8vGIZ1cliRp7YRUpPNnSJssuUNaQAz3YL4vPHWQGhQv4ix65wZ01JKT6dsCHblk73fh+wahtkKDrcCh7EtlavD4T89NJnNp264PgvFAaG+hsq71ECissr2R4wsFs+WXqRGww95R8G/f/6IBXRMF1pfEodvmCMJI+Mma83P2DIctvQo95L80qmyg90hZzdnqnrEJxoxo1J+LdS8ehIdCeFVC0SstmXChbfkym8iyoVFSoqGKOoeeShloelAGOkFYGjUXMiRWhmIGTrR5fOysV4N7DN8M10WEaHpR+9lQ5SgkE7YdugnZkWS0OhKCpbOmRQevamLvoXK2BaIOwhUqOOGuU04i8JgSamcvA0/OJBV13pQIBZWOVM+H3wxoWVA4fR3quKnJVWhbC6dC06qSyhvfJ/lj2DfKQytekHIEqspxkqpSZa8DU9eEaUBix300pSK/W+6RzD3XQ5odbxrB3gnjeThImsBZlB8HatREcE9HgM/04xkoaPpBhAGttD58jCQhYFXxUJ+RLH6aDJA9DtBnQqm56+L2N80vw8dKgXeKCTPBwIUT9IZ2TfCNxII/SQA1/x2FhI8fjgdNoi+dKgiJejItFtBixbxy4doNf+JOOK7jjHveqvfjvxfbEg0=', 'uuid': '55e928ed-9883-4af9-911b-c848c60705d1'}
+The goal of reducing sequential computation also forms the foundation of the Extended Neural GPU [16], ByteNet [18] and ConvS2S [9], all of which use convolutional neural networks as basic building block, computing hidden representations in parallel for all input and output positions. In these models, the number of operations required to relate signals from two arbitrary input or output positions grows in the distance between positions, linearly for ConvS2S and logarithmically for ByteNet. This
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJx1VNuO4zYM/RXCz4lhOxfb87bb6xZosMCkD0UQBLJF28LIkivJyQSD+fdSsjNI09k3iSIPDw9JHd4ilNijcifBoyeItmnRlEWVL7dNUizXnOXLcpU3SywxWTWrrCnXRbSAqEfHOHOMYt6iWmvDhWIObbhLdtWjO3Uo2s6RJS+zOKGg2X4R3HVk3qaTedBCOR95OKRJHucLWBVlnB4XcLuvi2289vdNsomz/98nfzJE9mod9r6S7+IV5fPAaoze6aEREk9cGKydNlfv8LOnP78o1qO3fXGOtBBafbNfpPxbjztEHg+8iQJ91Y6sDUUeIlRtdAxW60695qIRGCTMkmyzTLJlmu/TzVOaPK3zEC3US4h8i6xjhgRXHF/JUBb06vDVKxWlW+87GukvtXAY0wOSJ1ftMPpKHsPTNLuPLx7jd0x+vRIEuixJ808RsvIOoXwE+EMrZn8lHXc/htjk/yGRPWJ0uu4M0slkSZK2hnFBOn+GVGTJHdIKYrgHs2NlqYPUoHgVZ9G7b8BALTmpsa/QkEv2fhe+7xBazSToBgzysRaqBYv/jL7JZK51P4yOeTxg0mpotOktOApr9Kj49ELB3vLL3AjY4Wgo+Lfvf9GAbomC15fEoVtxBKY4/KTV+Tl7hkNJr0yG/JdO1B2MFimrOms5emyCURMa9eeizYsFZqFiVtRQjUJyT7iSun5ZzGS9oROco6KKBoOWSgk0LQgFAyMsidIXEhILRTGBE22ePw7aiuAewzfl6yJCNL0o7SJUOQnpCesBzYxsSDJaHQ5O01nSooMVLbG30BjdA1EHZirhDDPXOScReEwJrdGXwNNn4oI6r2qEikpHqufDbwG0LMiMvIY6bmr6KqRumRGu60VN5U3vs/wx7DthoWcvSDkcVWV8kqYR9Sidpy4JUwHHwfdR1YL8brknMvdcD2l2vGkEe8OU9cNB0jifRdhpoCZNmO/pBPCZfn4GKpp+YC6g1dq6j5EkBGwaP9RnJIudJwP4iAH6TCit7zq7/U3LS/hYKfBOMaZmGLj4BKOiXWP+RmLBnySAWP6OjMPHD+cHjaOtjagIiXoyLxbQYsV+5dx1CH/ijhlfxxn3fqvej/8ChvcRyg==', 'is_continuation': True, 'uuid': '36139cae-48c7-4c69-9b88-0876c214d8a3'}
+makes it more difficult to learn dependencies between distant positions [12]. In the Transformer this is reduced to a constant number of operations, albeit at the cost of reduced effective resolution due to averaging attention-weighted positions, an effect we counteract with Multi-Head Attention as described in section 3.2.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJxtU0tvo0AM/isW54CAhEJ7q9TLHrZaqb2soigyMyaMOsyw8+g2W+W/r4e2avo4EOLH99n+bLbPGWmayIS9ktkVZMPQ9vVayrzsB5lvhguZ99Rtcim6RophjdTV2QqyiQJKDMiY50xY66QyGMgvtsajjWE/kjqMgT3tZV2UDHr1/1UyjOy+qF7cs1UmJOR2W5Vdcm0Y0O1W8GY366Zokt2UTVF/tV/y2ZH5ow80pUl+qSfSdzMKyk4cGJSmvVSORLDumBJuUvuvEYMTJd91CKyFsuaHv9b6t423RLKY5ZAt7ZtDxMMy5DYjc8h2i9eH/WSlGhQtEtZl3eRlnVftfdVcVeXVpl3QyjwsyOfMB3QsuJH0xI5123E40FOSKtuk3Oh0+i9UoEKMXKkuqwttuSKP8gXfVWf4uv1MIEnYabYee008n/lpJenviZpzou4z0YxRR8+ttJJo/p7h8pyh/szAGiS4Dy6KEB3rdUoSzizq3sSpJ8ep9emM4470kOPbVlbgLV+emsiDQK1JAp+Ow/cMUB7QwLs9kRjRKD+BI41BmQPwqgZyHAdWRaUsD3YABM9RTeDpTyQjiLmBD5scBAtJwxiIsxzNjjzDcSnAyDC+gwr42DKM6KEnMhA9t+ujEOT9ELU+Jn6ER3SKwnHhQf/g2St0lKlRR7i8U21HfAd+0QB7FhBFUI9cNk4TE/zDF3mSbBE1pO6UTt81qyFBEzqTmFKFPG1rJv7haJpjmfXjVB62mxXULT98nHW9K9Iqw3FevpJbdA5T+fu0pdPuP/75ZV0=', 'uuid': 'b5835da6-0c06-41f8-815b-1b4b64011d30'}
+Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence. Self-attention has been used successfully in a variety of tasks including reading comprehension, abstractive summarization, textual entailment and learning task-independent sentence representations [4, 27, 28, 22].
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJxtUU1v2zAM/SuCzrUhO3Zd51ZgO+xSDFgvQxAEjEXbQvThSXKTIMh/H6W1xQ498pGPfO9xd+Oo0aCNByX5lnHRH7GqoC/qbhBFs5GiADFiIeqme2zgqe9xwx8YNxhBQgTi3PjgnJfKQsSQaw1Xt8bDjGqaIyFdX5eCSO/4Wck4E/xY/YMXp2xMzN2uEk8Japuq7PcP7LPuNmWX6la0ZfdFnecJ4OEaIprk5Ke6oP61wID8To1RaTxI5XGIzl/TwLck/71jwWDCnmOkLJSzP8Kz1r/d+oIoy0WOPMu30wpTNrnjaCe+z2iIB+OkGhXmCGtRt5RXUXWvVbutxLbpMlvZU2beeIjgKXAr8UJAXbXUjnhJUfFNk4ZXr1MxqIhlWE/zEUisr0XV8ns6upCMg13NEX3acP9vwXcri+gKtJIZNOSVWYxn50+BgUd2hICSOcuAURar9+SXwYdtogwzWBUMU5aSBBodWcA/K9oBCwZaTZb4H9QBGdChGd5oM6JlYXZny6JjC/rRecPOqHU6F5RZNBYfGTLaGPJFsOGMXtkpb/rsU6KoExohkPTdptmXKZl4XfKnXsB7iOoNX5Pv+/4vJ7fi7Q==', 'uuid': '133c39b2-8d6f-44ec-9fd8-fc5b51887afe'}
+End-to-end memory networks are based on a recurrent attention mechanism instead of sequence- aligned recurrence and have been shown to perform well on simple-language question answering and language modeling tasks [34].
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJxtU8Fu2zAM/RXCZ9uw3ThxeuswDOgOwbDlMgRBoFq0I1SWPIlKGhT991HKChRZb+Ij38Pjk7R7zVDjhIYOSmb3kGHTDFVX3xWyFW2xEFgXXHXFQi5xuVg2KNZVlkM2IQkpSDDnNeutdVIZQehTrcXFBjocUY1HYmS1bsqKSf/ws5J0ZHhZX+HZKkORudvV1apc5dB2VVnvc3ivl01TdrFuq/az+jrPQOYvnnCKm/xQL6h/zaLH7I0bg9J4kMphT9Zd4sDXaP9fx4gJI/ZAxFkoax79g9a/bdggynKWQ5bsmzGIMS25y9CM2T6hng6TlWpQmCJsqqYtqqaoV9u6va+r+8UqsZV5TszXzJNwHLiR+MLAXdtxm/AlRpXVaTg4HYteEZYGgxP6MM4hLvIfe9l8ZHe37I3QXy68FFJTsfZnCqv6g8L6VuC7NcJ/4xg37xJx65lzOJgwPaHjyebtg8LWAh0RntAT2AFscPBs7FmjHDGHoz3jCV2eZrZOGD9YN6ED5RM0KMc8ig0Z+ngVwOGiBof6oswI8X7iGbjjUQ+FeL8zIAu9neZAyNOzQ8+4iB0fjSjyoAx3QRjJtigez4qOfITgo7bHPwFNjwUIrUaDEn5uNkx2rGtOVocoVsKjuVq1WtvzlZec+hzOyJJag0TfO/WEt2vmvA2pE3+VW/PRlFS+D94nq0KeBNvn5waWA7um4MGH/gjC89fgd193+8TbrfdlvDe6zOkZb4RzvPgJt/FO3vZ/AZHGQtI=', 'uuid': 'ef9034f4-59a2-46c7-a08b-ade35ee73d0f'}
+To the best of our knowledge, however, the Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence- aligned RNNs or convolution. In the following sections, we will describe the Transformer, motivate self-attention and discuss its advantages over models such as [17, 18] and [9].
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJzNVNtq20AQ/ZVBTwlYQlfLDvTBUGj7kFBoXkowZq0dW0ukXXUvju3Qf+/sykmcC30sBYE0s3NmzsyZ1d1jhB32KO1K8OgKotlmjbOcYZzWWRWXG17G83pWxuuySuf1tOLZvI4mEPVoGWeWEeYxapTSXEhm0QS7Ywfl7KpFsW0teep5nqQEOvkfBLctuafZ6B6UkNYj7+6ydOZd0zJP8uUEnu2qHO08nybZB3aIJ0dkDsZi7zv5LvbY/RhYg9FvOtiIDldcaGys0gcf8NnTP51I1qP3LaylWQglv5lF1/1U7gaRJwPfRIG+3Dq2DU3eRSi30TJ4jV31iouNwDDCPM2rOM3jrL7NqqssvSrDxAZCrqTr16gpKvecLO79eKICrhXHDha6aYUlhk6jh9jDEFjdCtuFLt6qVVTZpsFpGXPMs7hcb5p4XUzTOMUmLeqyKJq8/AdqTWfJ9EytOj+pV6VVUr+3x/j/W61OyPuAfIyMZZoGLjnuyTGbnQlX+VCnO//dkHJJ06o8zcoOmZaCSgbNXieYZ2cJ8rcJ1qzlTDLns0h0mnUf5ijPt+cdC+Osuccd6qz8CF3MijN4lr6FbzXboSEGxRYlamZDJ8u/7/C1MhYa1Q9ohRU7hJE9GPzlUDYIVjNpuGu8XtD7fTfQUiFgEiiAHJrWOLzBWO3CLaCdmUA+gaJaJvAVNU7AtvgUDz0bjMcLOTj7UkptwBz6tepA46DR0JIwX9bAxT6bJEky2ctLsArYK0yjaJmkU868wx3hE1wcR+xRXibwhVqUcBzpPNGmbwmnmWEgRhfoFbOLw5jj0F++sDSgJPU03mxg9IAVPSawsICsaWkcOIRCYWwgKLWzKta4JZLGD5uuHulDDRjXk1ohmDrYCWqmOzxz4s8VGT2cC98diTTO7+GM/lMSSfIm5/+iG6b98Q5vvfC/l38AHO74Rw==', 'uuid': 'c7f72b59-5db5-4757-9aef-a21d74881ae3'}
+3 Model Architecture
+
+Most competitive neural sequence transduction models have an encoder-decoder structure [5, 2, 35]. Here, the encoder maps an input sequence of symbol representations (x1,...,xn) to a sequence of continuous representations z = (z1,...,zn). Given z, the decoder then generates an output sequence (y1,...,ym) of symbols one element at a time. At each step the model is auto-regressive [10], consuming the previously generated symbols as additional input when generating the next.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 2, 'orig_elements': 'eJzVVF1rIyEU/Ssyz3EYdZyPvBW6hX0pC83LEkJwZu5kpEaDOk1D2f++apqlLaFvhe6b59xz9eo5uH7JQMEetN/KIVuijJUcBtZx3NK2xWVajaLCHSMFGVpCKtZnC5TtwYtBeBF6XrLeGDtILTy4hJU4mdlvJ5C7yQembmlehKZX/igHPwW6Imf6YKT2sXO9ZgXL+QLVJc3JZoH+YR6UZ9xcxUkfiMydnId9vMkv+Qzq4SB6yP6EwigVbAdpoffGnqLgNo7/WtFiD5G78T68hTT6p7tR6reZ7wGG/DCMWRpf72axS5dcZ6B32Saxzm/3ZpCjhPSEtKAcFxSTekX4khTLso7dh9C51fO+AxtUNM7k4dmnjlj3p0Ma4c4YHySh/tEbDqVgJYyYNBXgsq0I7oACJkLAQKu2IYR9oTeUFJEqizLn8e0vmLzisqBXcdL/T96wt97cyd1sAZElWk2AVlZoNxq7B4swCjuDQsL2k/Rh9qDL3zq5kl7BNSNZASNteoILXhNc0rbCoq5qTAuoWCm6cRyLLzSSFHVeB2NYdTbqgqsmZxHzguf0Ck76722kkvoxdb5kzgsbHlwP8BwI0tZvTCVRO1sV12MyOCfZn83nSfjo/2iUMkeH/CQdMk9ghXofBjQ7qXcoDNI/woAcqBGLy92R0ANKpuCjdLBA46zUCfVG69Ad5MFHsC6cYlFn/BSOAQS6D5GzqXeAtF4gN5mjRlInhYLRp7KNsUCTUE8QphvRJccLZMEdwhHyCdTpXV7vhbUi8qt44yu57SvCy45XmHbh9UsaEtyQkmDWtF3bcV6XrP3S3DbpQ2lo3pxze8Zhgzp9SJxdxUn/vXP7SexYTtCPN77fnn1HDzFW7sp/s/kLX2dcJw==', 'uuid': 'db2c360a-23f0-4fc6-8484-4624e83450ff'}
+2
+
+Figure 1: The Transformer - model architecture.
+
+The Transformer follows this overall architecture using stacked self-attention and point-wise, fully connected layers for both the encoder and decoder, shown in the left and right halves of Figure 1, respectively.
+
+3.1 Encoder and Decoder Stacks
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 3, 'orig_elements': 'eJxtVF2L2zAQ/CuLn3o0NrbzRQJ9OOg9FEoo3EEpIQRFWsfiZMlIcpP0uP/eXSW5pse9eVc7o5mR5PVLhgY7tHGrVbaEbCx31UKNJzlWY5VPZnOV76a1zKWUZbMbCzHZNdkIsg6jUCIKwrxk0jmvtBURQ6qNOLkhblvU+zZSZ76oi5JAl/5Bq9hSe1ad273TNjJyva7KeTEbwbSsi9lmBG/1fFFUXE/LaTH/oE7z1MjCKUTs2MkPfUTz2AuJ2SstNNrgVmmPMjp/4oGvLP+yYkWH3LuPkbLQzn4L98b8csMKURW9Sp6NsPtB7JPJdYZ2n21SN8Rt55RuNKYI67Ke5mWdV/OnarqsyuVkntDaPifkSxai8BS4VXikRj0jB1nEI0eVVRUPD95wIXXEosW6rGYKsWcj79Hj8eIW/R5MkaO3znfMkb2y4J4sbO3Q7dAz/vUG/mClU+iX8NQi4LkAHUC6rncBFbgGBJAA+cyfK/gCM9CKI5PCQNosFPAgZHsuoBUB4sFBGHb5dZnJG+1DZGoB3WCizlsUCgKaJhfXM4AOZSusDt0IhFUQCRdQOvpMwKC73uAISJrm+RwOOhD1YMyJJFtLZ02aGzrCvHH+ILwCi6TGPxfwkwwS3J2IyGPQaiADFxDvva6qDQjvBtoN2Q/5ZQH/mxlB44xxB9pmd7pY5rSF0X/EhWfDjgWbHSUGegL9EJkv8b6Rsanv/LEigk9H+AyPwy6tfDre3Y3g0KLH2x4DmLAZ7FlzyoMf81lOyusfe+R0SYuDRkhtdKT3yjMU2QcBkFhhzI1V0DYx0lVHQ4sBDkgD4qwB6Top+gfs4RpM750a5NVuYL9Kk7jASlVioeszpX8A39l46tMDXAnvKbjf+MRX8nXzF2cvhYM=', 'uuid': '37761291-0e1f-4b7a-b134-6c25f960a6f2'}
+Encoder: The encoder is composed of a stack of N = 6 identical layers. Each layer has two sub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position- wise fully connected feed-forward network. We employ a residual connection [11] around each of the two sub-layers, followed by layer normalization [1]. That is, the output of each sub-layer is LayerNorm(x + Sublayer(x)), where Sublayer(x) is the function implemented by the sub-layer itself. To facilitate
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 3, 'orig_elements': 'eJxtVF2L2zAQ/CuLn3rUNnYusUmgDwe9h0IJhTsoJYSgWOtYnCwZSW6SHvnv3VWSa3rcm3alGc2MPlavCWrs0YSNkskCkmo6n7VbOc/up1hn02JbZKKoZhkWjSxEXaEoyySFpMcgpAiCMK9JY62TyoiAPtZaHO0YNh2qXReoU88neUGgS3+vZOioXZXn9mCVCYxcrcqizqsUZsUkr9YpvNX1PC+5nhWzvP6gjuupkfijD9izkx/qgPppEA0mJ5polcaNVA6bYN2RF3xl+ZcZI3rk3kMIlIWy5pt/0PqXHZeIMh9km0T5ZjeKXTS5StDsknXs+rDprVStwhjhpJjMsmKSlfVzOVuUxWJaR7QyLxH5mvggHAVuJB6oManIQRLwwFEl53hHp7loVMC8w0lRVhJxYCPv0ff381v0ezBFjs5Y1zNHcmLBA1nYmLHfomP86Qb+aBor0S3guUPAcwHKQ2P7wXqUYFsQQAKaFx4u4QtUoCRH1ggNcTOfw6NounMBnfAQ9hb8uM2u00zeKucDUwvoRx1U1qGQ4FG3mbieAfTYdMIo36cgjIRAOI+NpWEEetUPGlMgaYrXZ7BXnqhHrY8k2Rg6a9Lc0hFmrXV74SQYJDXuJYefZJDg9khEDr2SIxm4gHjvVVmuQTg70m7IfsgvC/jfTAqt1druaZvt8WKZ0xZa/REXnjU7Fmw2jQz0BIYxMF/kfSNjU995sCSCTwf4DE/jNs58OtzdpbDv0OFtjwFM2I7mrDnmwY/5LCfm9Y89cLqkxUIrGqVVoPfKayiyDwIgsULrG6ugTGSkq46aJj3skRaIswak6yTpD9jBNZjBWTk2V7ue/UpF4jwrlZGFrs+M/gC+s+E4xAe4FM5RcL/xma/kaf0XVrmEmg==', 'is_continuation': True, 'uuid': '94b840e7-85bc-4547-9b3f-6b3aa053353b'}
+these residual connections, all sub-layers in the model, as well as the embedding layers, produce outputs of dimension dmodel = 512.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 3, 'orig_elements': 'eJxtU11r4zAQ/CuLn21jp47jBO6hcC99CQcNHEcoQbHW8VJZ8klyU1/pf7+VnY8e3Ju12pmdmZX3HxEq7FD7A8loA9GiXMlSLpqkqosiKYp8lYhsXSXrAou6EigeqiqKIerQCym8YMxHVBtjJWnh0U1nJUYz+EOLdGo9V1brRZox6FI/k/Qtl8t8LveGtA/I/T7PqlBarvN08RLD9VyWZVqF8zIr/nee+7kQudF57IKTH/SO6rkXNUaffNGQwoMki7U3dgwN34P8y40WHYbao/ecBRn95B6V+mWGLaJMe9lEk3x9GsRpMrmPUJ+il6nq/KEzkhrCOcJssUyyRZKvdvlyk2ebYhXQPSMPeuiOaLnrIWjy+O4nJVgbiXYDuxZBzgcgB0I5A7XpeuNQgmlAgPOifg2fW/gGJZAMcmuhgLNF61J40iCkpOABvAHPjP5swA3HZG4B0oCibgH1PGgqx1PnbbZ2aD0L4CpZeUfHcG6JsT3axtjOQTcoT0mLQoK4ZgfmjTkCH2+7H3yQG07XgZOHFJ6pIyXsVeXllifwd9crM4JFR3Jgc7XRmhfH3KzJmkHL2cKF+G4uhsYoZc4c13GcnYFmoULRHxHwKfzEOddpZeOMR9Ukd/k3uhDV11jm8Flvb/GNm4EXQ7OqxppuToB/hFPoYRaHv4d/2lLeMO+1E+6Vu+Kw2yNpFnsm30Ijas/zhP+aHfKDkYEzOOdq0zj0wZzReCOOOT03cFx3OEuUdImMV3VrBYJaaLbUs1QmUYFpQrxqc9aXsTzsqzuFbqJmdBresh/76XfZCms51jfchZf8+fIXX411yQ==', 'uuid': 'ca73f486-52a7-440e-b2a4-42a67529f379'}
+Decoder: The decoder is also composed of a stack of N = 6 identical layers. In addition to the two sub-layers in each encoder layer, the decoder inserts a third sub-layer, which performs multi-head attention over the output of the encoder stack. Similar to the encoder, we employ residual connections around each of the sub-layers, followed by layer normalization. We also modify the self-attention sub-layer in the decoder stack to prevent positions from attending to subsequent positions. This
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 3, 'orig_elements': 'eJxtU01r3DAQ/SuDz7axvV/ZhR4CveQSCgmUsoRFtkZrEVlypXE2bsh/78jejxR6s0bz3rz3Rt5/JGiwQ0sHLZMdJJumWAq53GbFulpmy1qtsnory6xSi3pztyibhSqSFJIOSUhBgjEfSeOcl9oKwjCdjRjdQIcW9bElrmy2VV4w6Fw/aUktl9flXO6dthSR+31Z3MXSalvm1UsKl/N6vc7v4nlVLP93nvu5kIQxEHbRyQ/9juapFw0mn3yhtMGD1B4bcn6MDd+j/PONFR3G2j0RZ6GdfQj3xvxywyOizHupkkm+PQ7iOJncJ2iPyctUDXTonNRK4xRhVVSrrKiycvNcrnZlsVtuIrpn5MEOXY2euxZRE+E7TUqwcRL9Dp5bBDkfQAcQJjhoXNe7gBKcAgGBRPMaPx/hG6xByyi3EQY4W/QhhwcLQkodPQA5IGakk4Mw1NncAtoCiqYFtPOgqZxOndfZNqAnFsBV7eUNncKp1Yzt0SvnuwDdYEhnLQoJ4pIduDfmiHy87X6gKDeeLgMnDzk86U4b4S8qz7c8gb+73rgRPAYtBzbXOGt5cczNmrwbrJwtnIlv5lJQzhh34rjqcXYGloUKo/+IiM/hJ865TisbZzwald3kX+liVF9jmcNnvb3HN24GXoyeVSnvujkB/hGOsYdZAv4e/mnLecO8106EV+5K425rbVnsSVMLSjTE8wR9zQ75wcjIGZ1zVamAFM05i1filNMLA8d1g7NEqc+R8aquraChEZYt9SyVSUxkmhCv1p3seSwP++rOYJioGZ3Ht0xjP/0uj8J7jvUNn+NL/nz5C7Uhdd0=', 'is_continuation': True, 'uuid': '3af6b21e-363c-434f-8500-a17014239020'}
+masking, combined with fact that the output embeddings are offset by one position, ensures that the predictions for position i can depend only on the known outputs at positions less than i.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 3, 'orig_elements': 'eJzVVE1r4zAQ/SvC58joy5adW6Es7KUUmssSSpClcSLWtry23DaU/e8ryWkpJeyth56s9/TGGs0bzf41gw56GPzBmmyLsqqAGipJcVU2NRal4LimiuKaCy0UiJJVNNugrAevjPIqxLxm2rnJ2EF5mBPu1Nkt/nACezz5wMia5SQEXfhna/wp0CVd6dHZwcfI/Z6SKlJlRXP2uEHvuH7DkuTVFZz0gcjm8+yhjze5ty/QPYxKQ/Y3bLS2g4OxE2jvpnMU3Mb0LzuD6iFyN96HWlg3/Jxvuu6XW+4ATD6aNkvpD8dFHdMl9xkMx+wxsbM/9M7Y1kIqISOswIRhKne02FKyFTJGjyHyMCx9A1NQ8ZiTh5dYnoznDL2fHLX+PKZ0dtZ3Kf3PNjWi1SWhCgOTGgtVMNxASzGA5KSpeTTxS22SeblBktCcrzatmLHVloIUObuCk/7b2nQzIPV2MGqXQaeFVgNqABmY9WQbMEjNqFfjaIcjUujPAtMZqSHQaAaPXIt+wxk/qW4BNCo7zci7sI9CxcfFb9DzCSZA/gRr6CbK5w1KAeEb/7RKkQo61XXoKdVqztEuBF327Iy068NqzUeh52RyQPPSf+ywOzVNytsn2MVLXuk0xgWTRpSYS9JgIZjGlWYMc0MLU9CmqIJzX9dpnPC8CJ0jWE5jJ73hIihXXF3FSf9tO41/tOiHcz5IrnijCy6laFrcVEKEYa0JbigoLJrKMEIpCPqlU0DIOHzDCK7TEFhhdYGsLOOb/wST+Dv5Ij768qBVF97QrfP4fnJm0f6/c/vxH3KfNtw=', 'uuid': '25e10cb2-f785-4ac5-b362-fbdb09a9126c'}
+3.2 Attention
+
+An attention function can be described as mapping a query and a set of key-value pairs to an output, where the query, keys, values, and output are all vectors. The output is computed as a weighted sum
+
+3
+
+Scaled Dot-Product Attention
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 4, 'orig_elements': 'eJzVU01r3DAQ/SvCpwTWRv629xYIpT00BJJLWcIytsa2qFZyJTkbE/rfKymbNDShtxxy83vzxszMe9o9RijwgNLuOYu2JGJ5maVYFHFLsY6LPnNffQ1xUw6ADCBr0irakOiAFhhYcD2PUa+UZlyCRROwgFUtdj8hHyfrmLrNEuqaTvyRMzs5ukqf6FlxaX3nbpdXeVJtSE2T9m5DnmFzgkVJk+wNDGKHI7Maiwe/xTV/QHEzQ4/Rb1cYuMA94xp7q/TqBZd+9FNFwgE9d2GtuwNX8pu5EOKHWq4QWTKzIQqjy3GBMSy4i1CO0V1gjd0fFOMDx3C+jGZlTLM4rW/TcpvSbVH77tl17uVy6FA7VeFnsvjgTxN9X4Tl8VcERl4G8C12ncNUt9yKsMW/TkFLq7YBiCnUNC7qFOOmKltnF4WSspoVZfeBTqW08VRWF0nmzXjGbZmkHpe0eBcH/ad16wsfF40k25IzgYM9Jzc9CGTkUtn4Wiu29PavjQk50/6u5+Q9k0mvpOHGGqIGYvAeNQgCL1XnAGpD9CIllyPhkszgFAJF8joeV6A1WH6Pt37Cd2KCVZ5D514wsraPi6ZJ4xYKFndF2nV5l7nIfOSDPsUiT6unN/uM8zppXsXiDQ76TxsT56idkNyDWNBsyHFCFxrPHMMFCRjDR+lyYxVB6KcnJeHGheIwL9ZVupVAQM7djgtuVzIssg/ZOP3+14J6JUdupwB7pTWaWUnmA/MT1/8F5e4P+U3Vcg==', 'uuid': 'f3a6bbec-3846-432d-a08f-884393e3f72e'}
+Multi-Head Attention
+
+Figure 2: (left) Scaled Dot-Product Attention. (right) Multi-Head Attention consists of several attention layers running in parallel.
+
+of the values, where the weight assigned to each value is computed by a compatibility function of the query with the corresponding key.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 4, 'orig_elements': 'eJzNVMFq4zAQ/ZVBp12IhSXbsd1boSzspRSaZVnSEGRrnIjakteW03hL/30lJS2llN4Kvfk9zYzezBt5/UiwxQ613SpJLoCwfJksi6yJWBWLKI0xiQSvkoilS5bxMi0ElmQBpEMrpLDC5TyS2phBKi0sjgG3YjaT3e5R7fbWMXnJaeySzvyDknbv6CU70b1R2vrM9ZrFhaeSLKbFZgEveHnGfJnQ8h0c4h1Bxnm02PlObtQR29te1Eie3EGjWtxKNWBtzTD7gCsv/3yiRYeeu7TWzUIZ/XO8bNs/ZrpGlLSXDQny9W4Su9DkmqDekU1gR7vtjFSNwjBCHvMsinnE8hXLLlh8keY+u3eZWz11FQ4uKvWaLB79eEhCOWVwW4sWJVwZG90MRk61hRc5voCd+6BxpWwbenrrXYJ5mVV1GSEryygt6iwqJC+jZSaSvGKNLMr6U73Laea9KWl28i7g1EVyj7M49Slv8Sn+a3vXKn0fMh/JaMXgBq4lHv10+CsbuQ+dhtZ/N2o3DUg5edp87P1vBOd7C2YaoHelVT21YgDx3AzckY8W447Atx/hLuDfKaz2CEr3k4Xa6FGNdgTTwN8JB4UjCC3hHufASeU2Z/QXyPtFODmIdsK3ZwcKXqHpXE0E68pLY6E/yQjBgTuXEH3fziBgNI3txBGaSdehCWvAVFYoHcIfwnK57BP08mZ4UHYPfhJe4cJpOCiJgKLeQzWfxdHX7+BaDIOw6oArP8p33oOUTPImq52bJY/SJMmjiqcsSjEWTYYJF1n6ie+Bu5+S3+8ioWn4V51xmdDkhAuavoND/Nd+Dx/s893EOROvffqlazfNnRnUP5Qnrzb/ATAx+hs=', 'uuid': '929f6c86-940b-4e2a-88bc-33fbb5ec337b'}
+3.2.1 Scaled Dot-Product Attention
+
+We call our particular attention "Scaled Dot-Product Attention" (Figure 2). The input consists of queries and keys of dimension dk, and values of dimension dv. We compute the dot products of the dk, and apply a softmax function to obtain the weights on the query with all keys, divide each by values.
+
+√
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 4, 'orig_elements': 'eJzVVMFq4zAQ/RXhUwuRsWzJlgN7KOylFMqWDV2WbAkTa5yI2lbWltuEsv++YzUt3ZLDXnoo+OD3PG80M2/k5VOEDbbY+ZU10ZxFeSnWSVFrnoh1xqVSimuTZbwqpU4gN7XQ62jGohY9GPBAmqeocq43tgOPQ8ANHNzoV1u0m60npijTOCHRkX+0xm+JzsUzvXO285NyuRSJnigpdJzfzdgrVkksJ6wSGacncIgnIhoOg8d26uSb3WPzfQcVRn/oQ20bXBnbY+Vdf5gCvk7lH7900OLEXXhPs7CuuxwumuanG68RTbwzdRTK7zYjbEKTywi7TXQX2MGvWmdsbTGMME1SxZOUi2Ih1Fwkc1lM6h0pV93YrrGnKDnV5HE/jSe67Niuh8rbCmfsEVnl2t3okfktMnipiNVjV4UXeoAN6Jmr2e8Re4sDG2w7Nh46dOPQHGaM+r5Hw7zbIGXpGU3YkaoF39s9u4nZgnLf42Fg0Bn2AM1ISaCn85rBnVYHbUVhV0Fzy2L2499aj9mpLLKZWMo4zKfe/WEXxnsNfQ/ePuBi6pxG8H79yrRMi8IInpWq5LLMNC8zReuXSUhLrGSu5QeuX5omYd2KNC6m9XrB+ogzJWN5Aof4T7t+r6ee3cyuZrfsnH1hg6t9C/uzt+4trG/wlGsSEsjyfM0zpQouTQ0c6NfBc2lKrclJk3+ka3RqnJMLuYz1syvPuBSxCLgogkvvcYj/tK7dXC3YrzFNBTBz/182VZmRhVhLXpS54RLIIVC45pUQmKcKZJGrj7RJJ7F4c7le8Otl0mWsT+DPfbnOb094c/cXmn48Rg==', 'uuid': 'e63e9f08-1271-45cb-837c-519e45c4e0ef'}
+In practice, we compute the attention function on a set of queries simultaneously, packed together into a matrix Q. The keys and values are also packed together into matrices K and V . We compute the matrix of outputs as:
+
+Attention(Q,K,V ) = softmax(
+
+QKT √ dk
+
+)V
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 4, 'orig_elements': 'eJxtU9tu2zAM/RXCTxsQG7aba98K9GUvxYAVGIagCBSJjonqYsj0kqzIv49SurXF9iZeDslzSG1fCrTo0POOTHELRV2v2tas12VXq2U539Sm3GyadWkWnVnXN03ddItiBoVDVkaxEsxLoUOIhrxiHLNt1TlMvOuRDj2LZ7Vpq1pAr/4jGe7FvWyu7iGQ54Tcbpt6Va1mMN9sqpunGfyxF8tlVSd7US/+Z1/zxVGM55HRJSZf6YT226A0FhcJdGRxZyii5hDPKeE+jf8a8cph8t0xixYU/JfxztofYXpANNVguiKP7w+TOmSS2wL9oXjK3pF3LhjqCLOEbd0uyrotm9Vjs7ht6tv5KqPJP2fkSzGyiiK4N3hK6jQSZTxxBqfUKdr01sRY7VVvlFdTWzdzj1NUtriktoMMsvOT22OU3PnlXY3HHoGPAVwYGXRwLnh7hmlEA+oPP+gmr9NjBBURlDHE9BPfJWxbaaO8ARO4HGIwk2b45CbLVMJgSasE+PyGqOD+XeZbIRqBTHprZYEDhCmCsocQiXs3AzxpHBi6EIFl8FGyyB+gU2lRUMHdv6MJp2GSY8uAZMgoe7LE57+0hG6qoqCTBZZS/KiiAY+iS3yGo7SG0Ek4ZVmEnoyMCHKgGCv43stJ5OJJxqTPSI6sikA+uUPEK5vU2+JJGs8+yPSBvJt0L3TkLmPW04VUMB1miV1HmiQ1FR6iUCaNszSURiBZnvKwl1fqkj6pbPDKq5efJTsNA8tgv8TtFEc6QV7P63KyUAardFF8HvJ9P6gY894e061cnn4DMhtWaw==', 'uuid': 'b2776fe7-e641-4c9f-97ad-a1971e905684'}
+The two most commonly used attention functions are additive attention [2], and dot-product (multi- plicative) attention. Dot-product attention is identical to our algorithm, except for the scaling factor . Additive attention computes the compatibility function using a feed-forward network with of a single hidden layer. While the two are similar in theoretical complexity, dot-product attention is much faster and more space-efficient in practice, since it can be implemented using highly optimized
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 4, 'orig_elements': 'eJxtU01r20AQ/SuDTi1YQvKX4twCufQSCg2UYoIZ746sIatdsRrVdoP/e2fltElobztvPt+b2e1LRo468rJjm91CtjHlpqLFIq8Xi3m+rG9sfrNGzFc1LtZLQqt4NoOsI0GLgprzkpkQomWPQsNkOzyHUXYt8aEVRerNvCg16RU/spVW4XV1hfvAXlLmdluVdVHPYLnZFIunGfyxV+t1USZ7Va7+Z1/jFciG8yDUJSZf+UTuW4+Gsos6Gna0sxzJSIjnFHCfxn/1eOwoYXciqgUH/2W4c+5HGB+IbNHbJpvG94cRDxPJbUb+kD1N6CC7LlhumCYJ5+V8lZfzvKofq9VtVd4u6ymb/fOU+ZINglEF95ZOSZ1KvUInmZJT6BhdehsWKvbYWvQ4zstq6WmM6LJLatvrIDs/dnuKGru8vKvx2BLIMUAXBgETui54d4ZxIAv4hx80ozfpMQBGArSWhX/Su4DtXNugt2CD5H0MdjQCn7rRCefQOzaYEj6/ZRRw/y7yrRAPwDa9DTqQAGGMgO4QIkvbzYBOhnqBJkQQHXzQKPYHaDAtCgq4+3c05dSPemxTQjJ0lD07lvNfWko3VUFodIG5Fj9itOBJdYnPcNTWEBp1pyhH0LLVEUEPlGIB31s9ial4kjHpM3DHDiOwT3CIdGWTejs6aePZB5k+kO9G0yodvcs46dmFVDAdZk5Nw4Y1NBXuo1JmQ7M0lCFgXR562OsrdUmfVDd45dXqz9Kdhl50sF8KdyiRTzCt53U5k1CWinRRcu6n+37AGKe9PaZbuTz9BvyHVqA=', 'is_continuation': True, 'uuid': '2d8048ab-ca07-4b42-88d4-2add6f8de178'}
+matrix multiplication code.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 4, 'orig_elements': 'eJzVVV2P1DgQ/CutPE+C7XzvGwjpQFohpNsTOg2jkcfuJL5N4sh2mB1W/PdznAFm9/bgaSV4c3WqnXKVO9neR9jjgKPbKxldQVRxXnKGJCapqOKsEWVcpYWID2lZCyIPghY82kA0oOOSO+577iOhtZFq5A5twD0/6dntO1Rt53ylrFlCfNO5flTSdb5c0LU8aTW6pXO7pYwkdAM5rZN0t4FvmNUJWXGdFE/gwPeFyJ6sw2E5yXt1h/2fExcYffEPGtXjXiqDwmlzWgivF/nnJyMfcKm9dM57ofT41r7s+7/1/A5RJpNsoiB/bGfehkNuIxzbaBeq1u0HLVWjMFjICMtjwmJa3tD8ipKrrFy6J9+5H+fhgMazskWTw7vFnoh+nBmjQYw7TUHIX6PwdrbaqM8obxaeb3gcVl5LKooaY0ryIs6oX3FWirgoU8Kz8lBwlj1rWMUaRpnkaxgrTvOEBpxmSf4EDvzfNix5e5nTjXI9PpkN4aKqKY1pkco4O9Q8PlR+xas8I43AkpTiObMhZfC6ZAkL3q+48IMScE6ypeUxXvm/dja9Gm9D531kHTfe8FHinS/Qgl7klC7c2fTLWiiHyetX1++v/tGzGXlvXwhtzItXRrnPf1xf03KN8OF+Kasu9ssgudjxTaO1G7XflkZfdj++MR86bww02oAdeN/DJ97PaEE3IG/BdQjuqGFA0fFR2cHChMaTB7BqUD03/WkDXErl1CcE/tVX8BfgTLQgtYPJaDkLd8E4Ktd5FljBvWdtUOD3a9E8lLBNdwl8QLCznXyqXhJ338kPuJug9+J1Flqjj2emGmHg7ajcLHED02y75bVLh9WNG/gdNPMogjZ/UTUYbP3awrFD47sddNyCN834QepPZ7daw6XyJ7KQJXCjQeh5dGh4EKo8v2m86A0cMRwU/6vwcILzFxYeDu87bgxfbP2/D2yV1ZTldRnXfnbjLPN/wwORLD6IqmC0EplgzznEWV6GISX5OqRfMT1/ULO8Xof6EQ78X3uIfzAuyU/+g7t/AfM6rCQ=', 'uuid': '194d701d-4d6b-429b-89b6-aa2773ab69c1'}
+1√
+
+dk
+
+While for small values of dk the two mechanisms perform similarly, additive attention outperforms dot product attention without scaling for larger values of dk [3]. We suspect that for large values of dk, the dot products grow large in magnitude, pushing the softmax function into regions where it has extremely small gradients 4. To counteract this effect, we scale the dot products by 1√ dk
+
+.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 4, 'orig_elements': 'eJzVU0Fu2zAQ/MpCZ0ugZMmycwvQQ3NoWqC5FEZg0OLSYkORKkk5EYL8vUvaToIiPfZQCIa8w53h7Cy0fc5Q44Am7JTIriCTUrb7dYc5bznL60a0+ZrJdb5pRb2qq7KthMgWkA0YuOCBE+c566x1Qhke0Kda89lOYdejOvSBkHZTFYxIZ/xRidATvCpP8GiVCZG53ZZsHaHVkhXN/QJe6/pcV3Sw+qBO/QRkfvYBhzjJN/WE+vvIO8xe6EAqjTuhHHbBujk2fIr2zyeGDxix6xAoC2XNjb/W+oedbhFFMQqZJfvmMPFDGnKboTlk9wn1YTdYoaTCFGHFqiZnVV62d2VzVbKruo3skZg7Mw17dNRVR08Bn2I82bKoigq+TDqo/DNyAa82IjHMY/J2p4JOs/y5M4a1EMiW+bJbVXldsjpfSxR5KZf0NHW33vzbnbWnnWwKdtrZqSaBVawb1hTVB3Xq/293dmPINK3KShjRSesGZQ7AwdNLI/CLKZCT6dKfRxV6EHQr6lwo2p8nlGt4wNkv4Mj1hB64EfBrQqeQsEcEaSdCVIA9GpSqU0QIFrQyyJ2eYXT2J8UDocc3XlRMSmfRHgLd588OlJToyNwCNGkYFGe1ixa58vEO8bCgX9IRR3h1TPoO/Rgbj6jnAr4aQN71MQly4fGiQ8JHdIkSz/7qjqYknrnEmEb5ID5FHdxxrVEvYFaoRQxcHN9n+f5zueXO8ejxLm7s5f43qLiRVQ==', 'uuid': '7c085e0f-9f73-4326-9174-21638ff58866'}
+3.2.2 Multi-Head Attention
+
+Instead of performing a single attention function with dmodel-dimensional keys, values and queries, we found it beneficial to linearly project the queries, keys and values h times with different, learned linear projections to dk, dk and dv dimensions, respectively. On each of these projected versions of queries, keys and values we then perform the attention function in parallel, yielding dv-dimensional
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 4, 'orig_elements': 'eJzVVcGK3DgQ/RXhUwItI8myZQ/kEFgCuYTAzh6W2aGRrbJb27bUseXM9A759y2pO0mT9C7sYWDnYvzKr+zye6Wqu6cMRpjAha012Q3JhChFrUxFe9YxKqHsqQbTUZBdUfZtqQTT2YZkEwRtdNCY85R13s/GOh1gSXjUR7+G7Q7ssAsYUY3IGSad4w/WhB2GK34KH7x1IWbe3XHBcrUhirFc3G/INyyKvIm4ZDKm/IQTHwPZclwCTPFPPtpHGH896A6yL/igtyNsjZ2hC34+RsIvsfzzE6cniLG3IaAW1rv3y9tx/N2vHwBMfjB9lsp3w6qH9JN3Gbghu0/RJWwnb2xv4SQhEyVlgnJ1y8sbzm6kitkHzNy6dWphRpaMNQV4jPJk8tYTO47rEmbUkDzsjiTsgBgfyGH2Zu3CQgYIZNTzABuil2WdACk6JF7np4N3WPdCfE8+Ee0M2RM9A7HOwAHw4gKZMewnYt9w8snu7Ybs9EIm0I6wlPFZz1a7Dj+7z2O94XhIknzQM1ZlP8NtrBbL/rFlZCl6rYuCVkb2VGq8aF5x2oqyVEoDa5rmOVuGqbyOLdDkKrXMGQt+apFCVbm4ghP/xbZMcqsdYSEPNuyu+shzcrsDF1vEzpfNtMEe+WNlrFXYJm/Iq86am5q9Nvv/ZLvQCrisGlrUGqis64LWbdtR1FdUjQQDrH5G2wtW5CXaKEXOk61nXCLzhOurOPFfrO3y0qJ33gekXPGm1koWHBratJxTyRtNa+iAmhbvRaF7Lspn9EY2Rc43RKripP1XXIvvU1tdwYn/Yr15xV9fuvOb61DKwc/2LzD/dIh63istWE0LUeHsZI2gdVUKqkTJdFf0HWuf8xBxPBRxfcrztj3BpjzZdl6uP8BE/n+bNFq3T5lP2RL0jGLjCnzEAOfVhWEictd5TEbYYZ0hF9mX+59cLi9dRkUPa8ApO66wpAm7QNq1nU+GR1tMGsQ+DmE9aOvi4P0T1QCzITMs6xisG3A5p+3do5Pj+X1xtxNc2TZyI+FdKouIf9vI938DFxrw9g==', 'uuid': 'ad630263-899b-44cd-9e5b-760a40a4ec11'}
+4To illustrate why the dot products get large, assume that the components of q and k are independent random i=1 qiki, has mean 0 and variance dk.
+
+variables with mean 0 and variance 1. Then their dot product, q · k = (cid:80)dk
+
+4
+
+(1)
+
+output values. These are concatenated and once again projected, resulting in the final values, as depicted in Figure 2.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJzVl01v4zYQhv8KoVMCmARJ8UsB9rBoDy2CbptusEaRDQxKIm1uZcmQ6GSNRf97h1SSBrs+pAcffNM7nJGGfMjh6O5b4Tq3dX1chba4QoUutRLCK6y8lFgIqXBNFcWay5pbQyWrTbFAxdZF29poIeZb0QzD2IbeRjdl3dnDsI+rjQvrTQSLrjihEPRkfwxt3IBZsdm8G0IfU+TdHaMmmRhlRNwv0IvmnJRJSyqO6uwPhmI6TNFt00z+CF9d93FnG1f8AwM+dG7VhtE1cRgPyeHnlP7TSG+3LtnexwhrEYb+1+l91/017D8415Jd64ucfr/e23We5F3h+nVxn61TXG2HNvjg8hJyyiWmHDN9y+QVo1dCp+gdRK76/bZ2I3jJlFN0X9PyFL/tuxjwxtkW2ecEkO264XFCceMQvN11KA7oS1qp7jB7tckSej+MW5sj/DhsEeTh3QjvQKPbjW6Cp3l02tdTWo0Jol957YYppPGJoGWIG2TRFPp1515lkhJbIPvgRruGMfjmJtQhptzCRNLc4mGXl++DHUf42oO7TTODKX6/vRpva8uFxdq7GouaMVwbbrCpPFVcOFqW7JTbyyhSwXYRkqi8vZ60NIQnLRg9qrP/eW+vXwDixc3ievEJXaJ36Kehb2y8SGjZghCySE+byyX6/TXP2xA7d4yjamonubO4sU0DHAFmRQGmZ9rWygqr5SnLBOeCSOCiGDGJ07PWktCkSwAojujsf7YcHzdwZPNpDEDwJYeLmyW6eRO1VrfGaidwqSXFUNslrpRxmDnOjZI1E4KekFopKTGJAidypjJrreZiXlY0F/PvdfY/W2oBLa6X6BqFNyHy1otKOYW9qhgWXHNspPe4MaqhyltZMntKRBX7b8kzgllrQdhcEKuj+rwRQU1cok9v4mNLbj2rFXatKLFglmHLW4eruhGKtlAETXNCPgJM6UJS4vmCmjUcmVzoBJeEHdHZ/2z5BHT5JjhUNp6LtsKNrwUW1FTYNAz6jEbWRtOyBXYnbV51uoVgfqSam9dZc010Pky0TCE/6Ox/tnCW+VZKbepuHL5AhqmZRBZsOztCZtGNCBrUMaTWE24qZKFzhT4Dfd5zTg36c9M+fN5TCpdT7nP/X0NZNVxQqizQZvC/ossWm7IVmNJKeWe04u1JG5FKkjIhLOcr61kzPf+/lFof1dn/bJGHF3Yzsid8fy+A6/WRk3r/LzBRR+8=', 'uuid': 'e72cab08-72fb-48d2-8d07-47edd406eaa2'}
+Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions. With a single attention head, averaging inhibits this.
+
+MultiHead(Q,K,V ) = Concat(head1,...,headh)W O
+
+where headi = Attention(QW Q
+
+i ,KW K i
+
+,V W V
+
+i )
+
+Where the projections are parameter matrices W Q and W O ∈ Rhdv×dmodel.
+
+i ∈ Rdmodel×dk, W K
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJzdUtFq2zAU/ZWLn2NPliXFKeyhUAZ9KWMLGyMtQbauY1HZMpacNJT9+ySn6coIe+vD9mLrHN1zdHWPNs8JGuyw91utkitImjzPyyKvUqHqImVSkHTVCJHWjRKKF3XNaZMsIOnQSyW9DJrnpLZ2VLqXHt2MjTzayW9b1LvWB2a5ohkJohf+oJVvAy3yEz1Y3fuo3GwKscroAigpsuJhAa84X54w4+QinusDkbij89jFm3zWT2i+DrLG5GfYaLTBrdIj1t6Ox1hwE9t/2ellh5G79j7MQtv+1l0b88NOd4gqG9R8ZyP73SR38yU3Cfa75GFmnd92VulG4zxCSihPCU3z5TrnVzm5YsuoHoJy209dhWOo4rEnj09xPImG+4lSUsIXFYzQ3E+EqKV6XMB3+Ba1/jjM7a21N/N1/owNuZB1LVdp2fAqZaQIK6FoShveIGt4iYK9Y2yMsSx/E9sZn2PihGblBfxfxrZ/m9idHEfp9R7XUXQhOSJZVfF4tGhIGgbH06rIVcooFTmpUbJV9Y7J5aSMFC2KbBWTOWPBT5gTdhHP9f9scrc9+FY7ONjxEQ4I2A3GHqGFj1DCIEdpDBqQ594gzBFHtwA7QotSuQw+hSXKugXbBCt0GG2m8FOPwUTt42d+FB+iqWAZ3EwI3sZiGFFNNSpQOjwEFw8ILrNbdF/MNd56aaC23TB5GZuYkfMQ2na600aOJzvpo9rpfmcwjfo3fR+0b6GZjPl9lDTaH7O/PNGHX0wQ1/I=', 'uuid': 'd7bb87e8-6093-4716-b73c-d53fb9f74760'}
+i ∈ Rdmodel×dk, W V
+
+i ∈ Rdmodel×dv
+
+In this work we employ h = 8 parallel attention layers, or heads. For each of these we use dk = dv = dmodel/h = 64. Due to the reduced dimension of each head, the total computational cost is similar to that of single-head attention with full dimensionality.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJzVVE1v2zAM/SuCz7Vhy9+9FRgGdNiKActlSINAsehYqCx5kpw0KPrfR6lJG7TdbgW2Sxw+kU8kH6nlQwQSRlBuLXh0SaJNk7OS1lVcAMcf3rdxQ9s6zqqWbmjNm3LTRRckGsExzhzDmIeo09pwoZgDG2zJDnp26wHEdnCI1C1NUgw64nvB3YBwlT3BkxbK+cjlMksbD9EmTdLVBXm226OdpzRp37GDPwKRPVgHo6/ku7gH+WNiHUSPeNALCWsuDHROm4N3+OTTP54oNoLHrpzDXgitru2VlD/1fAPAk4n3UUhfbWe2DUUuI1DbaBVQ69aj5qIXEFpIU1rGKY2zepGVl1l6WdQ+esLItZrHDRj0Kn1ODu59e6I8oUlOrqZJio752y3RPXnOhQhF9GzIN81Beip3mEK2C+FkqO61immfbyAt8jjNmj4usoLFrKpYDH1eFHXFmhroh6pYJ7VXqU3ok4rBztM2yYJqNU2qt/aT/3+r4mIAsjBM2V6bEQyZLVgyztKJeADGCTvX0w0GgOB1PRhEyZ4d7OW5tjfMGJyFHSw8/TsaZ32d066sMMMcNc7rIt4wqGLgnJVdVmd0wz9S47xMCtSQnjb1aNd5Unm7TMuEvmPTf39TpVB3IfIhso4ZbLjicI9AXhbnW9t459lIb3TCQbKfaZpVW623p7V8Hd+cxdPX4Rs2cKaYJykUzIbJd0mq7IykfU3yRStmP2Mvb8AhUR09rv4+tteK3GKLOnxcTMwhfF9m9TYiOAtg7AWOLJBfMxiBY93pEUhv9BjQycBO6NmSU3gIuSBM8XA+wohKkjs42IDtmJzfkOC8TbPzD5+3jgklZDEIDJJS7y2BHSDNpK14WSN4vtTpp7Q50TtfgpTPrvbkK5S/wwLWoTo4so9iFJ0N57h9+ARL8sd+YC3dwJSwY+A8McVOx6f/ZPTvtCV27gbCLD5vqDqOfrtKzhf8q7Du2m/A4+o3VZ9WiQ==', 'uuid': 'de510b27-f2ba-4c9f-a779-ed090fa7f08a'}
+3.2.3 Applications of Attention in our Model
+
+The Transformer uses multi-head attention in three different ways:
+
+In "encoder-decoder attention" layers, the queries come from the previous decoder layer, and the memory keys and values come from the output of the encoder. This allows every position in the decoder to attend over all positions in the input sequence. This mimics the typical encoder-decoder attention mechanisms in sequence-to-sequence models such as [38, 2, 9].
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJxtUcFq3DAQ/ZVBZ9vYXrtm9xZoDwulFJpLWBajtcZrUVlyrXESE/LvHSnrQEJumjfvjd68Ob0INDiipVYrcQDR4GXXFViniGqfVpVUqZRFlZZ1c1F5ealVgyIBMSJJJUmy5kV0zs1KW0noY23k6hZqB9TXgRhp9mWWs+iGP2lFA8Pfijd4ctpSUJ5Oxa7OqgR2zT6rzwlsdVWWWRnqOq+C5HP9xmdA+NUTjmGT3/oZzZ9JdiheudFrg63SM3bk5jUQvgf7t46VIwbsjoiz0M4e/Z0xD275xTlkk+pFtG+vi7zGJU8C7VWcI+qpHZ3SvcYYYZmXdZqXadHcF/WhyA9VE9QTK1u7jBecmVUHT4TPIR5xPyCg7ZzCGTpnSWrrwaPpU7n5Ac4OZ5/B0YL8sgfSGHA9EA/7i6tP4FGaBT1Iq+DfgrPmd+dGhH52Y6R53homwxEloC1DmhnScxW6fKppoW3kNOOjdou/fRbp764z+CG7ASbndTT0scsz2XRwq4Bc9Lkx/Ub9NP726TY+5EfrFE/0U3s6hhu/nv8DenLiVQ==', 'uuid': '044f1997-482e-4210-8ea1-8e0c2f0f8f90'}
+The encoder contains self-attention layers. In a self-attention layer all of the keys, values and queries come from the same place, in this case, the output of the previous layer in the encoder. Each position in the encoder can attend to all positions in the previous layer of the encoder.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJxlUl2L2zAQ/CvCTy3ExvbZ+Xo7KIWDUgpXKCUNQWetneVkSUjrJObIf+9Kd01L78V4Z2e0o9HuXjLQMIKhA6psK7J+I6GFpsw3SnV505WrfN32m3y9XspluVndVUvIFiIbgaSSJFnzknXWeoVGEoRUaznbiQ5HwOFIjKw2dVGy6A0/o6Ijw8vqFXYWDUXlblfdtUWzEE29Lsr9QtzqdVUsY92WTZS8qxOfgSzMgWCMN/mGF9CPTnaQXbnRo4aDQg8dWT9Hwqdo/61j5AgRuyfiLNCah3Cv9U87fQVQhVN9luybYZJDuuQuAzNk+4QGOoxWYY+QIqzLus3LOq9W36t2W5XbZpXUaJ6T8iULJD0HbhRcGGiamtsEF0rqyJ28To+Bw+ShqLNrHOR49MFM4xN4brbXf0SPOKKWXs8LEUD3ufxzDcGRgw8CjaAjCAWdVeCF1NqeBcjuKJwNmJj/UciKdIpKf1rfiO8Om1yiMBNNpydehIH7km6KQvwAYTjIyHMeTuxNaOjpLH0U9daPMnnoo633RlgTwJ8g4XIim3sYGAvImPPWgac5TcHRva4zUzE6DahA2F6ETmo2oCzlLFBTR+JvSE+zGGV4jsZ5P8WHAETpFlb8muq6qtMXPqYcTlJPcAsBjWMFD4hFsD2N8iLOR+RkO+vZo7OvEaLWMEjNqDG8gzHIQjwCiM/pkUVdxIen2aU9/IKBHuIiX/e/ATVAMWg=', 'uuid': '9d9d056a-3059-462a-8d31-98c26afee263'}
+Similarly, self-attention layers in the decoder allow each position in the decoder to attend to all positions in the decoder up to and including that position. We need to prevent leftward information flow in the decoder to preserve the auto-regressive property. We implement this inside of scaled dot-product attention by masking out (setting to −∞) all values in the input of the softmax which correspond to illegal connections. See Figure 2.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJzVVV1r2zAU/SsXP7UsMpa/ZBX2UBiBwihl6ygjlCBb14mYIxlLaZKV/fdJSgply9hTH5qX5Bzfj3PvuTiL5wQH3KB2SyWTK0iKtm5FIXrCWJuRsqWc8CarCMem6oo+KySrkxkkG3RCCid8znPSGTNJpYVDG/EgDmbrlmtUq7XzDON5mvmkE79T0q09XdMjPRqlXchcLGjWBKrkLKWPM3jBVXbCua/E/8bHeE8k9mAdbsIkd2qPw9dRdJj88g96NeBSqgk7Z6ZDCPgU5J+eaLHBwF0753ehjL6x18Pw3WxvEWU6yj6J8vVqK1ZxyEWCepU8Rta65cZI1SuMK8yzvCJZTii7p9UVza5KFrJHn7nU202Lk4+qgiaHexeXnhZwZ6wKjclOWYS5b0vmZtqJScItup2ZfthQxR3GKPReuSEO9qeBVSU5LYuM9BxzUrKmJbz3fvKiKKtMNKyo+dsbWFGW1q8NLHlaBlxlZVqcwTH+3Rp4o0FIGf0DZ0C8iAC7bYlfGk52Bii6NZge3BrhyIHSYLYToO6MxAmEliDx+Lsz2gmlLQjot8NwCIT2s6OEPhxHfzoOfTyOGezWytdXPmEcBz9JEBJbjqfLAoujmLzHvljopGQQ2QlfPIX7tc/0LayyzkaVOwOD0igmcJPQ1vfbiFDGwk65tZf1BT9/A9E59RT5MEzrxSDq9PWl3orJN1VPeB+WdeZimex529GSyLzhpMyEv1hEJG1WCFFVbd4W8g0vNs/r+EqpWcrjK+WEWZM2ARdNmdZncIx/txc7n99e7C/hI2zE/iKb7R8ofICWXj7k4Tt/beA33fk1r8ykfqL8l4lY+0/BelKJlpKS0op442pSd7loOGVNLugbmljyIqXBlOb4v/CC2QmH1ww7g2P8uzXxIr/8j1GPvwH+TmVZ', 'uuid': '45d5ed0c-bd37-4fe4-9495-774567aea96f'}
+3.3 Position-wise Feed-Forward Networks
+
+In addition to attention sub-layers, each of the layers in our encoder and decoder contains a fully connected feed-forward network, which is applied to each position separately and identically. This consists of two linear transformations with a ReLU activation in between.
+
+FFN(x) = max(0,xW1 + b1)W2 + b2
+
+(2)
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJzVUsGK2zAQ/ZXB59hItmUngR4C7aGXpbCBUsISFGtsi9qSkeRN0qX/3pG9hWXbaw8FgzVv5o2e3szpJcEBRzThrFWyh6QqWHNR+TbFUsi05E2VXnixS4VEftmVebUTTbKBZMQglQySOC9JY61T2siAfokHebdzOPeouz4QUu/yjBHpFb9qFXqCK77Ck9UmRObpxFmdiQ2I7S7bPW3gd1wVRVbEWDCR1X/Gaz0Bib/7gGN8yRd9w+Fxkg0mPynR6gHPSjtsgnX3WPAxyn/NGDlixA4hkBfams/+MAzf7PyAqLJJtcki33Sz7JZHnhI0XfK0oD6cR6t0q3GxMGe5SFme8vrIxZ6zfVlH9kTMs5nHCzqqElFTwFu0J/nakwQIPcKgDUoHwUnjW+tGGbV4kG5Ne5IJsnHWe6ALW3SkFibr9VK3iUV3mD2+zUpHrIDOQ+vsCDQEpBvsesjgYCyxHFzlHWwLCn3j9EWbjpppD/RJD+FqobHm2Q7zquiqQw/f0RkcwOsfCDyDYx/vpWXyVCIHHZaG2kxzAGkU0OzjkToq8ouIH0DwfLPk4uu0MejSVV8v/fteqm2JkbNym0U/w31aRvYgnSObnvEY3SRb3690LdrqIvMyFTWr05JVKt1i3aaK5SqXnFdVxf7pSm8jVJFsvq70Ggv6xTgv2V/jpf6/XekiK+ETJRSZ2PllxI+2DaO8vZ3dUYeB3vL0C7HBaUU=', 'uuid': '6c0db803-b356-4e2d-9cbe-1468a5aec779'}
+While the linear transformations are the same across different positions, they use different parameters from layer to layer. Another way of describing this is as two convolutions with kernel size 1. The dimensionality of input and output is dmodel = 512, and the inner-layer has dimensionality dff = 2048.
+
+3.4 Embeddings and Softmax
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJzNU01v2zAM/SuEz7FhO44d91Zgl16KAe0wDFkQyBadCJUlTx9NsqL/fZS8rEU27DZgN/Hx6/GR2rwkKHFE5XaCJzeQtKuha9oK06pjeVqt2jIlu07bHoe26JuBD22ygGRExzhzjHJekl5rw4ViDm20JTtr73YHFPuDI6RpyyynpJ/4UXB3ILguZnjSQrmQudkU+TpAdb3O6u0CLnZTLrM82Kt8lTW/23M8AYk9W4djmOSjOKF8mFiPySs5BiFxx4XB3mlzDgEfAv2fHsVGDNitc6SF0OrO3kr5Rft7RJ5NfEgifbX3bB+H3CSo9sk2otbtRs3FIDBKWOblKs3LtGgei9VNkd9UTcwW6ilmviTWMUOCK44nAqplS26HpyBVssxDsDcyGL1wmE0GrS3zovZWUM/X0HQiGjvlxw4Nxa1e3xV4EKOQzMgzOA3aHdCAxW8eVY/gDFOW+z5MCMQZpV3AEcFbBInMKOSAVJTTNvc2FOi1ekbjgOqAUJOnl35CZYEpDrTMdwhFP0d1LegBuKCrsqEPj40y+IzApNWxWSjnrWfyV1uSh14zw0GbFEYWWYY+Vg9uZCcYvJqpXxHj2FML88YHSDMuekd1FcmSRoYE6o51Qgon0GZwpyjBzDJEFeyBmZmapXMgJJxv4GHECTp0R6Qiwe2O+k0moKtGMwsSnNQ6vRC+jH413DzaAuy8qkB4s8y3kVIocV07shu9dGIKaz1oe2FnoTuHe3HnKd7vPTOGij/jY7gGOovr/921NVvWdZ3yrh3Squ3qlDHGU+Q179ZVtSpZ9w//d9UUGV17k1fZMvzfi11UWRntdZ6Vf7Bj/P/9v//yJb/6sizY+z19Uj2puddGfEc+72r7AzX4yZw=', 'uuid': '927926a3-f442-4f34-8b23-8affbfbaea37'}
+Similarly to other sequence transduction models, we use learned embeddings to convert the input tokens and output tokens to vectors of dimension dmodel. We also use the usual learned linear transfor- mation and softmax function to convert the decoder output to predicted next-token probabilities. In our model, we share the same weight matrix between the two embedding layers and the pre-softmax dmodel. linear transformation, similar to [30]. In the embedding layers, we multiply those weights by
+
+√
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 5, 'orig_elements': 'eJzVVk2P2zYQ/SuETglgCiIpitLeggQBAiRp0biHYrswSHFkCyuJrkSn6wb57x1S8u7W9SGXDeCb3nxwhvNmhrr9lkAHPQx+09rkhiTSNA3kRU0FLxuaM25paUpNywaYZlVpKgHJiiQ9eG211+jzLamdG207aA9TxJ0+uoPf7KDd7jxKVMXTDJ0W+d+t9TsUF2wW7107+OB5eysykcoVUTlP2d2KPGKJljMuL+Joj4JkOk4e+nCTX9sH6L7sdQ3Jd1Q0bQcb245Qezceg8G7kP6iGXQPQfbGe6xF64YP05uu+8MdPgPYdG+bJKY/bA96Gy95m8CwTe6idPKb3tm2aSGWkGdc0oxTptZM3rDsJlfBe4+em+HQGxjRSoacPDz4WPSg98d9TOG9cx5NUH/OTVGKIjemoGUhK5pryanWsqaNsFAJxnhu8hfkhmUqVVjrLK1C6RfIMp6qgGWWB49zHM2viZniOTNrbTog7IZ80g9tf+jJXvsdway2fjetyB5GioWDkdSu33fw0Poj0YMlfTtE8/lU4hoywV+HcAHdEYduOlxlIo0bCebXwIg6Mh8VGmFKyUDaifgdLJ41LGFXxJ40I+xHmNAznoYHYbNM+LUi9yeTexgH6MjU/gMhi9oNX113mIOHRMc5xKIO30PoDOPGnXMYaMAgkx/b2oPFTLqG6hMR6fOu/azHcKevsA6Vu9C82KK1tMpQZZSleW0YLatKUl0Vhte61IWWL9m8PA+LgrEizWP3LpgXqYi4qNLqAo72V9u+H2NDrQNHz7hat76DSxxlrGlMxQQtjFY0b6CmJpOaGlllXNmmKLj6CRyJatkwCy5FWgTM+bxxznG0v1qOvoShegxNfoP6MMZt8PZpVnFpnJm9ehrL1z/ErTLSqNpyWnIlaK4EfglWUmu1MnVW5KUSL8gtR5LUs/k74dO8CeRSXsDXPX9vn14F3PkkjuMPsWWMFnmugWZNwfE3TJS0ko2m1gCUla1ZxdhLsiXL+JYL/LuKbC0YJ29mJ6tSfgFH+6tl65dXAyd/HrLMKGJfE4SPiAd4f4Jn8vH/8v/M5O9DjZxs3YivrJ3fx7t/Af6td0I=', 'uuid': '9c1188e4-3ee7-49a3-acb6-0bce694f178e'}
+5
+
+Table 1: Maximum path lengths, per-layer complexity and minimum number of sequential operations for different layer types. n is the sequence length, d is the representation dimension, k is the kernel size of convolutions and r the size of the neighborhood in restricted self-attention.
+
+Layer Type
+
+Self-Attention Recurrent Convolutional Self-Attention (restricted)
+
+Complexity per Layer
+
+O(n2 · d) O(n · d2) O(k · n · d2) O(r · n · d)
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJzVk01v3CAQhv+KxakrLQ5gbNi9RWoPldpmpeRSrVYWhrEX1V+1sbqrqP+9QDZR1eyhlxxyMbwvM8MMj7x/RNBCB70rrUHbBOWCF4oVBLONBMyVZFiJQmIjM1ZxnusKGFonqAOnjHLK5zwiPQyTsb1yMEfdqvOwuPIItjk674gNS4lPuvi/rHFHbxf0yR4H27uQud9n2SbN1wmlRcoP6+RFyyzNguZSXNUx3htoPs8OujDJzp6gvR+VBvTbH9S2hdLYCbQbpnMI+Bjav5z0qoPg3Trn38IO/ef5tm2/D8s3AJOOpkax/b5ZVBOH3CPoG3SI7uzKbjC2thCfkBGWY8IwFQ8031Ky5SJkjz6z7JeuginMHnpycArPg+7h5xKuVW3yVZ1st3TJTrlj8sXf4Ze7ESYVmpqTuw905T/96nlHV6G2O4+x/Qfr2jjuv1i1McTkosY04xLzgme4KgrmsUoqaa0pI/oNsXIqUukxeZoiYrvoF4wFv6pj/LvF+jesdmh++F3UN9P/QTOSyLo2HFeSEA9NC1wJrXBWSW1yrish4A2hUSKDxWiWFgHKs2ZZmgfNaJ6yKzrGv1tofphkN8w2XOz/x0+99uV8+dfADn8Am+qI4A==', 'uuid': '50987cff-510e-4be2-a4b7-78961471620d'}
+Sequential Maximum Path Length Operations O(1) O(n) O(1) O(1)
+
+O(1) O(n) O(logk(n)) O(n/r)
+
+3.5 Positional Encoding
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJxtU8tu2zAQ/JUFz7YgyVEU5xagKNAeggLJpXAMgyJXFmuRVMlVEiPwv3dJO2kOOQggZx8zO1xt3gSOaNHRzmhxC6LTpapUrZd1c1Utr2TfLtflql92TdV0jWxb1a3EAoRFklqS5Jo3obwP2jhJGPN9lEc/025Asx+IkXZdFyUXXfAXo2lg+Lo6w5M3jlLlZlOVNwmqV6vieruAj/v6pqjSvSmbov7invMZEPEYCW2a5Jd5xfFhkgrFiQO9GXGnTUBFPhxTwrck/xJx0mLC7ojYC+Pdj3g3jr/9fI+oi0n3Ist3+1nu85AbgW4vthmNtLNem95gtrAu62ZZ1suqfaya26q8vWpztXGHXPkmIsnAhjuNrww01TWHCV+TVWKdcucwprMyhMVP72T8zmPcI9Vl1YpTYp1Yx87NtsOQnDx96vBgnELwcwBWhSMo70gaF8F54PHnEDAlSKcTwtFnP85p5gUYB/ySGKD3AWjASwfyYOUBYY7ct8+Bc9rlEvHvnHou4IVL5kjc6A8bDdFb5DN3szIxgOx4AXJNwJGh59SJ0ZgkIEw+mpx3aUz+gCycZX2mKeDRM2AioNOZU2oNT+K9Wo4cUPwibh+fRFKfqo2bmBrZMZ0jIM9COk/kbXynzJU8WrJH4/nM76UOkWmH/xI/k8AgeZAskfcItOEfKqYx9Nk/Gc+tP7gX7AxDFwX0ws8gHXRcP1vLC5eYAo/Fn5XuCGrwRmHW+BX/AkaUwaHOqntefA2b9bZIq0THKW/2vQwhG/6Y1uS0/QfrHk/n', 'uuid': '7d6619b4-18c1-4e14-a805-a81efb694d3c'}
+Since our model contains no recurrence and no convolution, in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence. To this end, we add "positional encodings" to the input embeddings at the bottoms of the encoder and decoder stacks. The positional encodings have the same dimension dmodel as the embeddings, so that the two can be summed. There are many choices of positional encodings,
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJxtU8tu2zAQ/JUFz7Ygya84twBFgfZgFIgvhWMYlLiyWEukSq6SGIH/vbu0k+aQgwBy9jGzw9XuTWGHPTo6WKPuQc1KnOd3jZ6W1Syfztemnq7z+XLaLKtCGzNfVvNaTUD1SNpo0lzzpmrvg7FOE8Z07/TZj3Ro0R5bYmS1LrOci274izXUMrwsrvDgrSOp3O2K/E6gcjbLlvsJfNzXd1kh90W+yMov7imfARXPkbCXSX7ZV+weB12junCgsR0ejA1Ykw9nSfgm8m8Rp3sU7IGIvbDe/YgPXffbjxtEkw2mUUm+O476mIbcKXRHtU9opEPvjW0sJgvLvFxM83JarLbF4r7I7+erVG3dKVW+qUg6sOHO4CsDi2LJYcJXsUqtJXcMnZxrS5j99E7H7zzGBqnMi5W6COvAOg5u7CsM4uTlU4dH62oEPwZgVdhB7R1p6yI4Dzz+GAJKgnZGEI4++26UmSdgHfBLYoDGB6AWbx3IQ69PCGPkvk0KXNNul4h/R+k5gRcuGSNxoz9sNETfI5+5W6+FAXTFC5BqAnYMPUsnRqNIQBh8tCnv1pj8CVk4y/pMk8HWM2AjoDOJkzcTntR7te44UPOLuGN8UqJeqq0bmBrZMZMioK9CKk/k+/hOmSp5NLHH4PXM71WfItO2/yV+JoFW8yBJIu8RGMs/VJQxzNU/Ha+tP7gn7AxDNwX0ws+gHVRcP/Y9L5wwBR6Lv167M9SttzUmjV/xT6BDHRyapLrhxTewW+8zWSU6D2mzNzqEZPhW1uSy/wcCAE/v', 'is_continuation': True, 'uuid': 'd1e6466e-f6e9-4abd-b545-b11ec151c8da'}
+learned and fixed [9].
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJxtkEtrwzAQhP+K0Dk2fsTPW6CXXEKhuZQQjGytbFFbcqV1ExP63yu5oafeNN9q2Jm9PCiMMIHCRnJaE1rmUcvavApKztNgL4o8qLIuC0SXZmUet8DTiu4InQAZZ8ic50E7rQ2XiiHYTY9s1Qs2A8h+QEeKKgkjZ3rym+Q4OJzHv3jWUqF3Xi5xVHqURvswu+7In46fOi2rsPpHb/8doHa1CJNv8irvML7NrAP67QZCjtBwaaBDbVb/4cXHf04Um8CzA6K7hdTqaA/j+K6XEwAPZy7oFl/1C+u3khcKqqfXjVpsJs2lkLCdMImSLIiSIC7OcVbHUb0vvHt2zkYtUwvGd/eZEO7+PPSoCA7Skps2HztyA7JYIFYqIExx0untKRbV+WSWaEHcNgHGRSXCwOcCqpNga78G13lrcmLGMJRfcPZLvq8/juWVsQ==', 'uuid': 'd9ad444c-df51-4133-8906-c3a77dd58b42'}
+In this work, we use sine and cosine functions of different frequencies:
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJzVU8tu2zAQ/JWFTg1iKdTbDtBDgPbQS1CgAYrCDQyaXElEKFIQqThukH/vknm1Qa491CfvcB8zO6vtfYIaRzR+p2RyDkm1L4uqKnjKZN2kFRNluhZFkVb5ppP1HtmGsWQFyYieS+451dwnwtpZKsM9uhhrfrSL3w2o+sET0m6KjFHRE35Q0g8EN/kjPFllfKjcbouiztoVlGWTsesVvMRNna1DXK6brHwnjvkEJO7oPI5ByVd1h/rbxAUmD/TQKY07qWYU3s7HkPAp0H96MXzEgF14T7tQ1nxxF1r/sMsloswm2SWRvukX3keR2wRNn1xH1PndaKXqFMYVFqyoU1akeXuV1+c5O6/aUD1R5c4s4x7noD1w8njnI9XPHybrVoU6gY/glAnRWc7oV6gzSb1Rn8BL0mke0oR176WFSf44RTFXyuso/q3JHS+LNatFWtb5Oq0qUaXrVnRpQ+6vi01XNHX3D03OWZs1ZFrbPpr8FFdlnjUhrlkVTH0bP+b/tyYfBpwRyDJQDvwQ/6rAAriRoJ5RqcgoR3AGVwP3BK8AuRheH8B2f9VzDWgEcTM9XcU8o5uskdTNAg/XtDirZOiGcOC3dAmm94ODzs4jJfRoyeZZCZhm21NxHNHNdoTi58JKwUKjeGVAMdu3z3gG3xHEYB0SHWLfLUZEPXsUfCH0gDAcJ0tcnfqFpNHDwS5aAtfaHqKGeLRhAHKn9BE08tlE5sEjCfsjzKi5V7evemkhpEpgUEC7O0JHRyBpK51DDzcr+lIo9fQGBA9cqMFEsshxSuKOJGtlaMwrX9pnLMn+/Hgu+TzHuVfBv4fr32VQnOA=', 'uuid': '193a3bc7-ef42-4e60-a7fb-66f1660ad56e'}
+PE(pos,2i) = sin(pos/100002i/dmodel) PE(pos,2i+1) = cos(pos/100002i/dmodel)
+
+where pos is the position and i is the dimension. That is, each dimension of the positional encoding corresponds to a sinusoid. The wavelengths form a geometric progression from 2π to 10000 · 2π. We chose this function because we hypothesized it would allow the model to easily learn to attend by relative positions, since for any fixed offset k, PEpos+k can be represented as a linear function of PEpos.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJxlUl2L2zAQ/CuLnu4gMf5KneTtoC20D6HQQCkhBMXa2KKy5EqrS8KR/96VL5TQvgjt7M54dqzdm0CDA1o6aCXWIJrFMZd1Wc9XS7Wc10Wez1dlU8zbZXWSsjjiqi7FDMSAJJUkyZw30TrnlbaSMEy1kVcX6dCj7npipFmVWc6kO37WinqGPxTv8Oi0pcTc7Yq8yRYzqKsmq/Yz+Fsv8yxP9SKvE+W/eppnQIRrIBzSJt/0Bc33UbYobtw4aYMHpT225Pw1DXxM9u8dKwdM2AsRZ6Gd/RJejPnp4gZRZaM6icm+7aLspiV3Am0n9hMa6DA4pU8apwjLvFzM83JeNNtisS7ydd1MbG1/Tcw3EUh6DtwqvKQYKu4SXlJSYpVGozfp3mrC7KuzMnzmLTZIZV40aZl/FYpF+SBRPUiQPBrMKnFLTkf2frBxOKJPn709cH4gSBMc4GVEr9N7QAVnTT3EoG0HBqW3DI0u6BSPNICso/ivdwF2qz1oy8FLNQNpFZxc5JN6SXwg0NnBK/rAxACjdyq2rGVZ01xBq5R4y4oeQzQU4CkgwjY5hwq8O8PTp+fnDNhj27uAkyS7isFpxbS7MhyxlZHbmmCQV97HMDXN8s9BA5S2Iy9HZ/ihpjLg74i2Rd7OdtQHMM526JNvOxGdxQA8wdsQerasok9psIq2fMlS0nQdp6ezkd5L0q+4TZne9n8ApCETHQ==', 'uuid': '020f4bb9-9ec2-4f21-ac62-14d20df18336'}
+We also experimented with using learned positional embeddings [9] instead, and found that the two versions produced nearly identical results (see Table 3 row (E)). We chose the sinusoidal version because it may allow the model to extrapolate to sequence lengths longer than the ones encountered during training.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJzVVE1vnDAQ/SsjTokECBw+dnOL1EsOjaomUlVtVyuDh8US2NQ2myVR/nvHJonaKtceesLzPG/mvRlg9xzhgCMqd5AiuoZI5AUvi80m6YTApGBdmTSsvkoY8qpqG4682EYxRCM6LrjjxHmOWq2NkIo7tCEe+KJnd+hRHntHSL1laUakV/xRCtcTXOUrPGmpnGfudnm28VCxrdJqH8NbXNIjxIyVH8VrPgGRXazD0Tv5Is843E+8xeiFLjo54EFIg63TZvEJn7z81xvFR/TYjXM0C6nVrb0Zhu96vkMU6SS6KMhXx5kfg8ldhOoY7QNq3WHUQnYSwwhZxsokY0leP+TldZ5dF7VnT8Q8qHls0HjvXpPDsx9PVMC3foF7HLrkXYCnuGUKqh6kG4KLv7dVVUXdXdVFUjPGk6JpMNlmjCV1uS35Nm9Q1N0/3VaVbmgbLE/Zuq01rot04+MyK9P6gzjk/7fbulXgemnBkjjqDY8IrR4nbhBO3Eg9W+B2oksLuqMs2ip/Ewo0VDQWnKYaCORvNoaugCtBVdRJD3MCPpMPb7lUfNRqWGC2KKDTBkY+TVIdQau1JW8GTGgsR9dTv58zqhZD72Vs9EBdJoOWunBf2MLFOY/TNI3P6tIL4UqTFvMHk45ewFry4mnNf1KXMTxKQs4yfpLwY2Ys28BXEYOd255cA4de0o/j1SdIRQi9xbKlau/1neHKinmdHiFaUCrZEhiOKXzWTp5IrLc4G+/7g0mGsSsrPdn1BpH4IaIXJf3967njhjB5wge/wJf9L48skek=', 'uuid': 'dffd6ade-72e6-4eec-bc55-eaefdedc4f93'}
+4 Why Self-Attention
+
+In this section we compare various aspects of self-attention layers to the recurrent and convolu- tional layers commonly used for mapping one variable-length sequence of symbol representations (x1,...,xn) to another sequence of equal length (z1,...,zn), with xi,zi ∈ Rd, such as a hidden layer in a typical sequence transduction encoder or decoder. Motivating our use of self-attention we consider three desiderata.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJxtUMtu2zAQ/JUFz5aghyU5vhnIpZckQHMpDMNYiSubAB8quWqtBvn3krID9NDjzHCWM3P8EKTJkOWzkmIPokbqi26os7GrKNu24y7r26cx21VYNy2WWBe12IAwxCiRMXo+xOCcl8oiU1ixxsXNfL6Sulw5Mt1TlRfR9OB/K8nXSLflnZ6cspycx2NZ7BLV7Mq8Om3gC7dFlZcJN8X2f/j+PhIiLIHJpCZv6kb6+4QDic8ojErTWSpPAzu/pAfPKf5DsWgocQfmuIVy9ls4aP3DzS9EMp/kKNb49jLjZS15FGQv4rSygc/GSTUqWiesiqrJiioru/ey2ZfFftsl9xSdZzubnnzqnjIx3dI84tUSqAB8JWDHqGFwZpoZU5AH0nRTvMBEHuKK5HM4WBcN/suIxs2WwY3/mqOCDANa6Akm9Kg1afWH5AYwgCEMsycJ/bKeMMoqMxu4h0ynAv2c0x4xhItfrzcD+MjGIWWeavEyrcu9oE/6L3pPpT5PfwGRfL+U', 'uuid': 'a342c493-1b0e-45a1-8eb0-2bf20434b4fb'}
+One is the total computational complexity per layer. Another is the amount of computation that can be parallelized, as measured by the minimum number of sequential operations required.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJx1U02L2zAQ/StC59jYXidx9rbQQwtlW+heSghhYo1tEVtyJXkTs+S/d0ZNlpZ0T57vee9pvH2T2OOAJuy1ko9CrkqooCoxqZYVJGVZb5LDQw1JkW+KvMywKJeVXAg5YAAFAajnTdbWOqUNBPTR72G2U9h3qNsuUGS9KdKMmq7xk1aho/Aq/xMerTaBO7fbPFun64VYZVW63C3Eu189pBv2l1nJLXd+rKeA9LMPODCT7/qM/Y8RapQXSjS6x73SDutg3cwFnxj+NWNgQI49hUBaaGu++Ke+/2mnZ0SVjqqREb5pJ2gjya1E08pdjPqwH6zSjcYoYZEVyyQrknz9ki8f8+yxXMdubY6x8036AI4ENwrPFChXK0oHPLNUMi+4eHI9O7UOmHa27hyS5Yosy1sHShNGeeHlI8HZm2k4oGNBL38NeulQhE47JbQnA8UIoRNEtaXPAcMJ0YjemjZxxAuFwhEJkak1eqFNbDFUZt0xFV8RnNGm/bjBCxBHnEXdQc9LkGcMYGbh8ddEVYSG+ryaatZXBPBHn4pvBmNbA/wuApqGHogX8Xo46F6HWQRLuAmA8FPd3e3lyist27wz9aKx7gREH4wSB6iP0fG6NdB70cEr8lzC9IrO4x1jls931pHsnPC3qTflmFlthwOfPfOh1aP1mu13+bQZpxD309mzeZPCL2IewWsar0OkcSP5kcTbvNil4nOU8kTi9N4yghEcxmkDnPUwDf99Z0ZLxO4R/YP5St7HsdajuglKx92go6sT9AuzIPOIPuVDZYuv7RmcIyFe8YXP77L7DX7cdcs=', 'uuid': '427b1688-e15d-4963-858f-dd8e5a87eb84'}
+The third is the path length between long-range dependencies in the network. Learning long-range dependencies is a key challenge in many sequence transduction tasks. One key factor affecting the ability to learn such dependencies is the length of the paths forward and backward signals have to traverse in the network. The shorter these paths between any combination of positions in the input and output sequences, the easier it is to learn long-range dependencies [12]. Hence we also compare the
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJx1U02L2zAQ/SvC59jY3sRO9rbQQwtlW+heSghhIo1tEVtyJXkTs+S/d0ZNlpZ0T57vee9pvH1LsMcBTdhrlTyKpHmQawlllRZNfUiXsihSqNebNK8k1A8byKs8TxYiGTCAggDU85ZIa53SBgL66Pcw2ynsO9RtFyhSb8osp6Zr/KRV6ChcFX/Co9UmcOd2W+R1Vi9Ela+z1W4h3v31Q7Zhf5UvueXOj/UUSPzsAw7M5Ls+Y/9jBInJhRKN7nGvtEMZrJu54BPDv2YMDMixpxBIC23NF//U9z/t9IyoslE1SYRv2gnaSHKboGmTXYz6sB+s0o3GKGGZl6s0L9OifilWj0X+uKxjtzbH2PmW+ACOBDcKzxRYVhWlA55ZqqQouXhyPTtSB8w6KzuHZLkyz4vWgdKEMbnw8pHg7M00HNCxoJe/Br10KEKnnRLak4FihNAJotrS54DhhGhEb02bOuKFQuGIhMhIjV5oE1sMlVl3zMRXBGe0aT9u8ALEEWchO+h5CfKMAcwsPP6aqIrQUJ9Xk2R9RQB/9Jn4ZjC2NcDvIqBp6IF4Ea+Hg+51mEWwhJsACD/J7m4vV15p2eadqReNdScg+mCUOIA8Rsfr1kDvRQevyHMJ0ys6j3eMWT7fWUeyc8Lfpt6UY2bSDgc+e+ZDq0frNdvv8mkzTiHup7Nn8yaFX8Q8gtc0XodI40byI4m3RbnLxOco5YnE6b1lBCM4jNMGOOthGv77zoyWiN0j+gfzlbyPY61HdROUjrtBR1cn6BdmQeYRfcaHyhZf2zM4R0K84guf32X3G9/Sdh4=', 'is_continuation': True, 'uuid': 'b222d2e9-f976-45d0-bafc-f73b1452b952'}
+maximum path length between any two input and output positions in networks composed of the different layer types.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 6, 'orig_elements': 'eJzNU8GK2zAQ/RWhUwu2sZQ4jnMLlMJetoXmUsISZGsci8qSK8lNTNh/78hJIGyX3gq9ed7Mmzd6ntlfKGjowYSDknRD6HrZtE1b8bTisEqXrWhSwaRIK1lDXrRMFOuSJoT2EIQUQSDnQhtrnVRGBPBzrMVkx3DoQB27gEhZ8SxH0g0/KRk6hFfsCg9WmRCZ+z3Ly2yVkFWVZ8uXhNzjkvOMx7jIl9niz/hajwD1kw/Qx5d8VWfQ3wbRAH3FRKs0HKRy0ATrpljwKY5/yxjRQ8S2IaAXyponv9X6ux2fAWQ2yJbO45vjKI7zI/cUzJG+zKgPh95K1SqYLeQ5L9Kcp6zcsWLD8s1ydkwr82NmXqgPwqHhRsIZAbbGbIBzdIqyWDo6Hb+DqDVkjL5GmQGFD2bsa3DRutcHztYTYwNIogzZRQ5hCRHEg25TcX8QQfPBkcYagxZ4IrQmg/Uq5jw5qdAhBbM4mwnkKkRsi11+jrED1k8EztCMUckO4MRMTcipAwcCOxI0d3QOq29iDrnouCdfPpiPD50e6Bl5MiSA630Ua2w/jGHOYFWMNJxVmJJ3H4OSDkiL/qNW6IR5O4CPs2H7Dm7iuAvRt2mYf/azcHGKX7CLRqKjb49B5GVdcpmnsC4hHgNP63bRpqyWpaxq3uRM/MNjWOSLrMBlX/KMxWW/xwVWXuP1u/Fc/38fw1+2efX4iz5bXGyHF/AbPA128Q==', 'uuid': 'bed1dc8f-6d73-4c78-9443-e54e00808871'}
+As noted in Table 1, a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(n) sequential operations. In terms of computational complexity, self-attention layers are faster than recurrent layers when the sequence
+
+6
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJxdU8tu2zAQ/JWFTi1gqZIfkZ1bgF56SQs0QFEYhrEWVxIRilT58KNB/r27clIEvgjkkjOcmV1tXzIyNJCNe62ye8g21WFdLnGd14rW+XJDlG+WZZXXS1y0ZVlu5nWVzSAbKKLCiIx5yRrnvNIWI4Vpb/DiUtz3pLs+cqXezIuSQW/1k1ax5/JddS2PTtsoyO22KutiPYN6UWx2M3jfVot1Uct+VS4FcbufrvM+C5cQaRAfP/SZzM8RG8pe+aDVhvZKe2qi8xe58FXEv51YHEhqDzFyEtrZb+HBmN8uPRKpYlRtNom3XcJusrjNyHbZbqqGuB+c0q2mKcB5OV/l5Tyv6qdqdV+V98t6Qmv7PCFfshDRc9xW0ZkL1YYNZpHOElS2WMvl5I1sGh2pOKV5Wd11znVmsnKLn1f1R3x1iw9krddNzywrS8mjyV5F+MhW9jYNB/LSodcPJBxIF3uwoAOEAY0hD7FHyx8CT6MnJo0oQYHSPDyBV2h0vICawann1wQ6uBDBtRzpBGwwEJw0EwuabHPLFSAFUnC4ADuMlLs2Z1zOZplKkQmgLQzY9NoSRI82mCtuBiHxkxjgxHOYj5qYe7tY7wCt8DHXiNpzqdrdvlnAkwM9jN4dWaIbxnQ9QAMj+db5AUUpLyBieBYNR2eO2nZwJH8B43gV6E8SQ6KETJvj+xwxYzIsQayGyG2IbDA6LnNmirzQOGsugGDlZzk43zunODUI+i+jxLKEpy0L+/8ONJKgZy70LrHHa2PCyOOt2Qf/ZHJ9dEGLCvbYawlHtGjbeJJWCGbAsx7SACNyW97azvK+f7Jf/OcCfhGMRvruxDY70B03hpHMhiNnxs2ANnmmmpS2KSZP0oXnQuYwXsbpv3pE71GUPcmEve7+AdiZfW0=', 'uuid': '27488c7e-8554-44df-a87d-4264e459a642'}
+length n is smaller than the representation dimensionality d, which is most often the case with sentence representations used by state-of-the-art models in machine translations, such as word-piece [38] and byte-pair [31] representations. To improve computational performance for tasks involving very long sequences, self-attention could be restricted to considering only a neighborhood of size r in the input sequence centered around the respective output position. This would increase the maximum
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJxdU8tu2zAQ/JWFTi1gqZJtRVZuAXrpJS3QAEVhGMZaWklEKFLlw48G+ffuykkR+CKQS85wZna1fUlI00gm7FWb3ENSNmVTl3mdrg4dpeuqWaVYUJseyjuq6/qA65qSBSQjBWwxIGNeksZa1yqDgfy813ixMewHUv0QuFLVyyxn0Fv9pNowcPmuuJYnq0wQ5HZb5FW2WUC1yurdAt63xWqTVbIv87Ugbvfzdd4n/uIDjeLjhzqT/jlhQ8krH3RK075Vjppg3UUufBXxbycGR5LaQwichLLmm3/Q+reNj0RtNrVdMos3fcR+trhNyPTJbq76sB9tqzpFc4DLfFmm+TItqqeivC/y+3U1o5V5npEviQ/oOG7T0pkLRc0Gk0BnCSpZbeRydFo2jQqUneIyL+56a3s9W7nFL4vqI764xXsyxqlmYJbSUHSok1cRPrGVvYnjgZx06PUDCQfShwEMKA9+RK3JQRjQ8IfA0eSISQNKUNAqHh7PK9QqXKBdwGng1wQ6Wh/AdhzpDGzQE5wUEwuaTHPL5SF6auFwAXYYKLVdyriUzTJVS9qDMjBiMyhDEBwar6+4BfjIT6KHE89hOili7u1qswM0wsdcEyrHpWJ3+2YGTxbUODl7ZIl2nOL1ADVM5DrrRhSlvICA/lk0HK0+KtPDkdwFtOWVpz9RDIkS0l2K73PEjFGzBLHqA7chsMFgucyZteSExhp9AQQjP8vBusHallMDr/4ySixLeMqwsP/vQCMJOuZCZyN7vDbGTzzein3wTybXJ+uVqGCPg5JwRIsyjSNphWBGPKsxjjAht+Wt7Szv+yfzxX3O4BfBpKXvVmyzA9VzYxjJbDhxZtwM6KJjqllpF0N0JF14zmQOw2Wa/6tHdA5F2ZNM2OvuH+5Wfpw=', 'is_continuation': True, 'uuid': '801f501e-b5ef-459d-822d-f0b026279279'}
+path length to O(n/r). We plan to investigate this approach further in future work.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJxtVMFymzAQ/ZUdTs3UUCDGJpn2kDY99JJ2Jrl03IxHRgtoEBKVhDGT8b93hcnUdXNjV/tW+95bsXkJUGKLym0FD24hyFdJlvM8DdfxMguXOeYhKzAOk+Q6K4oUc74qgwUELTrGmWOEeQkKrQ0Xijm0UyzZqHu3rVFUtaPM+iaNYgLN+UFwV1N6lZzSnRbKeeRmk8TraLWAZLmMbp4X8Bqn10m09HEWZ1H6f3yqp0RgR+uw9Ux+iAPKx46mD450UAqJWy4MFk6b0Rfc+/HnE8Va9Lk750gLodU3eyflT90/IPKo4xNnyVTVs2oiuQlQVcHzlLVu22ouSoGThGmcZmGchsn6Kcluk/h2uZ7QQjUT8iWwjhkSXHE8UCLNlnTs8OClCpLcF/dG+qAQDqMHJj+PNBa6NE7Wnsxlh2V2c9ZhddngUGDnORF8FRz9zB2x2Kq+3aHx9hzP0HdghaokQqHVXsveA5kEsg4NDMLV0KBRKGFyERr4CAq4RgtKOw9SpDAwKaFjwljQJQjV9ZRSHMh9/9lpK3xfG8E9eV+B1WDwd0/uWGBA5IrGA7+/Ux+aq7cmsdQUXE1TMou+lGqcqHrd23k+uwBtqIPUVfNOXV1dAriQtK/8vLmlfctJHqEKg8zLMCFoOypiSpgp0oo2gDgwV1vYoRsQFZEbwQ36L7PX68i1QZsmgi9vkWAGoSJnDek1QqspxEOHyoo9EpwpkqXojaGdnCEL2I0kUcn8GvuZqPUjdsyw3b+eEZkVcan1gHs0C+A4kcKTCLrtJB6EGz3ECo4ePy7AaZKsgV99HO/WZOz8weH9WZBeRfB1T6xP6wCfQJ1ddNGfRiRH35oQhAUyndSgW2fUzv9F/NkMk2XIXp/kvIN+jxhM/4xwEESopCcaltoMzPBTzWkI1nVGs6KGgUizBr0lujckM0cZ+Ufixm569Q/MGLp2j0/+ERyf/wA9WK8M', 'uuid': '53cebe5e-1ff7-45b4-ba47-a9b2d4bc346d'}
+A single convolutional layer with kernel width k < n does not connect all pairs of input and output positions. Doing so requires a stack of O(n/k) convolutional layers in the case of contiguous kernels, or O(logk(n)) in the case of dilated convolutions [18], increasing the length of the longest paths between any two positions in the network. Convolutional layers are generally more expensive than recurrent layers, by a factor of k. Separable convolutions [6], however, decrease the complexity
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJxtVMFymzAQ/ZUdTvHUUKDGxJn2kDY99JJ2Jrl03IxHRgtoEBKVhDGT8b93hcnUTXNjV/tW+95bsX0OUGKLyu0ED24gSNM44eV1HhYbzMNVmu9DlrAizIq8xGxTZnnKgiUELTrGmWOEeQ4KrQ0Xijm0UyzZqHu3q1FUtaNMvkmjmEBzfhDc1ZReJ+d0p4VyHrndJnEerZeQrFbR5mkJL3H6IYlWPs7iLEr/j8/1lAjsaB22nskPcUT50LECgxMdlELijguDhdNm9AV3fvz5RLEWfe7WOdJCaPXN3kr5U/f3iDzqeBlM46uqZ9VEchugqoKnKWvdrtVclALPEsZpFsZpmOSPSXaTxDerfEIL1UzI58A6ZkhwxfFIiTRb0bHDo5cqSK59cW+kDwrhMLpn8vNIY6Ejb3JP5nWHVba56LB+3eBYYOc5EXwdnPzMHbHYqb7do/H2nC7Qt2CFqiRCodVBy94DmQSyDg0MwtXQoFEoYXIRGvgICrhGC0o7D1KkMDApoWPCWNAlCNX1lFIcyH3/2WkrfF8bwR15X4HVYPB3T+5YYEDkisYDv1+p983irUksNQVX05TMoi+lGieqXvd2ns8uQRvqIHXVXKnF4jWAC0n7yi+bW9q3a5JHqMIg8zJMCNqOipgSZoq0og0gDszVFvboBkRF5EZwg/7L7OU6cm3Qpongy1skmEGoyFlDeo3Qagrx2KGy4oAEZ4pkKXpjaCdnyBL2I0lUMr/GfiZq/YAdM2z/r2dEZk1caj3gAc0SOE6k8CyCbjuJR+FGD7GCo8ePS3CaJGvgVx/H+5yMnT84vLsI0kUEXw/E+rwO8AnUxUWv+tOI5OhbE4KwQKaTGnTrjNr7v4g/m2GyDNnLk5x30O8Rg+mfEQ6CCJX0RMNSm4EZfq45D8G6zmhW1DAQadagt0T3hmTmKCP/SNzYTa/+nhlD1x7w0T+C09Mf/TmvmQ==', 'is_continuation': True, 'uuid': 'e656d6f4-7ba8-4caa-ba41-5021d0540efd'}
+considerably, to O(k · n · d + n · d2). Even with k = n, however, the complexity of a separable convolution is equal to the combination of a self-attention layer and a point-wise feed-forward layer, the approach we take in our model.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJzVVU1v2zgQ/SuEzpYgUqQk59ail70EC6yBxSIIDIocWkQlUSCprI1g//sOaacN0lx6yCEX22++OW9m/PBcwAQzLPFodXFHigY4F8BYaTRrS86pKWXH9mVvmsHsKRf9MBQ7UswQpZZRos9zoZzz2i4yQsh4khe3xeMI9jRGlHR7VtXodJP/a3UcUdzSq3h1donJ8+GB1l3V7ghruqp/3JEfuK8rkbCoeXL5BWd7FBThEiLM6SV/2jNMf61SQfEfKoyd4KitBxWdvySDb6n8m2aRMyTZlxixF9Ytf4Qv0/SP2+4BdLVqU+Tyl9MmT/mRDwUsp+IxS0M8zk5bYyG3kNVMlDUraXeg4o7Wd7xL3it6HpdtHsCnlqSaIpxjzhpIsBrIAAsYG3ckwIR9f6mFKLdNmlws4OfsPBDsF/jVIwfDBCjSMIWK/J0UYcUXkp++2obo7bAlEIjxbiZu8zcfIhdNME5A4/wbrdUWAoGznNcJAgYkcQQi1xUWbc8VuXeRuGW6EO1Qqe2T1ZucXiUcQepA1ATSo1X6whCOrOCN8zNmMAZ8yhdl+B52ZJbLJceXPtnBebSDjdiLUT5Z54mHCQdLJ12qJFyWKFW0KtcbAN0TwEduKm7YG2eudpgCFgWhSs2PlzXzey+9l9E+wSG1Hjl4O/9cSNW2fVf23dCXXApdDqJXpeiEEKzRtDX8Q+e/z/O831ftdf4zbii94a6u2K/4av9p51+Qg5d2sRjxFVcHGyd4jyMptWIN5eWgNC05tKocqG6QMtNRUEwabj74RnXIARM/b1TCjai6hBs8RuIdnO0/LUeH0eKVwsryUYGg8KjgfUirFm/k4aqe7AwE9/zVjfm9/eta2Q+9YCWnmpecsb7c87opKZVKg+Jq2Dcfv3+NYNf/lxfc3jDj+8zlW5ztPy23oqI/NpCksvJt/SqjGt/fycf/ASNJimY=', 'uuid': '68979404-3596-4437-8f30-8e4e5177a51e'}
+As side benefit, self-attention could yield more interpretable models. We inspect attention distributions from our models and present and discuss examples in the appendix. Not only do individual attention heads clearly learn to perform different tasks, many appear to exhibit behavior related to the syntactic and semantic structure of the sentences.
+
+5 Training
+
+This section describes the training regime for our models.
+
+5.1 Training Data and Batching
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJx1U11P4zAQ/CurPJOQj6YpfQPxoZMAIYGETlVVuck28eHYOXtD6SH++62TAj3Qvdljz+7MrL14DVBhi5pWsgrmEBSixDxL0lBUSRZO0gmv0jgO43U+m5XZNI1nZXAEQYskKkGCOa9BaYytpBaEbtgrsTM9rRqUdUOMFCdpFDNpj29lRQ3D02SEOyM1eeZikcRFlB9BVmRRvjyC9/1kMotO/D6P86j4vh/vMxC4nSNsvZM7+YLqvmM/wRsfbKTCVSUtlmTszl849/L3J1q06LFTIs5CGv3DnSr10/S3iFXUVZtgkK/rXtSDyUWAug6WA+po1ZpKbiQOEaZxmodxGibFQ5LPk3g+KQa21E8D8zVwJCwHrit8YSDJp3xM+OKjCjJ/t7fKr0tJGJ2fXd/Nf5neaqHccWmsPT6zkv5cXV8nhbf2tV52kh3Wm30tuO3TOJnWxtSKo/EWOja10n27Ruun9XZAf0QgK6TGCowGahC4ma6EreDx5gG40gQudK2ka8IrtK3Q4J+FQ4LSaCcdSV2D2YBY8+hhEuXQSqU4YXCcNOoSoRPSugju93sHW7QIvDQVt+2dr7DeEYb+4oh7aJGx9m0jywYa4UCAa4RlguOsSgyBQ6lZxrMpxbpXwu4+ZWRFHMdA5gk1N7409sPDpeX6DddFbszFBsey1jzdUmhSO1C+rP3ufmT+x302vfnwy1I1q+yUpL0E4Pdv2ECWellb/kxhJ5GTOdC+yGbLz4zGzMag1oLKxks1bLdhaesdiK6z5kW2/CW57+9+4PAzr6mJ4EKwzmGqQ7Ke7uXSOGbOkeWz5n/n837DUw6qcyBp7lWPqb8b8g5HfD+Ffdb+LdKuG/7arbBWkHzGB//W3pZ/AR/vezI=', 'uuid': '65ee2df0-3d9d-4420-bb3a-f0a0a2234fc6'}
+We trained on the standard WMT 2014 English-German dataset consisting of about 4.5 million sentence pairs. Sentences were encoded using byte-pair encoding [3], which has a shared source- target vocabulary of about 37000 tokens. For English-French, we used the significantly larger WMT 2014 English-French dataset consisting of 36M sentences and split tokens into a 32000 word-piece vocabulary [38]. Sentence pairs were batched together by approximate sequence length. Each training batch contained a
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJx1U11P4zAQ/CurPJOQNE3T9g3Eh04ChAQSOlVV5cTbxIdj52yHNof477dOCvRA92aPPbszs/bqNUCJDSq3ETxYQjCbYZEutrOwyHIeThdJERZzPgvLmOc5W5QlKzE4gaBBxzhzjDivQam14UIxh3bYS9brzm1qFFXtCMkXkygm0gHfCe5qgmfJCLdaKOeZq1US51F2AmmeRtn6BN730+k8Wvh9FmdR/n0/3icgsL112Hgn92KP8qH1et/oYCskbrgwWDpten/hwss/nCjWoMfOnKMshFY/7JmUP3V3h8ijlm+DQb6qOlYNJlcBqipYD6h1m0ZzsRU4RDiJJ1kYT8Ikf0yyZRIvp/nAFup5YL4G1jFDgSuOewKSbEbHDvc+qiD1dzsj/boUDqOL85v75S/dGcWkPS21MafnRrg/1zc3Se6tfa2XLtLjevOvBXfdJE5mldaVpGi8hZZMbVTXFGj8tN6O6E8IzjChkINW4GoEaqY4Mxyebh+BKk3hUlVS2Dq8RtMwBf5ZWHRQamWFdUJVoLfACho9TKMMGiElJQyWkkZVIrRMGBvBw2FvYYcGgZaaU9vO+gpF7zD0F0fcQ6uUtO9qUdZQMwsMbM0MESxlVWIIFEpFMl50yYpOMtN/ykjzOI7B6WdU1PhKmw8PV4bq11QXqTEVGxyLStF0S6ac7EH6sua7+5H5H/fp7PbDL0lVpLKVwh0kAL1/TQbSiZe1o88UtgIpmSPtq3S+/sxozGwMqmCurL1UTXZrklb0wNrW6L1o6EtS39/dwKFnXrk6gktGOoepDsl6upfrxjFTjiSfNP87n/cbnnJUnQKZZF71mPq7Ie9wxA9TOGTt36Lr2+Gv3TFjmBMv+Ojf2tv6L59RfK4=', 'is_continuation': True, 'uuid': '78a307d9-097c-48be-a6fa-0e8b191bb32b'}
+set of sentence pairs containing approximately 25000 source tokens and 25000 target tokens.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJzNU11r3DAQ/CuLnxo4G8lfd81bILTNSwgkbSnHcayt9VnElows93KE/PeunEtyDaVvhYIfvKOd3dGMvX6MqKOejN9qFZ1DlMtVXSOWcVoJjPMmkzGmVRkXUqRNLWWW1RgtIOrJo0KPzHmMamud0gY9jXPd4cFOftuS3rWekeXHNBFMOuJ7rXzLcCmf4cFq4wNzvZZiFaC8LJJys4DXenms0yz7Yz33MxCNh9FTH25yox+oux2wpuiJDxrd0VZpR7W37hAaLoP844nBngJ24T17oa25Gi+67oedrolUMqgmmuWb3YS7+ZLriMwu2szo6Le9VbrRNFuYirSIRRrL5Z0szqU4z5eBPTBza6a+IhcsCZo8PQR7oiJJ4Qs6tUdHgEbBbd2SmjoKPH8YZml32nfzVd5Hlq5SUdSCYpViEedUUYyqLOIKG6oyuSxFJf9pZMuk4AhW5Utkc13kIklDXYg8UN7Xz/3/d2SdNvcz8zEaPTo23Ch6YCCT4iS+LPROrgvvHquOkix62vw98u8E3qE2pMBODlgMdSNYww9Bj3XLR7DXvoUVXH+7ury6gBspBHy++Tom8Mm6mVbhSC/cadRmB74laPmLcQM6NsiTG0HRWDtd8SrfOjvtWk50bhyQGxdAvO5ZTZjAYQzgrb0HrEKjSHIYqbZG8eIT2WHA6f6GNSETPXZgG2CxC8GCwzi+mAOZAi92p+r17khefHjTyB7Mo633tocu+MDjZl8hO1sc9eme7cERZCLe1N0F3utQ2JN7kxvkZb9p+pAlBSg8jGfJ6X92jc6h1z/pLkT1tPkFLbSVXg==', 'uuid': 'cd6f440c-c643-4937-a00a-a0f17b08085d'}
+5.2 Hardware and Schedule
+
+We trained our models on one machine with 8 NVIDIA P100 GPUs. For our base models using the hyperparameters described throughout the paper, each training step took about 0.4 seconds. We trained the base models for a total of 100,000 steps or 12 hours. For our big models,(described on the bottom line of table 3), step time was 1.0 seconds. The big models were trained for 300,000 steps (3.5 days).
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJzVVU1rHDkQ/SuiTwmMhKRWf8jggyGXXLILMYRlMgzqljQj0l9Rq23Pmvz3lNRjb7I2ZvdgSI7vqUqtqlf9anufmc70Zgh7p7MLlFVKlkrnFPNatVhoW+CGqwYLVbe8NVVuRZltUNaboLQKCnLus3YcvXaDCmZOuFOncQn7o3GHYwCmkpxQSDrzt06HI9AlW+lpdEOImdsto3WkiqIkcrdBj7h8wJUg7Bmc4oHI5tMcTB8r+dPdme7jpFqTfYMD6zqz186bNoz+FAPexeefTwbVm8hdhQC9cOPwfr7qur/G5YMxmkzaZun5w2FRh1TkNjPDIdsldg77ftTOOpNayCkvMOWYVdesuGD0QlQxe4LM/bD0jfGxJfFNwdzF9mQFydEfU3C9+xsO48FpSs+5dqFLz38iE6cVs5ZiJSTHwkiK61wz3CpuS0WlbuTrylSRAtpelaRYZVqxrEkdcUFFku3fOMX/2jJ1bviSMu+zOSgPDR+0uQOC1z8oxmmMXXwXQeuCIV/ccOgVp0xAw/vs2+5lyT8ZtMxGo3A06AoS0PigP9pyukO3LhzR54XmDWfoElEiN2fIV1gjNehE2QIYRj8vnDMuCYKrb5R358s7o/wAb0MedEfjDXwg0u24+BmwRcErFwM2SLVtGpADCmMKsqPvl05d/DiSH5SHm9yNuY6VPDOapSpaWrcKW1nl4BuyxI1UDMu6lIZJ8JGavuZoljz2qmQV4Wk0zxg6QyPmTJL8GZzif+3RfGGcuqTuJdLrFFBS/C/NioYKYesKc0tLLKomx3VpWsy5ZMLYpmll84qaQb2kXjXIkyZnnDMiIhZCRpd/glP8b6sZZJsu/sG0qVDvhjdQwxRjHzXcPDAPUbcKfshpH+l5jWKkePufNobMS2urssS6rgssqJVY5pXEja0s50qaVr+mxHFDVCCZ4P9sjIhhfxfrhigIfwan+N9W4uujm8FqvTfzNA56jsbqhtYbNSebfeLPsH0Ad6dovasFOz+Hn3R/NGyU4CbtAW0eL3UhJgKyAbx+8uM0+li46uDas7G7AfYA2P/8dVHeID+OIa0COIqXorWatErSlvrp+5dIUErJCwaz+w75OCHh', 'uuid': '8118c565-0be2-4d18-a102-8cab10504171'}
+5.3 Optimizer
+
+We used the Adam optimizer [20] with β1 = 0.9, β2 = 0.98 and ϵ = 10−9. We varied the learning rate over the course of training, according to the formula:
+
+lrate = d−0.5
+
+model · min(step_num−0.5,step_num · warmup_steps−1.5)
+
+This corresponds to increasing the learning rate linearly for the first warmup_steps training steps, and decreasing it thereafter proportionally to the inverse square root of the step number. We used warmup_steps = 4000.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 7, 'orig_elements': 'eJzVV22P2zYM/itCPrVYlerNtnzf+nItNlwPRZui2w6Hg2zRiVdHCmTl2rTofx/lJJjvLi1WbAF63/xQJEPxoUjm4ssEOliCi1etnZyQSaWsZFkDVEqoqBKNplVZ17QwQutMG2lVM3lEJkuIxppo0ObLpPY+2NaZCP2AO7Px63i1gHa+iCgpSjFlaLSTf2xtXKA451vxyrcuJsuLC850EuUln4rLR2SPC7bHpZxmd/FWHwWTftNHWKabvG4/Qfd2ZWqYfMWDpu3gyrYB6ujDJik8T+HvTpxZQpI9iRFz0Xr3a/+k6/7w63MAO13Z4c6dcfO1mQ+XvJiAm08uB2kfr5betk0LQwoFExllgvJixrMTzk5UkaxXaHnl1ssKQkpJiinCp5SeSTZV5A3M150J7WeTfj4ZxM1qiGnWxm64w22uMpupWuaSFlwjVw0UVOegaaNyUHlZlTyXR+WqGLjAkx1XWyx2WMrB5A4e9O8tV++BwHLV+Q2JiwBAEks98Q0JNwgkdh1aNycxmNbhx8mY0XMTAmpdwyw5PcCs0qVklhXUNE1GVSZraipmkF6dMakNGMGPyKxk21emxJQPzO1whppbrA/iQf/eMluMKXrhfUSVQ9zkxoI0jGrFG6qqnGGHLCta1cIIZqSGWh2RG4Udj2PH4+X2Ve2x2OGMqWlxAA/695abB/LhmJ13rsZUzj2+NrDfekSGVybTVtKqAo7tUeMoK1RNIauE5lZJq+2R22ORRtW03HdHhDio9J4WdgcOyveJJD0maWaqDog4IbMFkFkwrm98WEIgpl60cI1tsgIMLJCnZ6fvSF/7gKK4MI6sAly3ft2TPmLmqW9oXAA1IRKMCDrsrw4VgZy6edf2Cxo9fQlhiZbG2bH0RQBXL4iDj5i/PgrGFUkfPTGRGNIEUw/dGft18rfvzqT2fZz+cIWBlSVvJMM0FRorrMRWoLWgOIRZIVRluDhqhck8lRRn2a7EdpjvcS4O4kH/3lbZq1QR/2o/kpURuZaS5oWRVDHNaFnlipYmV0xpWwI75hTd0yHUDXqEYlOZsCjyqb6Lt/o/Nz1d6z4Mll8m+GIDJtxZ+ISCckQU10l1HboE6jbC9Nx0TzcYFKSHWWwpu2kvxciBLG87eP707PXJX34dnOn6x9hAwuM/F3797P3Z7zw/5E8VY393Avq4xkDyuffzfQXdNM/ZyPxONL95Z/oXSMr5ty+U63EA4raLfmE+A4RkjdUUkBDsgt3mkCfO2P+bGyy0/5QcrvIfy87l9x92Kg3UxYeiL8lzgBXFCia/kNe+f+c+4JZZXpKX569mKHpzhhC1nnl3/Va8JRd49MqfolAcMj11PSzTbLrlYyQfOftHisrjMfagMj1sJ9LDWwft/Mf3k6qqTMMMp7W1BVW1qXClzIGKIsuwR2tb1eUxl3zOhw0E15Jhh9/CtKbk239rxSE8qP/czel7JYaLx4HRcfk3HUgauw==', 'uuid': 'bbb38981-15bd-4cac-834b-8bf7e27cbf78'}
+5.4 Regularization
+
+We employ three types of regularization during training:
+
+7
+
+(3)
+
+Table 2: The Transformer achieves better BLEU scores than previous state-of-the-art models on the English-to-German and English-to-French newstest2014 tests at a fraction of the training cost.
+
+Model
+
+ByteNet [18] Deep-Att + PosUnk [39] GNMT + RL [38] ConvS2S [9] MoE [32] Deep-Att + PosUnk Ensemble [39] GNMT + RL Ensemble [38] ConvS2S Ensemble [9] Transformer (base model) Transformer (big)
+
+BLEU
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJzdlk1rGzEQhv/KsqcWIqHPlZRbaBIolDS07qGYYLSrkSOwd40t07il/72S1m2D60NzcMG9DPvOvgOaeezRTr/VsIAl9HEWXH1Z1cZ6TXgjkJGtQAJAIdMyhUB0ShCvPBioL6p6CdE6G22q+VZ3w7B2obcRNkUv7G7YxtkjhPljTBllGCapaJ//Elx8TOmGjunVEPqYK6dTpjVWFxWlHDcPF9UvzQXWWXNpMD+iiz8l6s1uE2GZO7kPT7D4uLId1N/TCx8WMHNhDV0c1rtsuM7H37/p7RJy7irGNIsw9G83V4vF52F7B+Dwyvm6HL+fb+28NDmtoZ/XDyW7ibPl4IIPUEbICJOIMETVhMpLSi6FytWrVDnrt8sW1sml85kiPOXx1Dd36PqmSvH2Q8U4VjL7425VjjQJcVFaOESVmm5bYhjStJFIWKXTk/CIGqoI6zqpu5OiSk6RRi/UHtVea4JFQUMFNkd08Z8tKiZwUzGJaYoNJvw5qU99l+Y6H9bhK7hJLjhCjXNOaasE8h3VSFCtkG6gQ8xp3TXG+4b6f0DNiJHKXjNBMHtG6VCP/vOl1mBOMjCesCnMK6axeDE6KZmlHgAZQgwSGnjajYQiZxiBRjPeen1CdOmXM+7C1EZBM+rfqGSD2Z969J8tOm4wq1IwrEqNiSZHWaKoBM3/wxSZqbjGND/qF2MFLY03rUVpYyoklJPIKgrIeg9pwRICjp0Sq+YZk1FYFWqjpGS/VoWS5YY70MV+tlAnaxv60M+rN8MmVq9u372/37z+q0uPEUWdbx2yraNIOG6QdS1Dbde2UnpKtDrlpce1wvLZ98lPnW5tWehQVWgd6v/g++QInocfrmD31A==', 'uuid': 'f94eea68-558f-4e88-94a8-c55806eb894f'}
+EN-DE EN-FR 23.75
+
+24.6 25.16 26.03
+
+26.30 26.36 27.3 28.4
+
+39.2 39.92 40.46 40.56 40.4 41.16 41.29 38.1 41.8
+
+Training Cost (FLOPs)
+
+EN-DE
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJzVVV2L3DYU/SvCzyuhT1te6EMgDeRlCemWUrbDIFvXMyIe29iazU6X/Pde2ZPN7HQohLCh++ZzdK50dc+98t1jBi3soIvr4LNrkjntG+msp2WTN1Q7m9Oy4o46VVUF51aVts6uSLaD6LyLDmMes7rvRx86F2GacesO/T6utxA224hMUUrGMejIfw4+bpHOxUIPfehiiry705onSgjF8tUVecJSMTPj3DJ7Ac96JLLpMEXYpZt8CA/Q/ja4GrIvuNCEFtY+jFDHfjwkwduU/nGlcztI3JsYsRah795Pb9r2z35/A+DZ4JtsTr/b7N1mvuRdBt0mW83sFNe73ocmwFxCyaWhXFJR3ApzLfi1LlL0gJHrbr+rYESVTTlFeEjlyX69oe8+Jk08DHMatyG2c9rn9oBVWqq6obI0hmqlKlo629DGNEpaL2uX+xe0R1nFJJZb50ym8n/Fli9YS8HEBTzrX609kiny157zqiCCi5KULD/BlmCZTtdPjfy9q7Hsm34Mf4O/TftdMNUUtlFFrdBFW1ENjaHWakd1CbysC142lfgJppaK8RNTpTDHGVxMPMeL/tWaKpj9ZprkpGDFj5kIqsEH0mEKXlDttaeuko56hZMqTA5C2Jd8OJVhCk1RmtnZpAV/M61Qz01c8KJ/xSbyZyYKps+wOcPyGbb/ihcnWJzpxXc3hfC5r+paU2O5p7oqACe7wp+rE5p7XZq6kC/ZFLxYmqA4/i2PGH+qYsaGs+ICnvWvtinUs+c6Pc/qhybbl3klvJQUp5tTLcBSZ1RDXe6aGs2AojYvaKLgNlGyOD7PR6xEznTChutLeNH/v01sQ/dpjnzMpuhGLHjn4QEJZU79VEm7H9sE6hCBTWO4xyPcvZNcaD/2A9Yw+7L67774CFPwe9eSt0sA+QOIG4b2QI474K9PrUjsSdwCQTwg1TcEXL0l076i6BWMV6SCph+BhEjCRJz34L/GPIlI6FKw6zzp+nHn2tRfjLzvkj6kYl6Rz+enP22ym9Kx6RvwHhjQbaZ5r0QN/TRvgPeAru6XxdCRqo/bJSaxmEIK8LB8Y63qTxMj7/px1lRuAoIGQTvnsUfkyIjNmg7+kBIivxB8FNjpsNy4ESXhHpZBWf0Dz9SdPg==', 'uuid': '291e9a4e-7334-4079-b6aa-a0704b96784c'}
+EN-FR
+
+2.3 · 1019 9.6 · 1018 2.0 · 1019
+
+1.8 · 1020 7.7 · 1019
+
+1.0 · 1020 1.4 · 1020 1.5 · 1020 1.2 · 1020 8.0 · 1020 1.1 · 1021 1.2 · 1021
+
+3.3 · 1018 2.3 · 1019
+
+Residual Dropout We apply dropout [33] to the output of each sub-layer, before it is added to the sub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the positional encodings in both the encoder and decoder stacks. For the base model, we use a rate of Pdrop = 0.1.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJzVU11r2zAU/SvCz7Er+duBPbR0D4WulCXbGFkIsnwda5MlI8ltvNL/PsnNSlfCHsv2ZJ+jc8W951xtHgIQ0IO0O94ESxTgOGEJpnWIKWnDFICGZYHzEFqoKsYKKCANFijowdKGWupqHgKmlG64pBbMjAWd1Gh3HfB9Zx1TVHGEXdGRv+eN7Rydkyd6UFxaX7nZEFx6KklwVG0X6BlnTulxhtOTeNY7IjCTsdD7SW75AcRqoAyCR3fQcgG7hmtgVunJCy59+8cTSXvw3Lm1zguu5JU5F+KrGm8Ammho2mBuX+5Hup+H3AQg98F2Zo3d9arhLYfZwhjHWYjjkBRrki0JXqbFXM3lj7nyITCWame4bODgiJK4UwsH71SQ5F47auEB4xaiy4vr2+V3NWpJhTljSuuz1U/YQzN9vlp9IVnw6LsYXF87OfY1aH/l44srr2kNAq16pWzH5R5djtp/rKZcup8FugcE/SDUBA0Ss9g8i1WL7qgYAX0bcdJmwqB3CEcEbZJ8G6F1xw3qRm0NGkAPAg7cTgtEDbIdIGeKu0sA1dIRCtWe0oBGaUYNC1SPFvF+0OoODKKMjZqyCVHZoIvr95+QcbNC5O2w0zCnc0O1ppbfwdqP5mZ8vb1pnJaEZkmYs7IO0zzGIW0LErK0LVJakiIp8jfY3oI8bedvXCZHnCcROYFn/b+9vX/Zrxx9BDMK58GLqNbcCjgVUc1I2xAgYUEpcxFleVjnVROWjKRJilMgFbxBRFXxR0QpPuKYVD6S1/hJ//9G5F7sB8rciwa01lQaQX0PJwLb/gJLLdVE', 'uuid': '2a9fe9c4-88a8-4743-8b6c-6447a2179ee7'}
+Label Smoothing During training, we employed label smoothing of value ϵls = 0.1 [36]. This hurts perplexity, as the model learns to be more unsure, but improves accuracy and BLEU score.
+
+6 Results
+
+6.1 Machine Translation
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJxtUmFr20AM/SvCn1qIje3EtdNvHStlsHWFpZQRSjjbsnP0fGfu5LSm5L9PZ2dr2PbJpyc96elZ2/cAFXaoaSfr4BqCdVNmeZHlYbZeYbhaJ+twXXOYC8yWIs/ztCmCBQQdkqgFCea8B5UxtpZaELopVmI0A+32KNs9MZKv0yhm0gl/lTXtGb5KZrg3UpNnbrdJXHholfDneQF/4iKNMh9n8SrK/xNP9QwEbnSEnd/kQb6h+tGLCoMjJxqpcFdLixUZO/qCz17+KaNFhx67IWIvpNFf3I1SP81wj1hHfd0Ek3zdDqKdltwGqNvgeUId7TpTy0biZGEap1kYp2GSb5LsOomvV/nElvplYr4HjoRlw3WNbwwk8RWnCd9oYvvawSr/JlEqjFKv/2/SMs3PSMt/SMvg6MX1LHenh65Ey7nieMb5roH2CE/fNpDGyQpudauk24dkwju0neC0Fdop4e0AEu5lMRFK2c6ZxtgOLfDqqOBicwZdcM0lSA0brwXSS+Df3qP1aTc3QUfQWzxIMzg1gsXeWMJ67ubgQupKDXxTLaB22HEbdwnlyHmL3IHV8e3Ap6+3jwvgXjyHtftyARpfgRHC0DQhDwvZt6kSXOXZpoG0iFYRbFhIZXQj28HOW3KK9tKdduIHd/Wq5OxVaYhMx6CeuszbLbmRFVL74WTMCwMZ1GJ0wA0LeEjiGO4eHl0EtwfkEYOFUjg8zXCD7YVz6EAode5IP0wrfVgidP3hxQIE8aqNFdWHcPT/ZRZSGfaXQaHH37nKdD2SJHk4zXaRvxoa++ny74X1Jhxw4+/j+PwLI55RDw==', 'uuid': '851b905d-833f-4e0c-9ca1-2fc8931349d1'}
+On the WMT 2014 English-to-German translation task, the big transformer model (Transformer (big) in Table 2) outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4. The configuration of this model is listed in the bottom line of Table 3. Training took 3.5 days on 8 P100 GPUs. Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of any of the
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJxtUmFvmzAQ/SsnPrVSQEBIIP3WaVU1aesqLdU0RVVk4CBWjY3sIyuq8t93hmyNtn3Cfu/e3buHd28BKuxQ017WwQ0E8SavywrrMBXVJsyypQiLTVGG6SZLURRVvi7XwQKCDknUggRr3oLKGFtLLQjddFdiNAPtDyjbAzGSb9IoZtEZ/ylrOjC8Tma4N1KTV+52SVx4KEv487yAP/cijVb+voqzKP/PfapnIHCjI+z8Jo/yFdW3XlQYnJhopMJ9LS1WZOzoCz56+2dGiw49dkvEWUijP7lbpX6Y4QGxjvq6CSb7uh1EOy25C1C3wfOEOtp3ppaNxCnCNE5XYZyGSb5NVjdJfJPlk1rql0n5FjgSlgPXNb4ykMRrpglfaVL72sEqfyZRKoxS7/9v0TLNL0TLf0TL4OTN9Wx3r4euRMtccbrQfNVAB4TvX7aQxkkGd7pV0h1CMuE92k4wbYV2Svg4gIR7WUyCUrYz0xjboQVeHRVcbS+gK665Bqlh671Aeg3823u0nnZzE3QEvcWjNINTI1jsjSWs524OrqSu1MBvqgXUDjtu466hHJm3yB3YHb8d+PD57mkB3IvnsHdfLkDjT2CEMDRNyMNCzm2qBFd5tWkgLaIsgi0bqYxuZDvYeUum6CDdeSc+cFfvSs5ZlYbIdAzqqcu83ZIbWSG1H07GvDCwglqMDrhhAY9JHMP945OL4O6IPGKwUAqH5xlusL1wDh0IpS4T6YdppfdIhK7fs1iAIF61saJ6N47+v8xGKsP5Mij0+JurTNcjSZLH82wX+VdDYz+9/AdhfQhH3Pr3cXr+BVGxUds=', 'is_continuation': True, 'uuid': '00a170bb-edb4-4b7b-bab1-e3839d9b5d05'}
+competitive models.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJxtUtGK2zAQ/JVFTy3Eruw4FyfQhyu9QqG9HjSllBCCYq1tUVky0vp64bh/78pJX9q+eWdnd2dG3j8LtDigo6PRYguiadvVSW6arMZlmVVNy1+yKrJSNlWtUW3Km7VYgBiQlFakeOZZNN4HbZwijHNt1dlPdOzRdD0xst6UueShK/7LaOoZviku8OiNozS53xeyTlBV1/n6sIA/9WpZ5stUr+QqL/+tL3wGRDxHwiE5eTBPaL+OqkHxwo3WWDxqE7AhH86J8D7Jv3acGjBht0SchfHuY7y19oef7hF1PupWzPJdN6luNrkX6DpxmNFIx8Fr0xqcIyxlucpkmRXrXbHaFnJbzYmNPHl003DCwKw6aSJ8SvGILw6oR/j+eQelLCq4c501sc/IZx8CuqYHCspFq5IyIBV/LsBPAU6mA76MFlTTG3zECArefbr7BrHxAcG3UBUpP059xND6MBjXgbI2tdLJMeCj8VO0ZxinUzqKGiKTLF42xwUoAosxMl85KN5U8yALMi4ta3ykv7dBJP4XMt9mjGYq0GVXDjsm7ZKVJAUDvGIHr68W5o18nVv/CWCK3NLBj2wFAm+Hh1TBW5B5sQDj+NmVTkJkvsxT3nQe5ye9V4H55hF3Ke2Xw2+glPB7', 'uuid': '7053e6c6-e437-481e-b9d1-d96c0e366f17'}
+On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.0, outperforming all of the previously published single models, at less than 1/4 the training cost of the previous state-of-the-art model. The Transformer (big) model trained for English-to-French used dropout rate Pdrop = 0.1, instead of 0.3.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJyVU8GK2zAQ/ZXB1yZGdmLHu9DDQin0shS6UEoawtga22JtyUhyEnfZf+9I2S6hPRUMZt7M07x5I+1fEhpoJO2PSib3kOBu28iixbVsclxvsdytqzxv11UrZIVC1tXdJllBMpJHiR6Z85I0xlipNHpyMR5wMbM/9qS63jOyu8tTwaQ3/Kyk7xkusys8GaV9YO73mdil5QqKTZWKwwre47ssLUNciG2g/BPHegYStzhPY5jkq7rQ8G3ChpJXTrRqoKNUlhpv7BIKPgX5bxmNIwXswXv2Qhn9xT0Mww8zPxLJdJJtEuXrbsYuDrlPSHfJIaLOH0cjVasoWpiLvFiLfJ3tnrLiPhP3211kK/0cmS+J82jZcC3pwkBeBhM8XYJVyaYKxbMdQtAoT+l5zkVWdsZ0Qxzlb/62yP+DHyRPPMRRz2NNlquq1xv6Z2PB9wQ1OgKeiga3gjPB7EgCglOaT7kmwNQelWa8XgBPZLHjbGQHT6CApqfm+bpdPqRXTc9HWYKzVcFnQA+ZWI9Kz56Aq8iecHApvItQ3a2Gaw/u994iF7c9Uvj+JrQmHMER2tBR+Z6VXyH1i8C0sAXUEnjtHecm3v7gF/g5i02dwUcQaQn7TXVI4akntqFfJrITWr4jLNFdZ2h648IILUNAF65Q4RlhuDzAX9Ao6USDmQLOanzUx/+YG/GixnkEfhDT7P9okbMNHirdcg/dEHjDwU3BByj4ttQMcN8xvjngOYeF/WU5k3FO1byhqD/cBM/iw2If0VoWd6KnsOnXw2850Uhx', 'uuid': '283823f0-cde1-4a06-83c8-7c62dc4a6fea'}
+For the base models, we used a single model obtained by averaging the last 5 checkpoints, which were written at 10-minute intervals. For the big models, we averaged the last 20 checkpoints. We used beam search with a beam size of 4 and length penalty α = 0.6 [38]. These hyperparameters were chosen after experimentation on the development set. We set the maximum output length during inference to input length + 50, but terminate early when possible [38].
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJxdUtFu2zAM/BXCz7HhOHac5q3AgG0vRYF1GIagCBibToTJkifRW7Oi/z5SSbeib9aRxzueuXvOyNJIjvemz7aQ1fVA3brDfFWvl3m9pjbfVOU6r3HYdIebelithmwB2UiMPTIK5znrvA+9ccgU09vi2c+8P5E5nliQ9qYqSiFd8d+m55PA6+UFnrxxrMzdblm2RbuA5mZTlI8LeH2v67Jo9d2UtVLevy/9AmTxHJlG3eTePJH9MmFH2YsUBmNp35tAHftw1oYPav9acTiSYrfMkoXx7nO8tfa7n++I+mLq084W3XHGY1pyl5E7Zo8JjbwffW8GQynCqqyavKzyZfuwbLbLclu3iW3cj8R8ziJjkMBdT08agxSZnjhxtXMOVr8ZD5aKSt2/p6ya+g2pgeIN7dPgPTvPiaoGJ7G8d/N4oCD1zcsb5oNKQAVxHkcM5g9F8HOAQHG2HAFdD50fJwzXAgd00aIGBD9ntIbPqUlw44w7SncUHnvwfKIAEgtZwNCdDEvws84Zgh9BqiBsCqhgAd8IKLIZ5YRS7WIX/ACD9aIno9OVgJ+UI/oR5ki9SiVxwKvY4QyjmDeTPStLh/1zJwK0eDf/4/3Xy6hF2gTdfyNS1d44S/jGiViUIZbySY7IRM3g1Vx+MdehnJtmIkzC7qTDoUk/h89TOrA7DOr/Fz3oL3h5/AsG5SKR', 'uuid': 'a83ee3da-c00f-47b3-b164-1364bc27f5d6'}
+Table 2 summarizes our results and compares our translation quality and training costs to other model architectures from the literature. We estimate the number of floating point operations used to train a model by multiplying the training time, the number of GPUs used, and an estimate of the sustained single-precision floating-point capacity of each GPU 5.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 8, 'orig_elements': 'eJzVVdFq2zAU/RXh58hYtmRbfStsHaNrV2i2MUIJsnWdCGwpyErbrOzfd6Vko5TusQ99MTlH50q69xw7q6cMRpjAhrXR2RnJhNCylr2kbOgqyismaCcZp71kUg1DNQwSsgXJJghKq6Cw5inrnfPaWBVgTnhUB7cP6y2YzTYg08gyL7DoxD8YHbZI1+xI75yxIVauVqxoI1WLJud3C/IP1ydcFlUuX8FJj0Q2H+YAU+zkxjzCeLtTPWS/cWEwI6y18dAH5w9R8CFe/7Ri1QSROw8BZ2Gc/Tyfj+NPt78G0PlOD1m6vt3s1SY1ucrAbrK7xM5hPTltBgNphGVRClqUlDVLJs5YccabWL3DyrXdTx14VLXxTgEe43iyOi/JldMwku/KGxXPn2NJOOzSrZYmjKmLl24NqlaMVzUFqAXlCnoqB8Yo5/2gRdHprudv6laTNzj9ps2ro1tHLGVeRiwKntx7iZP+3bq1dATu1bjHAZKwBWKmnfNB2R6IGwjuPIDHa5He4YLFX3Pko3LplZ0H5yfwC/IA5B7dBk3c3pNOzUCmlAFjn23yoA7zgkyg5r03dpO26bfYGkTdDnzc7ni2JR/tZjTzlgZHP0GkSYgnjilRUYDVz3N1rbzHtXtYxtZeyVevhG40KKpUDZSXUNK24QqHpaGXXQNVJd4yX2UR89QwlouUrxMuWS4j5qLK61dw0r/bfIkfQPYz5iKGDFJ4yrxdkCq9W3lBlNVE5oIsL758vbklmABy2eLoLjk+rvhRcMMKRB7mHfaIFo+H/Ln132yPBm2cN79A/8/+olNdP3RANR8k2i8b/DOQkkqpqkJILltZvqH9FX7cBdrJy5xFe/9igcojbl/FSf9u7W+f23ThXEDJ77s/cwFOtw==', 'uuid': 'be13f4df-e962-4e83-89e7-c0a1c95b1a03'}
+6.2 Model Variations
+
+To evaluate the importance of different components of the Transformer, we varied our base model in different ways, measuring the change in performance on English-to-German translation on the
+
+5We used values of 2.8, 3.7, 6.0 and 9.5 TFLOPS for K80, K40, M40 and P100, respectively.
+
+8
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJzlWWtr5EYW/StFf9oFl6j3Y77NJiEEwhCIEwjDYOpxyxbplhq1PDPesP99r9RSp+3pBfeAFpSAsX1Kt6SqOnXPPSW9/2MDW9hB09/VefOGbKzNVkoNtBjpqdJKUh+9pjmopFJK2BA2N2Szgz7k0Afs88cmtW2X6yb0cBjxNjy1j/3dA9T3Dz22WC8qhp2m9k917h+w2fBj876tm37o+f49Z7ayN8Syyn+4ITPkXFZmwJqpocdLPIYj3hyeDj3shnn8VH+G7c/7kGDzH7xQ6i3c5bqD1Lfd0xDw7TD46UoTdjC0ve17XIm6bX44vN1uf2sf3wHkap/LZhx8c/8Y7scpvt9Ac7/5MLYe+rtdm+tSw7iAgglNmaDc3nL9hrM3yg6999jzrnncRegwyg9j6uHzsDib2xC3QOQb8mvo6jA8/kDahvQPQG670BxK2+2gI6FLD3WPE3jsoCK/NNsa55rJx7B9hANeBVLnYfQpbEnfYvf2AKQt431iwP9xlLCtCM6MIHtdnY69pkd919zjHR9o39LvodsFbB0evh0HRDJ8hG27HzYKOUB/Qxr4hI8/9IIhF+TH41j20O238Lnu62lE2EA/4d7Y15DghoSUxo1yPwywfexIfOqB7kPdEWhSO1zBoCaTw0P7uM2kaXsSgaR2t8e75aHXfMdnz6qGFe6f9iOJ70LX4aA/wu2wvrjQL7c49ypK5gT1oBnFba2o1z5Q7XIqDCLnAEtucW4qjXtY60qMe3zCZsZSVeICHuNXu8mHHXjO0m3db+ESO9YxCJxp6qRxVBUoNHARqWbguYcouDSLsuMqhavt1MzOEfsZSzGy8RKP8atl5x9v/3lOzi9NwqW8b7v635D/VxoZiCpnX6gNySBRASuFV45mz5hMVsaQ/cJEYWkQw5+ZqAGLGcuxyxd4jF8vUf+6nijFsxAQApU+AFVZaxpDUFSLwKVk0nkh/g9EGV/pc6LsjCdiXuIxfr1EfXM9UcFCNl5myiwbMiphRiWjaVFOS2ZQFcui3usodVLySp5Jn1T8mdR9gcf49RL17VcQlbI1XBvKcuFUxeip85JRnpnnQsvsBFuSKGUqjjVHmiljJqzshJ2v3AU8xq+WqHckjw72dS4iZHAecwdMzlQ5JMcpa6gxTAkrWDa8LMqQ+9OzjQy5555Oy4t43R7PXF+aWJA58EB5ZJIqHh2NKWgqpI02Bm6jdkvSZFG6zmma8IkWZ57TNOF106S5uJoozWzmmWvqsUghUUiZC2gkrLAASivMqEWJOuaPQAVzZ/kkjDu+B5jy5ws8xq+WKEEUcVdTFaXPBX/RpBwWp5wSDcA5BacS96wktyxVyIE7t3sT9qxSxxw62r+XeN12T2hDOBPqarZylIUppajySaDnQ+MXQ0S2IEYVpIWgl3wZIZh9ZiVmPFsHwc0zKzHjdVuJXMrrXES2wD1qnRcFDXnmHsmBQh0XJrhgjNVLGnKc2DMXMeO5HAlxGa+7PAmmrhc9FkoCbgxNuTiqQGTqhCu0JCFjjk6msOQZd2JG+OnoNGGJkefMvMTH+NUyNQgeUcxf7/ssj8VkldBJaEuV5YqGjP85HWLyzhq26LujwReIc9WbMJ6jxpok1NjlC7xu1Xt4leYJKXNJGe0DDC8hTHbUMx+o5UFIpn3gesmTk5BqLEAnzTtiwdnR2Ql1Ea9c8xzh6PW4IfJ6a86sNcUETyEDWnPm0Jo7LFK6pMSNVMqqRQnTbvx8ccqlCaNjOEqhsZW/gNedS/n3VyWTDgDcakkZE8PHDJPxfGsZxeOtA+U1/izpxdGVjrp1SqYjHnNqxHjevYBXnkxGETziEi4cptOQVF+XV1iUkhECyQKWsUZlS6PzghrFvXcmSRXV8tydzlEzns9NM3cv8brPUXLk7fpTVIoFFcZTqYSkSqAQxuQcTYWnIi3nNqcluXL6uQZO+KR5XlXmAl65Bn58lQZmK2IuXlLgKU/fCXX0NDhbpEwaJXBRa+7EWG9OGnjEfxoIby/hv5gGfsUnDlYSV0CNZhFZs5F6z4eMMiYUZRzXS36Gn1k6qd+ET2o3sfYS/w3U78N/AYoGH0c=', 'uuid': '44b1a9c9-75d5-41d9-b2ac-6fb964ba1586'}
+Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base model. All metrics are on the English-to-German translation development set, newstest2013. Listed perplexities are per-wordpiece, according to our byte-pair encoding, and should not be compared to per-word perplexities.
+
+base
+
+(A)
+
+(B)
+
+(C)
+
+(D)
+
+N dmodel
+
+6
+
+512
+
+2 4 8
+
+256 1024
+
+dff
+
+2048
+
+1024 4096
+
+h
+
+8 1 4 16 32
+
+dk
+
+64 512 128 32 16 16 32
+
+32 128
+
+dv
+
+64 512 128 32 16
+
+32 128
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJzlV11rKzcQ/Stin1qIxOhbytst7UPppQSa+1DSYLSS1lmwd429bm966X/vSLs1Jgm0Kbhg+iLmjEb2WGfmjPzwpcmbvM3DtOpTc0sa0SUHznU0pDZTBa2hQXFBoeUxg4EULW9uSLPNU0hhCnjmSxPHcZ/6IUz5UPEmPI/HafWU+/XThB7rBQM8tPh/69P0hG7DZ/du7IepnHx4kOCZuyFcGqYfb8gJK8tkxVIw+Qau8ehoDs+HKW/LL7nrP+fNT7sQc/MHbnT9Jq9Sv89xGvfPJeDbkv6yM4RtLr4P04R30Y/D94cPm83P4/HHnBPbpa6p6Q/rY1jXH/nQ5GHdPFbvYVptx9R3fZ6vEISmICi391zfcrhVtpze4cnVcNy2eY9RvuQ05c9TTTXtx12JmZ53NY37ftrUtF/RA8CVio52wD1VLmrqQUiqRRLZBceTUpekh2vG8bq1ZqJe/4LNX1hYZt7ANf5q6QHGz8n5NES8yvW473/P6b7EvEGUDlIlLFMqYtJUBZGocy7TqAz2lFVOyf+AKMkV82dESamZOyPmFa7xV0wUEGDi3WRxG52OzlLvLJLleaZeGUGF5dlyF7zO7pJkKV275CR6Cz6JnDblyCt83aL3yxFkpzeHf6R7ScpkUjZURijtZBV13iYqnIXMvVFcposypOoYOunegk86py0Tb+D/n+45K6MVPtBOSUOVUJJ6YSL2k+VGWidV1JcnSmJr2DOiCh/mjJhXuMZfMVH/TvesC0K3tkPJw9GE7wpBW9CJAhfCWpSZ4OIlyTK+donkS9fMWDoxDy2snjq0XuA5/mrJurv7SKZ96AeCye8O5KuUf/2acIAfCA5fQVAyPC4ABfJilYWb2TKMV+hx1zm0rEbLlF0u0EKIPlvO1g2LUNn5k+X8HVK+u1CS7HIWKtJWdI6q7E15zQDtnOqQFQtRhgsWCkrJPPCWQllwKYz6etEgape/wFdeKN98/O4T2YV92B4IDktIloNZykXgu40YTbAjfAF69uCiysIXSzJbLLmEqLLg1S27honiM6cPqHF2WQxT764TY0LHO+up6crfE99q2uokqDE+R5M5tO0lBUU5YP6GCC6XOpmxxMgZe13r5AWe46+2TjRWAhCJEgDEIbcO3yGoDJJ4+BsCH/8EIq6U+w==', 'uuid': '5a9e186e-951c-4836-a915-d438bbf0997b'}
+Pdrop
+
+0.1
+
+0.0 0.2
+
+ϵls
+
+0.1
+
+0.0 0.2
+
+PPL train steps (dev) 100K 4.92 5.29 5.00 4.91 5.01 5.16 5.01 6.11 5.19 4.88 5.75 4.66 5.12 4.75 5.77 4.95 4.67 5.47 4.92 300K 4.33
+
+BLEU params ×106 (dev) 25.8 65 24.9 25.5 25.8 25.4 25.1 25.4 23.7 25.3 25.5 24.5 26.0 25.4 26.2 24.6 25.5 25.3 25.7 25.7 26.4
+
+58 60 36 50 80 28 168 53 90
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJzVlt9r5DYQx/8V4aceREY/LSlvB9eHvhyFppQSwiJZ411xXnuxtbmk4f73jny7YXNsD/Kw0H3zdzRjSfNhNHP/UkEPWxjyKsXqllScmabzJlIjW06VA0Utt5qyRpgGuDEMYnVDqi1kH332GPNSteM4xTT4DPOie/887vNqA2m9yWgxTtQMgw72rynmDZob/t28G9OQS+T9PeeumGTDavlwQ161FbVbtOS1OaMXfzRU8/OcYVtu8nt6gv6PnW+h+oYLXephFdMEbR6n5+LwqRz/sDL4LRTbx5wxF2kcfps/9v3f4/4zQKx3sauW4w/rvV8vl7yvYFhXD4t1zqvtGFOXYEmhYALzJSg3d1zfcnarTIneYeRq2G8DTOjlypkyPJX0VL/8+oGEtC5e+Xm3HOQu5X45+I+ApNYuMt1SrjwCgiCpa4Oh1lrethaiYuaSgJStBSbcHAEc9CsQLc/qxf9qATWnaP4cWkzkepzSPxDviscZTCa4hmMhUeNioCpCS4OLgHvqxnjbdEx1l8RkbN2c1tFBG1aLoqXStT2jr7uOduOcyqa+J4DrEXO5JmnAm/hIxo7MadjPY4rzKc7Pfpp8To/wXygZk8B1w6hn0lDFpaAWGo5klWy9FVFrf0mUjf2O6lhRB/1aYda+fRIP+rorjjOh3l10nbdcYYXRRoeWqsZZak2nqPdBCsmDj+GSzQtv+eZtPOojGSHO6+smpZh7//OogrAuOKwpzsqY0QH1LkYqOh24awS+nvKSpKSq+Smpg34lo87r6ybF38/JtRYbFtJxwgiqJD57VgdPWXSNMlIyrLQLcpJcv+F01EcuUpilrf2or5sT9uB3g8L+FCLDgsJ+1FHVCUcd6wINhgtcY1EqdkFQyrLanYA66iMY5fSbpnXU1w1K8PeD8t6EqLSkreI4GAYHNNgmUgmeK9FxEZi65DTBbDHhFFPrZVo4aHwAVdGaqbN68f9/g+rT8GWJfKnm7CdM+BDhCQ1cixNoC7L91Jfv7EMPWG3fHn4OOsIj9OOuYCQz5BsywFdMw5wFw8SQv4DsZ4gkgN/iup/aDfEziTC3U8I5FGdQkjdAdhM8pnE/o09bcnBDwj6TYSTtBtovCyXiH2Hyaxxcl99ixFw2xegZCIp9n+fyu7tyciLrn0yyD/8C2Ym0VA==', 'uuid': '6baa76a4-dcae-4d56-a6cd-9a9613bcae31'}
+(E) big
+
+6
+
+positional embedding instead of sinusoids
+
+1024
+
+4096
+
+16
+
+0.3
+
+213
+
+development set, newstest2013. We used beam search as described in the previous section, but no checkpoint averaging. We present these results in Table 3.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJxtUmFr2zAQ/SuHPm0QC9tx6rjfMrYPhVEG7RgjlKBY51hUljzpnNSU/PdJSruFMbDB9+6e7r1nbV8ZahzQ0E5Jdgusrrp63Szb7AabPKvybp2tcVVlZd001XLd7fOmYwtgA5KQgkTgvLLWWieVEYQ+1VrMdqJdj+rQU0DqpuR5IL3hJyWpD/BNcYFHqwxF5nZb5OsIVVXO108L+FPXJb+J9Spf8fI/dZoPAPOzJxyik2/qBfXDKFpk59DolMadVA5bsm6OA5+j/LeOEQNGbEMUslDW3PmN1j/tdI8o+SiTZy3MYRKHZHLL0BzYU0I97QYrVacwRVjm5SrLy6yoH4vVbZHfVnViK/OcmK/Mk3AhcCPxJQBNaBK+xKDYMk5OTsdvEnuNfBnV/0sp6uKaBBzK+F6R/bSPT3AbzPAlL3nJzlHuGAzszDTs0cXd56tz7gw8xp2wBGdPHj5sPi7ghHAUbgbqES40sB2I95ygRyE9CCPTxF/8GeeEHoWeEKQKd8wH3C9CB0dlDpf5wU6G4omtHcaJROK2YY6EoQUIDxJ969QeJSgDDxdDkAxx+NGHfwc+nKYxi0quBCgPOW/g09cv3+FkncewUJi0dY+ewCNRIC7g1yS0oqBWewvS2dEHPR2cFPVA1sIgzHyxyWPANI/pqtwL54LcIz7G+M5PvwHT2QgE', 'uuid': 'd24c88d6-57b5-44af-ad12-cbd71a986867'}
+In Table 3 rows (A), we vary the number of attention heads and the attention key and value dimensions, keeping the amount of computation constant, as described in Section 3.2.2. While single-head attention is 0.9 BLEU worse than the best setting, quality also drops off with too many heads.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJxlU+9r2zAQ/VcOf2ogMc4Px0m/desG3YcyWGCMEIJsnWNRWfKkcxKv5H/fSWlH6MAY3+m907135+1rghpbNLRXMrmHJBNZnq/WxWSxLPkly9mkxIWclIuixrrGQk6XyRiSFklIQYI5r0llrZPKCEIfYy0G29O+QXVoiDPFepZmTHrLn5SkhtPL6TXdWWUoMLfbabYKqUWxSle7MbzH+WKe5iHOszyd/R9f8ZxI/OAJ26Dkuzqj/tGJCpMLH9RK414qhxVZNwTAY2j/7cSIFkPugYi9UNY8+Qetf9n+GVGmnayT2L459OIQRW4TNIdkF7Oe9q2VqlYYLZxls3ySzSbTYjPN76fZ/aKIbGVeIvM18SQcG24knjmx5kPCczAqmQdk73T4JlFqTOeh+4+UxXJ1Q1rfkCpFmH6zRvivrPwZaZZNi+QSGu249b3p2xJduPVyU+HJwCbcBnNw9uTh7tNoDCcEW3p0RwRqBIFD2VfKHDhCEO9GwQsO4NUfBPkCTe/IA5uBGn73QisaUtg0yoPvD2wcH8ZSEgldq0yoVtm2E6RKFdDAUGMJUPgBhJFXuOCSDsHbjkuRqnjR5Ade3ZsqtsMEA5JLdM5yvwStGKBEfgzWqlJCp/ATGe9YhvunUJk35Z9H8d67x1G8ewzCA547XhuUYygVy3BXhR6EC3XZCTeOJOlsxwseRBzRDdCg7upeh+LiaJUMci2fTGpFxEEKT/FauPsyCnY77DRPDWzv2FLTe+YIDZ31KmjjTzSVjWVOihrQKJxhK24BPF4ZEB626921rXeNhuGaLZZhchWDHfpeh5nYONNSeLxKS8NG0dDFf+JZOMdGH3ETtuWy+wsx3WG3', 'uuid': '47214b3b-0a23-47a6-bcb1-24352b76743a'}
+In Table 3 rows (B), we observe that reducing the attention key size dk hurts model quality. This suggests that determining compatibility is not easy and that a more sophisticated compatibility function than dot product may be beneficial. We further observe in rows (C) and (D) that, as expected, bigger models are better, and dropout is very helpful in avoiding over-fitting. In row (E) we replace our sinusoidal positional encoding with learned positional embeddings [9], and observe nearly
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJxlU11v2zAM/CuEnxogMeLEzkffunUDuodiwAIMQxAEskXHQmXJk+gkXpH/Pkpph6AD8mCSdyTvqGxfE9TYoqG9ksk9JFlV5FldzCdFnc8muSiKiVgvcJJX83leV7heyDIZQ9IiCSlIMOc1qax1UhlB6GOsxWB72jeoDg1xZrmepVMmveVPSlLD6UV2TXdWGQrM7TabrkIqX67S1W4M73GRz9MixMW0SGf/x1c8JxI/eMI2KPmuzqh/dKLC5MKFWmncS+WwIuuGAHgM679VjGgx5B6I2AtlzZN/0PqX7Z8RZdrJOonrm0MvDlHkNkFzSHYx62nfWqlqhdHC2XRWTKazSbbcZMV9Nr3Pl5GtzEtkviaehGPDjcQzJ9ZcJDwHo5J5QPZOh28SpcZ0Hrb/SMkXqxvS+oZUKcL0mzXCf2Xlz0izabZMLmHRjlffm74t0YWpl5sOTwY2YRrMwdmTh7tPozGcEGzp0R0RqBEEDmVfKXPgCEG8GwUvOIBXfxDkCzS9Iw9sBmr43QutaEhh0ygPvj+wcVyMrSQSulaZ0K2ybSdIlSqggaHGEqDwAwgjr3DBLR2Ctx23IlXxQ5MfeHVvqrgOEwxIbtE5y/sStGKAEvlnsFaVEjqFn8h4xzLcP4XKvCn/PIpz7x5HcfYYhAc8d/xsUI6hVCzDXRV6EC70ZSfcOJKksx0/8CDiiG6ABnVX9zo0F0erZJBruTKpFREHKTzFsXD3ZRTsdthpvhrY3rGlpvfMERo661XQxp9oKhvbnBQ1oFE4w1bcAvi8MiA8bNe761rvGg3DNVssw+UqBjv0vQ43sfGmpfB4lZaGF0VDF/8Tz8I5NvqIm/BaLru/kXVhUA==', 'is_continuation': True, 'uuid': '96ef21bc-fd83-4d81-a85d-aa83269e2905'}
+identical results to the base model.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJzNU11r3DAQ/CuLnyPjj7N9zlvoB5RCCO1RKMdxyNbaViNLriSnuYb89650aQih9K3Qp/OOdqTZmb39Q4IKZ9T+KEVyCUnV1Xm7yTNWdEPONtu6Zl3TZSwr67blm7IWIk8uIJnRc8E9J85D0htjhdTco4u14iez+uOEcpw8IU1bpBmRnvAfUviJ4Do/w4uR2gfmfp9n2wBVdZaWhwt4rpssLUJdVPUf69hPQOJOzuMcJrmR96g+L7zH5JEOBqnwKKTF3ht7Cg1vg/ynE81nDNiV9+SFNPqDu1Lqq1mvEUW6iCGJ8vW48jEOuU9Qj8khos4fZyPkIDFaWGRFxbKC5c0ury7z7HLTBPZCzKNe5w4tdbVBk8f7YE9SpyW806OSboI3Rjsv/Yq6P8ENt07SO6H3tESFO+lVnOh1cgMfKjG0PdtWvGGbZrthbc5zJrpWtGUnsq4Y/mlyTdpQEtv8nMxTXRdl2oa6yjaB8ro+9//fySmpbyPzIXGeWzJcC7wnoGy2L1IsY/NqVSh66TH9+GWhADGvksfD3zdgZwDvuFopCJAD+AlhZ7l2g7EzWui5hhE1Wq7kTwRvwFCLBc/drYMfCAva2CoA7+lbhr1wYPTzWvUv12o5r1UKu0m6eAksFl3kuAV7MqSHfuKK7CXTLqMeyn9ZPRDBrd03CiPIcN4aPYaftfcryTs/ZHnYC+BaxH456nAl116dQBEhSJ9opnCv1HRtCu9XG0aajcUL+HR9DQ6/B7XIvGG/v4HSQuVg4ncI2njoEDXwTkVPuPf0LokhF5kZGN3HKC6g0VZFcsLZTEOxsP6EjmSTg33ZHNKX/7Brbi338g53IZzHwy/s0aH8', 'uuid': '2822a8ec-34dd-40ad-9901-a8b793235a38'}
+6.3 English Constituency Parsing
+
+To evaluate if the Transformer can generalize to other tasks we performed experiments on English constituency parsing. This task presents specific challenges: the output is subject to strong structural constraints and is significantly longer than the input. Furthermore, RNN sequence-to-sequence models have not been able to attain state-of-the-art results in small-data regimes [37].
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJx1UmFr2zAQ/SuHP20QG8uO7aawDx37spaVQsrCCCEo1jkRkSUjyW1MyX/fSSld6bYvxvd07/TeO61fElTYo/ZbKZJrSHA3F0zUVVoU9Jm3eZnyK8bTPC/rqhV1nZd5MoOkR88F95w4L0lrjBVSc48u1opPZvTbA8r9wRPSLIosJ9Ir/iyFPxBcsws8GKl9YK7XLG+yagZ1mWdsM4O3+qrMFqGu8ior/lHHfgISNzmPfXDyIE+olgNvMTnTQScVboW02Hpjp9DwLch/PdG8x4DdeE9ZSKO/uxulfpnxHlFkg+iSKF/vR76PJtcJ6n2yiajz294I2UmMERZ5UaV5kbLmkVXXLL+eN5Et9TEyXxLnuaXAtcATAYyRw8TjyUd2FZpHq0LRSo9Zz207OrZYlLtRKsp5Hwx9nFIs6ndTyubjlLufA7cOWZWcg+qBfGz12O/QUsvi/I67QvCWS40COMxTWhragGjXGdvT/7P0BxBkGRV8AZYXczAa/AFhxZWCpbeIHm7NaDVX8Gm1vP0Mg7EhVjBdbHxAreGR+nZcH2FdVKSJ7+hxwDy/u1xPPsHRMlC36DIgVVw58yZNepCaBDrsZerGAe2TdIQ79J6oMxhdmBAuU9zuSfaBXmPaGt1JEWYC1wK+oj0qnB5CNBZaY0knh86a/uKSD4M1J9nT01YTsObHH0mwLptN1DW6GNWTaflupMum4JLV5MMcUTug2C7pLG8pKJrzqjEq+Mgri794/7GYhRX7aYgP955by718wsewxfPmN6PyO3s=', 'uuid': '539a0a7a-c2cc-4aa7-bb4d-53d67e06f833'}
+We trained a 4-layer transformer with dmodel = 1024 on the Wall Street Journal (WSJ) portion of the Penn Treebank [25], about 40K training sentences. We also trained it in a semi-supervised setting, using the larger high-confidence and BerkleyParser corpora from with approximately 17M sentences [37]. We used a vocabulary of 16K tokens for the WSJ only setting and a vocabulary of 32K tokens for the semi-supervised setting.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 9, 'orig_elements': 'eJzVVFGL2zgQ/ivCTy3ERpbk2N63Qq+l91DKbaCUZQmyNU5EZSlIcru5Zf/7jZSkhG05uIeF65u/8Yzn83zzzd1jAQZmsHGrVXFDiqFtBZ94U9a8X5diEm0pOR1LLsXAWyknuWbFihQzRKlklFjzWIzOeaWtjBAyNvLolrjdg97tI0banlUUi87x71rFPYbX9Sl8cNrGVHl3V9O2alZk3dNK3K/IBbeMVSzhhopU8hyf8jFQhGOIMKc/+aQfwNwe5AjFE76YtIGt0h7G6PwxJbxN9M9vrJwhxd7EiLPQzn4Ib4z54paPAKo6qKnI9O1ukbv8k3cF2F1xn6Mhbmen9KQhj5BR1pSUlXW7qZubmt6INldr+zVXPhYhSo8DtwoeMFDTDl9HeEijKhpSEZHyF28SDssQkDNSqppKFE+p5QFJbO0yD+AxpX+6Kv8M5AB+cn4GRZw1RyJJmKUx5JRP3ETgAVN0Ej2Q6EjADRgjiXsgyrsDKrQig4t7Ii/DINIq4iFotUhDXp35EOTzekUMSG+13RGf9M+pA8iZBP03IIP83dtzBWNEwTcw7pC6Y2dslbhhN6R2kB5liOADNpultvgLix33OHZ8mryb88f+sDujw76MrnwPfpaWDDIAiV7aYGTug3KAqcjbxSdi2k7gwY6wIt8hjTYeD1ntj9Ijaf0NNml6OMbnbhgB5EQnWnZrytENFJ8UV2VT15PqFOsU7V7QDZzyvP2CVXXa9gtuMPOEu1/inP//dsO/rHB/LdE753AhfqUNb1VX05GVdOCyFB3rymHd0RJa1YiWjVADf+FL1eKsadVfDhXCvq66q7v0DObk30mXml4Ls5GDASJuyAZduEl2y3fGkx1Y8NKg4QM6DP2MV+XsUjI6G6KOC/rvmBwekiNf/QVhMXh+pM834sd94Ok+fb798/V/sqkAVjMBgKvA0KZ1L8qumXjJlQI1NVx0k3jBVWB0XeEJ7/lpFc6wphfMRdX/jHP677sMn1BKDF/JtNHRIPH7fwAMsYtk', 'uuid': '650f0b8f-6bbe-405d-817d-e546fd33d2c8'}
+We performed only a small number of experiments to select the dropout, both attention and residual (section 5.4), learning rates and beam size on the Section 22 development set, all other parameters remained unchanged from the English-to-German base translation model. During inference, we
+
+9
+
+Table 4: The Transformer generalizes well to English constituency parsing (Results are on Section 23 of WSJ)
+
+Parser
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJzNVF1r2zAU/SvGD2ODyFiSP2q/ha0PW7tQaOgYIQTFuklEZdmT5K5e6X+f5KQjyTrKMjb24IdzdM/x1Tmg2UMIEmpQdiF4WAZhsaTLFc0wSpKkQElBKGIxSRDNaEGSnGBc0XAUhDVYxpllTvMQVk2juVDMghmwZH3T2cUGxHpjHZMXJIqdaMd/FdxuHJ3hLd02QlmvnM0oTSI8CgoaFfNR8ARx/IRz7BXHeBh3ODS9sVD7e1yJe5DXLasgfHQHKyFhwYWGyja69wPv/PK7E8Vq8NzYWpeEaNR7M5byc9NNAHjU8lU4LK/WHVsPV5yFoNbhfGCNXdQNFysBQ4AkJimKCcL5FKcljssk9+rWKReqq5eg3RSO/VIW7n064VQzoYQz9FzfDqtMhZXD6scF5WeY5VWVIb4kHCVpwVFxBgliOeRAWJYWSfYXC8LproE0or6BHSY0jYjHSUyi9Ge8nf+/K5JC3Q7Kh9BYpl3gisO9IyjZK4sOs52WHlTCQnRx0zJtAKfbug61JN3Tkhgnx+oWrG7u0Lkdy5LEcVaO316eZPRt0z25YHqyC+9BI63UusTZcwaYZnsOn64/nLTGiy6bzlWJNky3oH0sRXn+cXJ5dZJXXVWyMbc9gh8ZT8a/yicu9swM1OL32j7I9zl53UkrDHwh7jvN4bCh+Qtvy41QPZMmeBVcMPdfHYAMmIyC1778N/4FnQcus6BRsh8FXJhKi9q/FOIO/smBvyIynev5zu3H/xgPASPLzG2wBgV6+Mv+yzphektOfUSP8+890SQp', 'uuid': 'dc4f258d-9157-487c-b10a-5c578d0c6592'}
+Training
+
+Vinyals & Kaiser el al. (2014) [37] WSJ only, discriminative WSJ only, discriminative WSJ only, discriminative WSJ only, discriminative WSJ only, discriminative semi-supervised semi-supervised semi-supervised semi-supervised semi-supervised multi-task generative
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJzVVW1v2zYQ/iuEPgwtVgp805uBfTDaDt2aBgGatWgzw6DFk01UojyKSuMG/e8jGTdQHLsYMBTYPojAHe95dHfP6XR1m0ALHRi31CqZoaQqSF6pVYkrJSssmlLhqs5WmIMiFahSNjUkz1DSgZNKOukxt0nd91ZpIx0M0W7lrh/dcgN6vXHeU1QsJR6093/Wym28O6d37m2vjQvIqyua0eCiNE/Z4hn6ZjOe3dmsImn+2L6L945k2A0OulDJhb6B9u1W+ny/+otGt7BU2kLtersLAS9C+vsbIzsIvrlzvhe6N78N87b90I/nACrdqiaJ6Zv1KNexyKsEzDpZRO/gll2vdKMhtpARlmHCMC0uaTajZCaKiNbmU0TeJoOT1jfcKLjxDsb8rYMbF8FViB1tG4xaO0i34Gx/jV+6eTtjhOSz+fOzUNEhjcgmNIIc0nzZjN84KD/FkVcTjvKQQu3AYmvMekbzY2hKxb9PgQo6IaHikGQzehXwRtot2NCPavbyzfnZxVGqB+Ww/JCqq+u2Hz7tMNz39nx+Ii1Gpu3lxSHX63dbaQeg2VFwxqeJ8EeJjK3TA/zF/HMUXxT/XJcwk1s/pUszdiuwoQ/k6wR+EecJgUOyTdGTUPbT8CEt0MfNOHFT7t2CLNALTz/1h/BygS6tNEPT287fPhHIf9tgh6enSF4F2dBP6FUULr628ldULNCb+nmU4VFK+QK902Yn28EDX0vfIZ9He08tfAwvTiZyNvb+jZNUssDJT9UTmup227gFzqW10ulruAw9i4I83JIZZSyv8xqXtAQsSM3wihUNbpgQJPfbqFDlD9ySgorUj2PF0yoswb15vxRF/nBp7u0Y/t/ekd+b2/dvf/cloV8pKsuUI7/4xf6gaREOPj1YSu+PIpROwsGnKv9haq/Furf6C6hTSnPeKMhzhVWV1VhwtcLVSgLOs5zLhpVNwasf+T8kZZTSK5jH/+HeLn1Vwc6ISNkRO8b/f7XWprYgB1DIbQB18kZ3Y4d8r7ajQz67tdsg1yNtJvbPiBOSoveAxgCUaAWyQ4MXF/UNYhRJo9CfI+Erin5BxA+J3xlo1XtoGK3etLsYEt44QKfxMPpNda0D2QDOabNOv7MkFn8Dqyu6PA==', 'uuid': '7beceaa9-159c-4cfa-978c-c1b2a0f994c7'}
+Petrov et al. (2006) [29] Zhu et al. (2013) [40] Dyer et al. (2016) [8] Transformer (4 layers) Zhu et al. (2013) [40] Huang & Harper (2009) [14] McClosky et al. (2006) [26] Vinyals & Kaiser el al. (2014) [37] Transformer (4 layers) Luong et al. (2015) [23] Dyer et al. (2016) [8]
+
+WSJ 23 F1 88.3 90.4 90.4 91.7 91.3 91.3 91.3 92.1 92.1 92.7 93.0 93.3
+
+increased the maximum output length to input length + 300. We used a beam size of 21 and α = 0.3 for both WSJ only and the semi-supervised setting.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJzVU8tu2zAQ/BVC51CgHrYk39IHij7gFknQojAMgxbXNmGKVMlVHCPIv3epJI2bFu2ph14k7iyH3F3OLG4TMNCBxZVWyYwloHKp6irjsikrXpZVzZtpPuVquilEka8LmbXJGUs6QKkkSuLcJq1zXmkrEcIYG3l0A652oLc7JKRq8lQQ6QE/aIU7gqfZPdw7bTEyF4tM1BHK6ybNlmfsMS5ykTYxnohJWv0a3+8nIAnHgNDFTj7pGzCXvWwhuaPERhtYKe2hReePccOrWP5DxsoOInaOSLPQzr4N58Z8dcMcQKW92iRj+XY7yO3Y5CIBu02WIxpw1TmlNxrGEeYin3CR86y6yiazTMzKamRrux+Zt0lA6WngVsENAXlGWYSbOKmkjFsHb+Ia5dpAWsbyf+EUxQmpPiG1GiFVR/DcW7udZdPkLlbZU90rO3Rr8LQrE3cn9I+DZx7CYDAwbdlVvJaVLOzcgeFOIlMQejqWAmBGtnvmNgxl2PPQQ0t9twwHq+2WOTqJRgGG9eA3zneBhcFz1nsdKG+O7ADGnLGjBqMiYQ008Kfb6TbLpCG6h2vthkAMD73zCOr+4MAOGndjJXDTQh/faiyHgAtoB+/p/dgcBi8N/fDg/J698bLrpGeLepnGUeGxH197Lr2XqK/hKk5iHPPPbli3shbrouBCCMlLVTZ8PckzPtk006bYTOq2gn/vhiKv0uLUDWWd5qdueB6P+/9TN5T1iTKL6rmy33/upQ+QTX7nikycuiJvnpN7QO+u+Ws8N7NciOns/OWHv9vjrWWts+ipM4aOXcznLMC3AWwLHB1/XD/qc1FUdGLU45WXNkQXkMLppX9YIuZegN+T1o6cfYr9kDbzZsngGiw77OhD1+l7S1nyAGk8kr5cvntKBMAo/FK8p6XFWEL4k7qX3wHB8dn8', 'uuid': 'b5fd9cbc-a424-4d1b-9ebc-cc24ccca9705'}
+Our results in Table 4 show that despite the lack of task-specific tuning our model performs sur- prisingly well, yielding better results than all previously reported models with the exception of the Recurrent Neural Network Grammar [8].
+
+In contrast to RNN sequence-to-sequence models [37], the Transformer outperforms the Berkeley- Parser [29] even when training only on the WSJ training set of 40K sentences.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJzVUk1r4zAQ/StC58jI33ZuZXvppSxsLksIQZHGsVhZciV501D633fkZkspPS/sybw380Zv3nj/QsHABDYetaJbQru6qHKhasY59KyS3YmJZuCsFmXJ26rPZSPohtAJolAiCtS8UOmcV9qKCGHFRlzdEo8j6PMYkWn7IuMouvEXreKIdJO/0bPTNiblfp/zLlFlU2X1YUPecdvccFdm+Rd47UeChmuIMKVNvutnMD9mIYG+YmHQBo5Ke5DR+WtquE/2bxUrJkjcXYyYhXb2IdwZ89MtjwAqm9VAV/v2vIjzuuSegj3Tw8qGeJyc0oOGNcKCFxhfwfJ2l9fbnG+rNqlnVB7tMp3AY1fOk6kIzykf2pJvzkqzBHw59cbrvNrZ6WhW+5/PVHb8JKumYKLsO1YBr1k35IqpqpBKVl3fd+U/OFPXZf2HM1UFz5qEa159hd/6/98zPVgSRx3IxflfG3IBMnsIaAQU8kB2XtgwOD+B36zEoH2IJMDTAlYCiamuFpmME7QChpxEQHHaxYO5EuTF39U2xMNshNT2vA7DSBbvsUbwPuADTsDh0k2Tsyhd0iBtcZbEyZ4pWL9EeDnqiHEu6JVcdBzJtJio2QhCoSSAGdj7o9nHv+9ReC+i/g27tP/r4Q8NAkv4', 'uuid': '03d2b11e-e467-44c2-8a1f-a4b3226eff8a'}
+7 Conclusion
+
+In this work, we presented the Transformer, the first sequence transduction model based entirely on attention, replacing the recurrent layers most commonly used in encoder-decoder architectures with multi-headed self-attention.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJxtUsGK2zAQ/ZVB57WRHWfd5LbQbtlDt4UGSgkhTOyxLSpLRhonG5b9947c0FNO1jy9mXnvyft3RZZGcnw0rdqCquuSkAgzahCzqtmcMuyKVVauyo2uKtJ6heoB1EiMLTJKz7tqvA+tccgUl9ri1c98HMj0AwtSb8pcS9MNv5iWB4Efi3/w5I3j1LnfF/pTgqqyzovDA/yvHzd5neq1ru7WC18AFa+RaUxOfpg3sj8nbEh9yEVnLB1bE6hhH66J8DnJv904HClhT8yShfHuJT5Z+9vPr0RtPrWdWuS7fsZ+MblX5Hp1WNDIx9G3pjO0RFjqcp3pMivqXbHeFnpb1al7ks6jm8cTBWEVOoliekv5qGcfgAO6aDEtB8b4Jz4ADwS7BHc+jBSgQQcnSkzjqIVoeidbBWV7hU50CIcHIWFoBsNidQ4U4YRR2DJWzM8hiEGQfY13Z2/ntA8tyNNQiDl8lw2eB/j1bQelLir44npr4pCxz75SGNNw1969fpbJzXDPx4UARRCd5QuOLhBZ/hXw3eIQA+fw4pbzzWjqAz8HcRsZJFyyUvJEIREiyCTRYS1Mgc7Gz1H8B5p8YDFKLtJ4shTzFDtfp+VlXzEEEXWmXcr84/AXxZ74NA==', 'uuid': 'a4263037-4a34-46aa-bc05-695c997a384f'}
+For translation tasks, the Transformer can be trained significantly faster than architectures based on recurrent or convolutional layers. On both WMT 2014 English-to-German and WMT 2014 English-to-French translation tasks, we achieve a new state of the art. In the former task our best model outperforms even all previously reported ensembles.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJxlUsGK20AM/RXhc2xsJ7Z3c1vopYcuhQZKCSHIHtkedjzjzozThGX/vZKzgUJv0pOe3pNmju8JGZrIxrNWyR6S7XOptkVJadUVdbpr+iJtiyeOtr1q6rYu8qZLNpBMFFFhROa8J51zXmmLkcKaG7y5JZ5H0sMYGWmeyyxn0if+R6s4MlwXd3h22kZhHo88Pqs2sGvqrDxt4JFXxVP2LHmVV1n9f37vZyAJtxBpkk2+6yuZHzN2lHxwodeGzkp76qLzN2n4IvY/KxYnEuwlRr6FdvZreDHml1teiVQ2qz5Z7dthwWFd8piQHZLTioZ4npzSvab1hGVeVmlepkVzKKp9ke93jbBnZp7tMrXkuavIxVSkq9wn+UmAnoCunY6kAFs+E8SRoF/iwgXXAz6cpS0G7mFFMgHQKpjZGEQHOM/mJrRJMseBh4jhLWTAAo8uliQmyfSDRxt65ydpdDB71/JnCKDtxZmLtgNHMzsREXYkIcui0VFTeAiMMpaHrl08hckUoh74N4BxHZoNeAa87tbVHmvARB1TdWA9cdX3utNc4g0YVobJ6Ae6Owj/WAgQlm4EZJuTPMYGcFHarR0Xrchl8A3fxPxAljyuYoYC8+j3IuJoQMvE+wJsjtDzxMEhH5RP7RYfMnmyeJvXX/GKXuZc6CDv9XH6C1XmEHQ=', 'uuid': 'ab4568d9-ca00-4919-8184-21e8d3d55ca7'}
+We are excited about the future of attention-based models and plan to apply them to other tasks. We plan to extend the Transformer to problems involving input and output modalities other than text and to investigate local, restricted attention mechanisms to efficiently handle large inputs and outputs such as images, audio and video. Making generation less sequential is another research goals of ours.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJzNUl1r3DAQ/CuLn88+2+eP870FCqUUQiGBUo5wrK21LSJLRpJzOUL+eyVdSJNyzUOh0Cd7Z3e0u7Ozf4pI0ETSHjiLdhBtsw0VZdPFeZHVcdFSFW/rpo6zomrrZtNjXjXRCqKJLDK06DhPUaeUZlyiJRNigSe12MNIfBitQ+omT1JHesGPnNnRwVV2hmfFpfXM/T5L66ReQZmXyeZuBa9xUSW5j8u0TLILcah3QGROxtLkN/nGH0nczNhR9OwSPRd0YFxTZ5U++YJPfvyXjMSJPHZlrdOCK/nFXAnxQy3XRCyZWR+F8eWw4BCW3Eckh+guoMYeJsV4zylImKd5Gad5nNW3WbnL0l1RBzaX94H5FBmL2gkuGT16GSqXtfTolYpGa2cDu/UaBm7HpYUEOjXB2r+waPFa4irOBYlLr93QRuleqOPLb37++M1/b7d92+4XEdbwnvqXDb0ksxPpIJepJe34Wfr8puPtSG4jRnAkWAwxsAqsRi4BJQN6QLE4H4FaNDhRSRjgBvABucBWEKCFC+PAn+ZJ/Br2NIfjXqPWaPkD3fpZgjTvzZ91RVn2TRpjnVdxkXYYY8PauEmznFifbxDTf2r+rYfKcptsz+Y/x3WT1GezFxfjUP9/m/8jR1x191IdBbEh3MLAd3dmTTC4Y1G/CO+QaxTwFUU3tpqkJB3McmNpHlHCZ7UcDfRKg3Wqa+j1wq0nOmuEF1fuT/vl3W4mULk0M/dmUPIji9z9BLKtnbk=', 'uuid': '97587c08-6e01-4def-b51e-4a84282731ce'}
+The code we used to train and evaluate our models is available at https://github.com/ tensorflow/tensor2tensor.
+
+Acknowledgements We are grateful to Nal Kalchbrenner and Stephan Gouws for their fruitful comments, corrections and inspiration.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJzVVl1v2zYU/SuEnk2G35LylrZDtzYNtiwrVhhGQImUzU0iDUpKowT976NoB3U7r0MeGjQvNs7lveIVzz1HXN5npjWdccO11dkpyKqS8FrgGrK6riAnWMCSCQrLnNdcatlUlc4WIOvMoLQaVKy5z2rvg7ZODaZPuFWTH4frjbHrzRAjeUkRjkX7+Eerh00MS7ILb711w1y5XBJczCFRSkRWC/CA5fyXsGRI/Bvv8mMg66d+MN38Jr/aW9P+vlW1yT7Fhca25lrbYOrBh2lOeDW3v19xqjNz7GwY4llY737pz9r2gx8vjNFoq5sste/Wo1qnl1xmxq2zVYr2w3XntW2sSUdIMRUQU0jyKyJOCT7l+Vy9jZXXbuwqE2IWwXNTg7mdzye7NI0JxtXx0XN02qZmruzQpua/JomXRV7oAsOqYDnkuuBQ4UJDZhitaUUELsrvSRJhiRTCUZ5I2GPKUTljgflRnPKfL0lLsgJvbNdN4NxY8EItwBvVWQMuJ+XAWxt8vwDKafDa+KYJZgI/gZ/jmXmHwLmaTADOh0619k7NvSOgwp/2BmyD2YaYdkj8H66ONK19sHdGX83bHxmCWmNZ0wZDTHATh4CVUDFSwLyMC0VTMVHX33MIaInkTLJAMg3BHjOBihnTiIsjOOX/2EPQWvd3qrzP+kGFeOBOm9sYwAfTsGMvzojEOUAASy7wXDyGdl7eDMP29OREhVt7g3xYn6iqP5lz0S7z0+p/pi09//RzxQJQTCR69JgwqVjVEAYZoyXkJaewktHam4ZSURmOeSmfwCs4+9IrxB7P3sCO4JT/Y4/JN72CrsCru84OYYpOsdHKqXEB3k6jW2/iD3i58Tuz+OD7zajAi7i59QhcmDGoFnSq3lhnwBCU69vkF6CawF/zubbT4QxcqBDi+o35T5tgmAiRV/FbwSXkplCwNDqHmHMjBC11TqsnsAnBET+0Ccl3tsFkgfIjOOU/X/5bo4Kzbg0GD6Llr10i+4FOg8BLf3kZJ2A2BY5LhHnOksI5ehS73FS4IE0F64ppyGspYTVfBxqqqcSCCEbEE6g7p0gcqrvY44cv/9c45T9fdpcsqts4F7Ud7HC3AGfOKfDat9qaBXhn3QZebeLu4Hz0br0T+m+jr8H7eBWI5L9TfR9JBeZ22/qwk7dvgEvifxT/oqCGy5JBofJ4CWDcQEXiJQBTqiUhWEb1P4G6C4boobpLtlM7KyQqj+CU/3z5P2bPKsTYENsdg+m/0HeOoyhYiWUSeP4tga/+ATIiCaY=', 'uuid': 'efec9bbd-582b-4265-b9df-43d8093bef28'}
+References
+
+[1] Jimmy Lei Ba, Jamie Ryan Kiros, and Geoffrey E Hinton. Layer normalization. arXiv preprint
+
+arXiv:1607.06450, 2016.
+
+[2] Dzmitry Bahdanau, Kyunghyun Cho, and Yoshua Bengio. Neural machine translation by jointly
+
+learning to align and translate. CoRR, abs/1409.0473, 2014.
+
+[3] Denny Britz, Anna Goldie, Minh-Thang Luong, and Quoc V. Le. Massive exploration of neural
+
+machine translation architectures. CoRR, abs/1703.03906, 2017.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJxtkMFuwyAQRH8FcY4tcJyS5hY1l1ZpVKm5VFZkYVjHqAYsvGkSRfn3glv11Ati3+7AzFY3Cj1YcFgbTVeELhUoJaDJVDMXWckWImuWhcyWqmStYCBEyemMUAsotUQZNTeqvA/aOIkwTnUvr/6EdQfm2GEk4rHIWRT98rPR2EX8wH/w4I3DpKwqzucJCcbz+WFG/mrO8yLVC1b+W0/zEdDxOiLYlOTNXKB/H6QCeo+N1vRQaxNAoQ/XNLBJ9n87TlpIbI0Yd2G8ex7Xff/hTzsAnQ+6pZN9dzzJ4xSyouCO9DDREWvrtWkNTCssWLHIWJFxseeLFWerUiT1EJW1O9kGQpziLJlCuKT90Ko8kBcj3RAfJU9dPGdka8jGp4t0mrxG430vyVYO0XVOtrFDxs4HzBCCJRZsTJU5wLMPnyNpfSBWqs44SH/jdZji7WQIEs0X7NPH98M3mr6bzg==', 'uuid': '9a25454d-7956-47d9-a3c6-2cf9d9791b4c'}
+[4] Jianpeng Cheng, Li Dong, and Mirella Lapata. Long short-term memory-networks for machine
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 10, 'orig_elements': 'eJzVVl1v2zYU/SuEni2FpCTK9luTItuwrRjaDGhhGMYVeSURlUmBopx4Qf57Sdnd0tXbsIcA7Yvlcz/Ey3sOxbt5TLDHPRq/0ypZkwSXq2XeCJqC4jItEEUKDW1SkcMqhyVHWNbJgiR79KDAQ8h5TKS1TmkDHscZ93C0k991qNvOB0u14hkNSWf7vVa+C2bBTubBauNj5mbD+CoTC1JFz3ZB/sScZzzinJcZu4Dn+GBIxuPocR938pt+wP7dABKTp+BodI87pR1Kb90xBryO5Z89BvYYba+8D73Q1vw0vur7D3Z6g6iyQTXJXL5pJ2jnTW4SNG2yna2j3+2t0o3GuYWc8jKlPGXVHSvXjK6Las7W5uOc+ZiMHlxouFH4EAy8CF6PD7FTCbj3+kDWhAnKSEaoqPI8Zk+uj+7O+2F9dQXuQR8y69orqMerGJudIp9iRUOocWemfY0u5DD69Oz9DiEw1WbktNDgcHCh+ye4/utNC8IpE1lc2h+HuTd32vdzL/+uGVjVSnJap1W9FGlBaxXUgzzleUUrXq+aJhcvqJk81hw0UPCMzZo44/KsoZxdxnP8t62Zf2OS0efk3FrrQ9AFdoRqhMRapDRv6rSQYaG64CpVslG0WK5KztRLnmiWn7p9OrBnyGiZrSIuwx/+NZ7Dvytu2HNuNuWW/HycTNuFH3LT2QW5DkeeHMCQX9E5jaa26BbkBtoeHPlh6iV2DhfkFn2nybWdWnA4LsiPtm/RkXeyu0fzcUHAKPLBjt0E5DpUrG1GfkFwJpxpMnQORiTxSOMYtg1x4yOZxuh0xhA00ip0qcL5SRrryBjDRq8l9GQPstMGiXdgxn5Oz8iNffs2rBu/MwUVGaPVcv44FF98HN6AcyHhgHexBRdkqHBZV0KJFOsSw8WyDFeMzCEVEhoUtC4kyJeXIWNlVj7XYbg/qpPuiot4jv+OhSi25DawKa0eow77Hn1G3kscYi1r8hpxIP1nAd1r3xEVfN29DkIacQAHdY9EWnOw/TTr6Xx1/C/ya55DzoRMq0I2aVE1Mq2BNSllTJZiVeRQFi8/VTAuzuSfcS4yETEXRVZewHP8t03+P04Vq4tDBaNxqOB5Wf33UMFodoq8NFR8obKvpojPqRemiN+NDIy21uk/UJ30sv0ED/IpZQ==', 'uuid': '8e483779-054f-4ddb-a490-77a6b1da7cc3'}
+reading. arXiv preprint arXiv:1601.06733, 2016.
+
+10
+
+[5] Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Fethi Bougares, Holger Schwenk, and Yoshua Bengio. Learning phrase representations using rnn encoder-decoder for statistical machine translation. CoRR, abs/1406.1078, 2014.
+
+[6] Francois Chollet. Xception: Deep learning with depthwise separable convolutions. arXiv
+
+preprint arXiv:1610.02357, 2016.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 11, 'orig_elements': 'eJzVUl1P3DAQ/CurPCdpnI/LHW8HVFWLiiqgD+h6OvnsTWLVsa+ODVwR/73rQCuE+lypL7ZmPCvv7M7mMUGNIxq/UzI5gaSuCxRsL7JKVnVWLxjLVoyO5b4qeceZaFYySSEZ0XPJPaeax0RY66Qy3OM0Y82PNvjdgKofPDHtqswLKnrh75X0A9EL9kwfrDI+Vm42jFWRYvUib7Yp/MGLNq8jbor6r3jWE5FMx8njGJ18UQ+orw9cYPJED53SuJPKofDWHaPgPLb/8mL4iJFbe0+zUNZ8nNZa39pwiSjzg+ySuX3TB97PJjcJmj7Zzuzkd6OVqlM4j7AsyiYryoy1N6w5YcVJ3cbqA1XuTBj36EjFWGzK40OcT7Jpt/ApGJqO6eFsoDOFb6EoRMt7zR18iKATOl7Y4uAwhYsjyQY6qMCmwI2EWzsNgcMptaZsDu/Hg3JKcA14x3Xg0RfYDnpalASaRHCO3ILB4Ehk0N9b930CUk34I6ARCGQMtTJ9Dmf26oq+2U/vWE2Lq5qmSaEsWJ1Hd/54mAd4yZ2jj+7wJlojj28DxjirZMnqTCwWy6wWUmR7ZPusK5ZtV63KupL4DwLWtnn5OmDLF/w7UG/xrP+PA7bcUkycmuD8iC6FtRxUHwyHi2CEdZSfz4RRwynXGsmhs9Nzpi4tH2Cdw/Wo/JDD1ZvUvN79VyNoQ7116ifK5/1vfwEsSVcQ', 'uuid': '1e3f62d3-0457-4756-890e-2efb9d9b0773'}
+[7] Junyoung Chung, Çaglar Gülçehre, Kyunghyun Cho, and Yoshua Bengio. Empirical evaluation of gated recurrent neural networks on sequence modeling. CoRR, abs/1412.3555, 2014.
+
+[8] Chris Dyer, Adhiguna Kuncoro, Miguel Ballesteros, and Noah A. Smith. Recurrent neural
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 11, 'orig_elements': 'eJzVVW1v2yAQ/ivIn2MC+D3folaqOm1RpXXSqiiKiLnYqDZ4GLvpqv33gZu+rOq6T5W6bzzHHdzd83Cs7wJooAVlt1IECxTwfcqypKQhB0HDuGQkzIlIwzxLd5zEMYviMpihoAXLBbfcxdwFpdZGSMUt9BNu+K0e7LYGWdXWWbKCYeKCjvYbKWztzCm9N3daKusj12vKCpzOEM0zXGxm6BEXOaYeRzTC0St48neGoL/tLbS+kgt5gOZrx0sIfrmNvWxgK6SB0mpz6x1OffrHHcVb8Lalta4XUqvzftk0V3pYAQjciX0wpa+qgVdTkesAVBVsJmtvt60Wci9haiEjLAkJC2l2SZMFJYs489Gdi9yqod2BcV6U+qQsHHx/AgX2RptrVBnettz0GJ0rdGF0iZHeo9VyefJ5hhihKfYn2dtuSvZS2mYq7iWJjj9CdmkaljFkjsR8H+aCQQgF5SKheUoFe08SHSnE5/tA4hHTI05IgrNXMPm/SVwXG/RJK96jM6iNVNUMfZFlzaFBy6GRM3TKRynQmXEZSDAOg5I9uuKG236GuBJurRRaYec5dLVUGJ1oNepmCJ/T/k2VjqRKG/kTxKW//BUJEMgo7AgPaZkWYbyLnARinoVlkpI43SVlltH3f8eM5jh99o4Zy3HucZyQifKXePL/2BJopLqeIu+C3nLjGq4EHJwhiZ6JgZvvckROIhlJEEYkooyN06MbTOMdamu7xXzOzUGOWJtqznf93HvjyTf4tfmH3Hx1vEE9/BhAlYCsflo3wI1yCsToPo/OQOcUae/h4umakU1zJftjrqy4cZKUI/xNXEKUeZ47NRWxF5dgUcijMgkpzfbgjgWRi/cUF8mneRI9iOuI4yOOIzKJ7SWOPr643pwvlGzQsoGDHyEjuE/iDBR4plT1SH2PbqStkatgMMZliRQMxsnk+MP0bxG9+Q1PH2i4', 'uuid': '3d80ca76-c13c-439a-ab94-f66e758a26da'}
+network grammars. In Proc. of NAACL, 2016.
+
+[9] Jonas Gehring, Michael Auli, David Grangier, Denis Yarats, and Yann N. Dauphin. Convolu-
+
+tional sequence to sequence learning. arXiv preprint arXiv:1705.03122v2, 2017.
+
+[10] Alex Graves. Generating sequences with recurrent neural networks.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 11, 'orig_elements': 'eJzVVlFv2zYQ/iuEni2FpCRL8lu3pm02oAiWbGjnGgZFniSiEqlRVBov6H/fUXaDrsmK9SFA+2R8x+/M430fj9reRdDDAMbvtYo2JMpyoJQ2TSyrvI6ztCjjWtYqZgXlTFVVrjiPViQawAslvMCcu0ha65Q2wsO04F4c7Oz3Hei28xgpKp5QTDrFP2jlOwyv2TE8Wm18yNxusyxN+IrwtEyy3Yrc46xM0oBzmoWUB3jhYyCaDpOHIZzkUt9CfzUKCdFHXGh0D3ulHUhv3SEQnofyTytGDBBiz7zHXmhrLqZnff/Wzq8BVDKqJlrKN+0s2uWQ2whMG+2W6OT3g1W60bC0kFOex5Rjy65ZvmF0kxUhe8TMvZmHGhyyGAtFebgN/YmEe6NvyOhgdNiKwPaHcSnoWvt+OcCXQq0BmqIAFcsGNcrWaR0LlYoYsqpZSygzKdkTCsV4layDENVRiE84r5I8YM6zpHwEL/zvW6hem/dL5l00eeGw4UbBLQboA8VQx5SWJCG0zGnInV0fVjvvx83ZmXC3+iaxrj0T9XQWqMlC/Lj7P37Y3Cdg3yhLk8998buRqGJrnf4b1HVIe8QjNBdZyoHGSmR4mXOOl7mgKuY85XXK8CoL9ZQeCeVj7etPHjnilLKEHS9vHjzzJT7yv2+PfE28LWM78qvQgzYteQUr8kbjXoeZ/Nnh74pcdcL+FdZ+A7MiwijyCxLI1WwS8hxgJA4mrWbRkx6EM4HZWEf0EBPcFVelbY0O50rIhSGXzko8F9ImYhviOyAX5+fn5GdrGnBgJBBrEA3j7MGRP/SEmcu2lwIb5AzWcf+PKxJONpGioO/mYLqiKBf3rf/lvtfCOeH1DfyX8wSvecUZj3NQKs5qWsQlCIhrHABVA2uVVk86nU5OYzSpPnceP+HTs/EAL/wf2Xl8R65gHMkrKzsHGuVdkbd26mZBfsKdtF2h6ra35IUTk7RGnwz4bsZHX7oW0IeyG7TqZtwgIS+dUBqPQprefiDafJsJJM9kjpOnzEHgt0QpYpGqOi4akaaKp0rJJx0/xycp5exkghNOWVIu3xaYwh7BC//HNQFWNTsXNDPgp80yEPAPGy3n3h/CiLgfK701bYweGYiCEfCVM1LDFO47juSvSL37By0sE3U=', 'uuid': '31c26df0-4f9a-4456-b96a-b4c1b76c1870'}
+arXiv preprint
+
+arXiv:1308.0850, 2013.
+
+[11] Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. Deep residual learning for im- age recognition. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 770–778, 2016.
+
+[12] Sepp Hochreiter, Yoshua Bengio, Paolo Frasconi, and Jürgen Schmidhuber. Gradient flow in
+
+recurrent nets: the difficulty of learning long-term dependencies, 2001.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 11, 'orig_elements': 'eJzVVd9v2zYQ/lcOetoASxApypLyFqTd0iLxgrnt0LmGQZNHi5hEahS1xCn6v5eUsyILugF7aIG8CPiO9/u7O20+Jthhj8bvtEzOIKkbWpWqYSmrl8uU8Zqk9VKwtGA1rWu+zBVVyQKSHj2X3PNg8zER1jqpDfc4zrjjRzv5XYv60PogqRqa5cHoQX6rpW+DeElO4sFq46PlZkPyOooKRjK2XcAXXJJsGXGZlxn9Cp71gyAZj6PHPlZyo++wWw9cYPIpPCjd4U5qh8Jbd4wKL2L6Dy+G9xhl596HXmhrXo3nXffeTitEmQ1yrrnj5jDxw1zkJkFzSLazdPS73kqtNM4tpDkt05ympHpDyjOSn7EqWg/Bcmemfo8uaBESk/J4F/uTbEixhTUOA1xa0TrUHh1wI+H1hynPlXAHNLAWba9lOwUHGVxZc4Cxtc6nQbeHHvtQVgYrnBzvQNh+mDyPlSxicH8c5vpW3Lkg/QvfxMghhaf8M4WCBGJS5BJTRiime8xJWuwVkvBW7mvyLfmnTbaM/NITv3/jJc3KiCklM99P8az/fPlvfqh/PCNVUX6YaE4KUtWhL6RpquwxeW+NCC0+WKfvUf4bgaUsZLVfqrQsaZUylDJtGqZSVLwSRd1Uuaq/wwJX9B8LzHKWkdPCsq/hk/7zJXBD2BZ+b8NS/qlDELic4jdu8DV3R7jkbohbu8ZOpd5xbXR4vrn46Wc4ON733I1wq30LHY/pB0NjT9s7AhfOjiN8yT2DVwZunBWhsOBlBKvAtwg0zxu4sEahQyMQrIGX/aCdFuEeXKNvrRxBG1hxP5+IqweHJ1/jGHwtINY4Ql3Q0yDW4a7C+cXVAs6nwzT6OUj2vw6KZHlNRSHSnFEaDkq4KrwQMlV1w8u9Urmk1befR0bCmD2eR1pkzeN5fIpn/ec8j+UWfuUq8Pza3qOyt1rcL+AXp20H77Q58m5cwLX+A+NvJTCLbgEry3tYt/weI4rD+z4MdDtp+G3K4OXd0IXTE5L875O0/QyFcoev', 'uuid': '05e0ffa5-1b67-4bc1-8a92-70a62566007c'}
+[13] Sepp Hochreiter and Jürgen Schmidhuber. Long short-term memory. Neural computation,
+
+9(8):1735–1780, 1997.
+
+[14] Zhongqiang Huang and Mary Harper. Self-training PCFG grammars with latent annotations across languages. In Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing, pages 832–841. ACL, August 2009.
+
+[15] Rafal Jozefowicz, Oriol Vinyals, Mike Schuster, Noam Shazeer, and Yonghui Wu. Exploring
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 11, 'orig_elements': 'eJzVVF1r4zgU/SsXP+1ApFqKLNt5GTozMISFUkgXZsiEoETXiagtB1nONlv631dS092h0ynsQ2Hn8dwP69x7z/HyPsMWO7R+bXQ2g0xOeY6qFmQjkREhy4rUVSVJs62kELnY8inLJpB16JVWXoWe+2zb904bqzwOCbfq1I9+vUez2/sQKWtO89B0jv9ptN+HsGSP4UNvrI+dyyXjNZUTEFzQcjWBf/BU0DpiwVPLDzjVh0A2nAaPXZzk2txhuzioLWYPIdGYFtfaONz63p1iwadI/5yxqsMYu/Q+7ML0dj5ctu3XfrxC1PSgmyzRt7tR7dKQywztLlul6ODXXa9NYzCtkOe8IDknrLxhxYzlM1GmbmNvU+d9NnjlwsKtxrsQEFXIeryLm8qU+2KOMAMmcw4Uci5YHrtH18b03vvD7OJCuTtzpL3bXajNcBFr6WPlQ2R0CBzXduw26EIPYw/ffd/vEVrTGT9A38DTRBD4YyC4o/BI4ODw4MJVHuHs3xcmwHMmaaTkT4e0syvlnPLmiDfxjfDYc01tdF0UQteEV4UgopmWQV0cSVVzXnCFUynlW2oqr5JGhKBF0tQZF2eNFbl4Eaf6/7emXrv0kskVfBtzJth4q4a/4HdlBnSgrIaF6k7wIbxmegoflQW1jQeEDrswCITjt2FGUE/M38PcwqU+KrvFAYyFKxydav+TCkQpda2lIDWrcyIYNkTlDImSdR0SQjab6Rv/WUS8ckHF058lYllQGfGUlS/iVP/rqmBum951Kj4M164P5xuCzWGRhhkm8NvV/Hrx7gVX3xjf4otultWGScVJrlVJxFRXpOJcEymD1OqCs20g+/ZuLgvKv3dzdb7rk3uf41T/695xycqfunnenhQsRj/c4hEdPZsTPl//MUCLygV7t7veGb/vBhqdPLcenU2iCHUfe9ugw2DtV/y8+hv8E3D5', 'uuid': '4530a351-0f85-46e4-8bb9-be616bd7089b'}
+the limits of language modeling. arXiv preprint arXiv:1602.02410, 2016.
+
+[16] Łukasz Kaiser and Samy Bengio. Can active memory replace attention? In Advances in Neural
+
+Information Processing Systems, (NIPS), 2016.
+
+[17] Łukasz Kaiser and Ilya Sutskever. Neural GPUs learn algorithms. In International Conference
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 11, 'orig_elements': 'eJzNlF1P2zAUhv/KUa42KQl2muajdwimDdGxCbgYqqrKSU5ai8SOHKdrhfjvO05hYwyxq01cRe/rc+zz8SiLOw8bbFHZlay8GXgV54LXdRTkVTYJ4rxOggzLacAylkyyrBS8jD0fvBatqIQVlHPnlVqbSiphsR91I/Z6sKsNyvXGkpPmUcgo6cH/Liu7ITvhB7vTUlmXuVjwKA8TH+IsCfnSh586T8KJ0xM2cSl/6DGeDK/f9xZb18lXucPmqhMlevd0UMsGV5U0WFpt9i7g1JX/cKJEi847tpZmIbU664+b5kYPF4hV2FW1N5av1oNYj00uPFRrbzm6vV21upK1xHGEEYtoXlHA02s+nXE2i1OX3VHmSg1tgYaiOHdFWdy5+XhawRyFUVKt4RI7gz1VIVwdPbw7O5lfvvchYjwJ3UV23421XkvbjL0932GURnURT0XAo5h2WBYYFElaByyfIC+jmGUF/ssdssxZU/a4wwc9ScPc6SmbhukLmr39HTZS3Y6Zd15vhaGBqwp3bp0pf7JOYb7JLZCbcAYhcMbyfBu5CwbTuICNtd3s6EiYndyG2qyPRNEfuehwjPXul38BZsGzJVyIBs5FU24Kg0qh8WEu+h7hQ9/hRjfWp1M6gSvZarUXyodjYQi1rVBQkf+FNk5egzv4aMQWex+EquBcB2DEnpK3w2056HUzhHCBg6HnWlFupEKwRqi+GQkFqYDmQviClS2GcOieIO4MMXGQs1/NbaOR5fQ3li+EMXTbFq9dgy8wjXERYx2JAOOyDuIsTYK8Lug3hUlU8CmrOS/+A9NxGqZPmZ4+6EeGn+sx/m0z/Tpm+RJuNC35XLY+nAjTwCkVooml+aDpb/VJ0+MHbhxI9EUDn0O4HPpNCFfWDKUdDFYgHjsAhfa7Nrf9awAsfwAvc/1g', 'uuid': '4ce90790-3f16-4dad-a905-20b19cb6e2f3'}
+on Learning Representations (ICLR), 2016.
+
+[18] Nal Kalchbrenner, Lasse Espeholt, Karen Simonyan, Aaron van den Oord, Alex Graves, and Ko- ray Kavukcuoglu. Neural machine translation in linear time. arXiv preprint arXiv:1610.10099v2, 2017.
+
+[19] Yoon Kim, Carl Denton, Luong Hoang, and Alexander M. Rush. Structured attention networks.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 11, 'orig_elements': 'eJzVVsFu4zYQ/ZWBzpZCyhJF+RZnsUW6SVpsUmDTwAgocWwTlkiDopK4wf57Sdpos4EX2x5SNBcbM3xDzsx7GvLuOcEOe9TuXslkBkk1ratG1kU65f6n8EbKSVGkNZOcSI6NKEkygaRHJ6Rwwsc8J60xViotHA7R7sTOjO5+jWq1dt5T1XlGfNDB/6ikW3s3o3v31ijtQuTdHc3rjE2gLHlWLCbwl814xoI95SzLj9gR7x3JsBsc9qGSX9UTdtdb0WLy1S8sVYf3UllsnbG7APgQ0j+saNFj8J0653uhjD4fTrvu1oxXiDLbymUS09erUaxikXcJ6lWyiN7B3fdGqqXC2MKc5GVK8pRWN7ScUTIrqhC99ZH3euwbtB5FaUjK4VPoT3Ku4Vw7tL6F/mzRwZnRS7SoWwSj4QKF1Uqv4DNuLQ4+w4gbJpATWmVhd7fbxgJulOtiwa+JRSoZK1mT5rzlacFakfKW5mkp2umynpKGUfqWxBIeXGXFszwSe7D5geiSlFl1xI7490vsXU4W8MHHo1Ub+OQ57AUILeFn1fc7mIsMTqXoZ3AKvvFrI2FpLAzOtGt/umrBbJ3q1R+R7wyCTs4uPkfey294vxLWetAD3oSTj/DfEsantBRpySqaFrKu05pL4j9xJkQtZSF48x/wX/u/F/wzctBDSYpj9h7/nvmnC/ilw82gFHwaPasKH6IA5saqAX5SemhGu8rgowj5H5gGZ1W7GaIYLq5vLkGjezR2M2Qg7Bf1AH4MbK1v7r+SQIENsrKQfpgTT/yyIKkQPE8Zb2sUpazz4k0lsJ/lgeL6xWxntM5osHNv8yN2xP+/JdApvYmRz8nghPUN1xKfvIO80MKeOa+QikwhA0qqPA/Bo+3C8tq57ezkRNgn9ZAZuzoRzXASsNke+XXxA63F/Wd/Rxy5HX7TrSdyFXSG8nsykUxWvKl5ylpapwWtadoUZZHyqhY1lt4r+NtPCubZ/2ZSMJJVLyfFazvi36lMaJV/XyhkSqfkHwllj/yhUPyXtYDf12ZcC/+2UHoCl0o/ooKPvqAJnKkWrYErsxpRWQHSDHAttDP+vXFp4HacwDw8Rr4oEeBz84g6bjeJg+3WDOtRwNzvpYy/3vxtZsfWjRYlDNgtU7Fv8ANCeMnENw76PKWXz+r1fIMXoo7VHRH1q7m3+BPc+D62', 'uuid': '0ffcbb37-cabe-4c52-a31a-b7b3566c2e86'}
+In International Conference on Learning Representations, 2017.
+
+[20] Diederik Kingma and Jimmy Ba. Adam: A method for stochastic optimization. In ICLR, 2015.
+
+[21] Oleksii Kuchaiev and Boris Ginsburg. Factorization tricks for LSTM networks. arXiv preprint
+
+arXiv:1703.10722, 2017.
+
+[22] Zhouhan Lin, Minwei Feng, Cicero Nogueira dos Santos, Mo Yu, Bing Xiang, Bowen Zhou, and Yoshua Bengio. A structured self-attentive sentence embedding. arXiv preprint arXiv:1703.03130, 2017.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 11, 'orig_elements': 'eJzNVu9v2zYQ/VcIfTYVUqJ++VuxtlixpuvQrFhhGMaJPFlEZEqjqCxukP+9pOy0weY0WIEU+WDB7/hOx+M9PWl1E2GHOzRuo1W0JFEpkReVbKgqm5wKITMKtb8UGZMqSUSCDKIFiXboQIEDn3MTyb63ShtwOM64g30/uU2Lets6HymqJGY+6Rj/RyvX+nDOD+Gh18aFzNWKszKE8oLF+XpBvuKSxVnAGRNxegLPfB+Ixv3ocBc6ea+vsfswgMTo1i80usON0hal6+0+EF6G7R9XDOwwxF44589C9+bN+KLrPvXTO0QVD6qJ5u2b7QTbuclVhGYbrefo6Da7XulG43yECUsyyhLKiwueLTlbiiJkDz5zY6ZdjdazOA+bcngdzidaJemanGvT0ovWFyFvp95sF+SPqZfkY0ze4oK86fZAPkxuvMQrtAvyu9V9Rz5qs4duXBAwymddwviZ/AZ6RBuT86lzmjoYL0N5tx/mDv800s9p21v9GdVFqO838m8VcMYE1EVOiyJpqEhZRqvadwVYpaws/aVgT6mCpIrzMGUep7MKjrjisQhY8DzmJ/DMf94q6LS5nDNvotGB9QduFF77gMjv6QHsX/qKeJVknJOYsJxzEbIn24Xl1rlheXYG9lpfxb3dnkE9ngVufGDerh/R24h/T2gkEteTr/87BGu02cbkUH6wOFg/kwNcfrv/giSMZ/F9Vb0Da8HpK3xIUZiLtClzRkH5cxFNKWmVSkmlKpmoc4EI4ul9pWB3ijpi31Jy8JEsLk5g9vwV9X1fEad85VeNE3nfwu7gG7+0Vo+uH1q05CU5B3NQwaum8U35mRIYBtuDbHEMgoG7Xuj/UoCqZI2NKCkXklP/A1pV3l0Kkdcqw6pUyU/wlCKs3POUIkkOExfJ7CH/wTP/eSvgYU+pTnoKK4OnCH+zxz0lPCcz81FPqWFERQxOFjqy82rRxvuLBTN2EPp+0FbuSvyIrZQcqwbQv5nyrPKfK6LxLypUNAcvqyYBWbDmCUWVen8INiKSmAfR3OHsKLKUn8Yz/3mL6nuj5vz+kF73vfOk2/UXsEwSZA==', 'uuid': 'b54961c3-c160-4ea8-9d29-fc7e4fc3de6b'}
+[23] Minh-Thang Luong, Quoc V. Le, Ilya Sutskever, Oriol Vinyals, and Lukasz Kaiser. Multi-task
+
+sequence to sequence learning. arXiv preprint arXiv:1511.06114, 2015.
+
+[24] Minh-Thang Luong, Hieu Pham, and Christopher D Manning. Effective approaches to attention-
+
+based neural machine translation. arXiv preprint arXiv:1508.04025, 2015.
+
+11
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJzVlN+L2zgQx/+VwU89iI38O85bulu4Lt3tQnMPJQ1BtsaxzrZkJLlttvR/v5GTwtKWwj3cQZ+k+WpGzHf0QfsvAQ44onJHKYINBFldiJyVRcjZeh1mhShDXhY8TIqqbBm2ImZ1sIJgRMcFd5xqvgSN1kZIxR3aJR74Wc/u2KE8dY6UskoiRkVX/ZMUriO5iC/ypKVyvnK/j9naS2UWJYcVfAurPGI+zFn2k3BJpjiwZ+tw9C4e5Wcc3k28weArHbRywKOQBhunzdkn3PrWryeKj+i1rXM0B6nVa7sdhvd6fkAU0STaYGldnWZ+WgzuA1Sn4LCo1h1HLWQrcRlfwpI8ZEkYl7s438Rsk5W+eqLKo5rHGg1lxYlvyuFnP5tgn+QHuJeu6XAY4BHuuWlmu/LrGbZKLYJUvcRPsnlaAVcCXiJ3RjYI77giS1LJCF7OcqBHOAGHgZsTUqLSjt5EQKPNNFvQLVDjg7TdBnYdwoR0uzOINVd9BDd6nGYqoAnwAQa6apbWyYZ6iasXyR+bNE4/zAmL0zRlXqvSyJtz52mZ3wM3hqo/4s47I4vfsyVEm6RFloXFuhBhlnGiDAsW1vFa1KLGfN1W/z1bfsmfwRVnLEovOOVR8pN4yf+d+SoOcMs/SgH3zc2gbX9ewav5hArhpuNGSd5fqCLQerjTnbJaRfCqbckPPSdYHNrQGU6YEV6tNjBxY2kfwWsFj0Y3ZITChTBHYP05j1zBm6sl2GHTKT3o05kYUy0aVITuNfdhu71542mX6tnpCrwlC3GeXJCL8yqCJfNupsYTxop/Bx/nxFhWZiEryjrMRJOFFbbrsGBV3VZNneRp9j/Al6fR+jl8xTW+/mU/xEv+7wxfeaBPrJ8NPHIj+24Fb23DDew+zIxh1vTWGb9ti3EFt3Li6m9C55bbC5J3vNc1/GWfem1QOkIABDb0UWnL64H+uG+2fsHC4R/mMR3c', 'uuid': '8d5272d0-59ff-409c-8e96-de255fc6ec7c'}
+[25] Mitchell P Marcus, Mary Ann Marcinkiewicz, and Beatrice Santorini. Building a large annotated corpus of english: The penn treebank. Computational linguistics, 19(2):313–330, 1993.
+
+[26] David McClosky, Eugene Charniak, and Mark Johnson. Effective self-training for parsing. In Proceedings of the Human Language Technology Conference of the NAACL, Main Conference, pages 152–159. ACL, June 2006.
+
+[27] Ankur Parikh, Oscar Täckström, Dipanjan Das, and Jakob Uszkoreit. A decomposable attention
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJzVks2K2zAUhV/lonVsJEWK5dmFtouBNoSZLFpCCIp1HQtsychyO2GYd6/khlLKbLvo8ny6h/tzdHwl2OOALp6tIQ9AWlO1yC9VcVECCyFkXagNskLyal3plrX1hZIVkAGjNjrq5HkljffBWKcjTovu9c3P8dyhvXYxkarmJU2mO/9hTewS3rBfePTWxew8Hhmvy80K2EaU8rSC37oSZZW1oFUp3tFLfQJkuk0Rh7zJ3r5g/zzqBslbemhtj2djAzbRh1su+JjHv784PWBm2xjTLax3j9O277/5eYdoytG0ZBnfXWd9XZY8EnRXclroFM+DN7a1uJyQUy4LygtWHZh8YPRBVNk9JufZzcMFQ6piPA8V8SXfhyQ79iU8Ovg0jDbYRvfwBWPnzQTWwU7HOST0+T4A7INvcJqsu66AU7Ypc4N4G5cdDjb2y85/ZytroTTHplgrYwqBa1VouWYFFbKtqVHSSPUvs6UqI6ZUyZds77q+a0nFu3qp/3+zPXJ1gic/6BTkXs/9PK3gg7ZDCg++pmlShNoZeLJNp4OBZ990GErYgkEcIaB1rQ8NGlg+CSQB+jLFoJtov+Ofwe90CDrDQ279dvoJMfYqNQ==', 'uuid': '9c83c2b2-ea4f-4dc2-8e40-e8a53cf5a0ac'}
+model. In Empirical Methods in Natural Language Processing, 2016.
+
+[28] Romain Paulus, Caiming Xiong, and Richard Socher. A deep reinforced model for abstractive
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJzVVU2P2zYQ/SsDnS0tqW/5tt1ckrjpotmgLVzDoMSRTUQiDYpy7Sz2v3coedtssm3QQ4rkOJ+cee9Js74PsMMetdsqGSwhiGWe8aLGMKlkE6aClWHNUh5iwSTnTdLEhQwWEPTohBROUM190BhjpdLC4TDZnTib0W33qHZ7R56iiiNGRRf/H0q6PblzPrsPRmnnK9drHldRvgBelVG1WcCjHbMq4t5OsjTKPrfnfHIEw3lw2PtNbtUJu7cH0WDwQIFWdbiVymLjjD37hBd+/EtEix6979o5wkIZ/XK47rrfzPgGUUYH2QbT+Ho3it205DpAvQs2k3dw295I1SqcIWRxFrI45MUdz5acLdNiqlb6/VR5HwxOWAJcSzyRI/EYODx5pAJhf1VHWAIvWAYRsDRhqa8ebefDe+cOy6srYU/qGBm7uxL1cOVzoznzwU90oBm3euxrtFTD44eP+g9j3wurPgi/ZATzcweLB0sczOby734eaV5EfgB3PkwI3SnXTYh+ppykZFUi6rAQIg7TrGVhWRc85HndyrwssG6Lr6kcVnpXHMdRPinnYudZlHg7o53iZ+wp/9tWzr/xuY6rDbztxBFu0VlzXMAKjYYfhLXo3AJ+Nr1QGu72qhbjaQFCS3ghNLzuUBH/KxRWK70D0TSjJRoW0JieVndzKsGLluThRN0hOItIbm3cRT4vNdxa09Cm1GMA04LbI8R8cBSiSj3liQ5ujG7Rom4QaLobemJ0j7EV1Y5qcKoZpjfT1O3hWuuRYj8iOj/epfP1zWoBHo4B0iT5fSR1JmnKojnwauzOJFiWPxHsG4KCnjrinYfsGeGKps7or8bCPGc8TLFOw7qtMOQ8F4zXMsc8/R+EW5RPhVuWUTkLNX3WnvK/Y+EmbAM/tcqSgnCYmV8pY+EX07URvBs87Z5zgo/EAkhdpJycBlR/IK0jPI4HNAx2w+V/9p/Yb4siz8pEhnWCGKaS2BcEQNjyLBN1TYSV2dc/eHFZRdnHB6+qosLbcT4fvE/tKf/bZv8fD1713L3LWenvXVZm1RfvXe4/kSnzi/fu09P2V+l02p7+Kd7phhjdGTqPKGe9bP4ErPHA1w==', 'uuid': '2afcc1d1-bf36-4caa-8146-e96d4607ebb6'}
+summarization. arXiv preprint arXiv:1705.04304, 2017.
+
+[29] Slav Petrov, Leon Barrett, Romain Thibaux, and Dan Klein. Learning accurate, compact, and interpretable tree annotation. In Proceedings of the 21st International Conference on Computational Linguistics and 44th Annual Meeting of the ACL, pages 433–440. ACL, July 2006.
+
+[30] Ofir Press and Lior Wolf. Using the output embedding to improve language models. arXiv
+
+preprint arXiv:1608.05859, 2016.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJzVlFFvpDYUhf/KFc9ADIZhmLesIu1u203bTR5ajUajC1wGa8FGtkmGifa/14Zou1qljfrQqvuEzvG5+Nr+dPdPAfU0kLRH0QQ7CDBBLLKyivKkpiijTRLhNuURZ8Rx05Ylr3kQQjCQxQYtupqnoFZKN0KiJbPoHmc12WNH4tRZ5xRlGjNX9Ow/isZ2zt4kqz0qIa2v3O8TtvUWT3icHkL4otNnnbPsRb3knRGY2Vga/El+EWfq70asKfjsFlrR07ERmmqr9OwDN7795xWJA3nv2lp3F0LJ9+a6739X0y1RE49NGyzty9OEp+WQ+4DkKTgsrrHHQTWiFbRcYcrSPGJplBT3Sb5L2C4rfPXoKo9yGirSLpWkvilLZ38/wZ4nB/goagV3JKUWdRfCG9R6hnfYNOoxBJQNXPd0dl+N8EbouovhliaNPQxYd0ISWI3S9OjbB9WCRk3w6F7G+O3tPC4nvHW/dZEHuvd7uya+JaDO0oK1dRFhUqVRxstttC0xidK2KnhZsLSi9t8kIC3jdH3hciHgWfMsTrzmRfKiXvL/bwJ6IT8tlU+BsajdhcuGzs7g+VcsoP5NPIAjJGdbiIEVJSt99aR7v9xZO+6urlCfxUOs9OkKK3Pls/Ga/Hx4hbVHYTswU+XJgEkKa2JY9xw1jdo9xCp3f/40hJQlefyPMKIm27YVL6Oq5g6jDW+jLcspIsbyvCmqpGnL/2CQZEW8+XqQFGWcrYMjX7D5Vi/57xSjlG1e4qhgiedok/Ptqxy5bLwmX+Voz9MD3Coc4K7DC5EO4fqCvUD4IHSnDAkpQvhRX2ZzsW4cfcCLQH1xKdnMcIMPwoTw66Rq+IlCeEuqbTW5geeeUMl14P1AbQs3hDKGnyc33U6kJtPP0KM+Ech1+kmyDuVPZgf3HYEZURvq5+jkIGpgEGc7aYpUG9F5JG2NK55J/xXyX86/IF/8HfKHPwAaNDEz', 'uuid': '2ca7d8a2-2e0e-484e-9154-10ae663a8606'}
+[31] Rico Sennrich, Barry Haddow, and Alexandra Birch. Neural machine translation of rare words
+
+with subword units. arXiv preprint arXiv:1508.07909, 2015.
+
+[32] Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le, Geoffrey Hinton, and Jeff Dean. Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. arXiv preprint arXiv:1701.06538, 2017.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJxlUV2PmzAQ/CsrP7USIEwgHHmLdFV7/Yiqy71UaRS5eAlWwEb2QkJP99/P5q5PffLO7M5qdnx4Zthhj5pOSrINsBTT9apqZNzUWRnnIl/HQt7lsUwxz9Y5r/K0YBGwHklIQcJrnlltjJVKC0K34E7MZqRTi+rckmfKKktSL3rnr0pS6+k1f6MHozQF5eHA07tArbygOkbwD+dZnpQBF2mRlP/jt3lPMDc7wj5c8lPdsNsPokb24huN6vAklcWajJ3DwH2w/97RosfAbYl8FsroB7ftul9m3CHKZJANW+zr8yjOy5EHhvrMjgvr6NQbqRqFS4RZmhVxmsW8fOLFhqebvAzqwStPeuz/oPVTPAumCG8hH3ZYrY6wU6RcC3urJr9STCKCz2iaxuIMn+CLz8joCLYd3uCbVX9bnNxljuChmwXsR3IXnNBGILSEx9F5s7AXnbi0I0kVgzZTAvfWDP4HNiDAqX7oEK5iBjIwWC/WBBpHKzr/0NXYi4PGmh6M39soIqXPCXw1o9V+xDTwQ9St0gjfUVjtm/CIzpd1GwEvPvCPG15l1e8xS/mKV8VdBL7Kk5AFzcMS905YK0hN+BSCeDm+AjHOy8g=', 'uuid': '3a60cb7c-7916-4016-a1f4-d33b20ce7ec1'}
+[33] Nitish Srivastava, Geoffrey E Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdi- nov. Dropout: a simple way to prevent neural networks from overfitting. Journal of Machine Learning Research, 15(1):1929–1958, 2014.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJzVUlFv00AM/itWnpMoSZM03Vu1ASqCMug0hEpVOTm3PS25K3eXddnEf8eXFYTQxCMSb/4+22ff52/9FFBLHSm3lSK4gKAs651o6lmUzsoyymfVJMJyOo0qSgQ2eVln2TQIIejIoUCH3PMUNFobIRU6siNucdC92x5I7g+OmeksixNuOvMnKdyB6TJ9po9aKuc71+s0qTyVT6o424TwC1dJPPO4SIo4ewGP9UwEdrCOOv+Ta/lA7eqIDQXfObGTLW2FNNQ4bQZfcOXXP2cUduS5uXOshdRqYedt+0X3SyIRH8UuGNdX+x734yfXAal9sBlZ67adFnInaZQwS7IiSrIond6kxUWaXOSjYkfu3Kq+q8lwVZr5pRw9eH2C9STfwAqlqnFAA6v+7lAjr2dCmBt36Jl6bLEL4S1areAzWadVCKgEfNI1vCaz720Mr5SInI6I6Y46/iYocidt7ji3UHAZw6U2fKQQljFcxfAOT4ZUQ6EHHhOH72Oev5cDdnieEMMbNPySC4GEZPn4gbm4R+60IBUsqTfY8oSdNh169eDaaE5aqfawGi9iIatC8BpwlOfJ1z5L0glHFS/VG4MK5tbqRuK430I1cQhcUsReOzccx/MskSudvKcbLxwr+Kd96yrNi0LUUZbtplFeTrIImwlGBSVlVYgcJ2XxD+w7y+P8N/sWyRn74AX8XP8/27fYwKIdkJ3j7B3dExv3g5G6hVupBmzts5M+9rqB21v2GXuMvvXee+A02J9xS2w0b5qTdAc2r/fVX+6/+QFLmHNp', 'uuid': '89809624-9ece-42ed-a54e-41f76bd78232'}
+[34] Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, and Rob Fergus. End-to-end memory networks. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, and R. Garnett, editors, Advances in Neural Information Processing Systems 28, pages 2440–2448. Curran Associates, Inc., 2015.
+
+[35] Ilya Sutskever, Oriol Vinyals, and Quoc VV Le. Sequence to sequence learning with neural
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJzVVMFu1DAQ/ZVRDpySYDtxsumtKhKUSlXVrYpgWa2cZLIxTeyV7Wy7VPw7dloQoBU3kHqJ8p5nnJn3nrJ6jHDAEZXbyDY6gYixctEgaZKqqUWSk6pIFrwQSSNoSRd1nbOmiWKIRnSiFU74nseo0dq0UgmHdsaDOOjJbXqU2955pqxYSnzTM38vW9d7uqBP9E5L5ULnakVZlRYxcMJTuo7hJ6Y8zQLOqzylR/Bc74nIHqzDMWxyJR9wWO5Eg9E3f9DJATetNNg4bQ6h4E0Y//lEiREDd+qc10JqdW5Ph+Gjni4R23TXdtE8vtpOYjsvuYpQbaP1zFq3GXUrO4lPEhLGE8ISWt5QfkLJSV6G7p3v3KhprNH4KsrCUA4fgj6RQnevzZ1N4VzBabsXqkELUsElTkYMnu20GUUYDK6M9odWqi0s52VtDOFuCxkl+eeJEZpllLIY/Fuehk+7w27e7ka6YVbjT9fLmlGGBU+83mWSV8iSuhP+kQlaibaqSSb+petkESjOFulidv0Z51VaBhzsLY/guf7lur7KijWc9UZaJ4WC5VfcYnuI4VZ6+5WDW6F6PTV3GMMSzRYPcK67zqP32qve+ywse7+E91+oFj7Vcqsk3sMH/UWJFK7R9VLdhZy4HiHcuZsDJEzTS+cVmQyCzxU0etxNDg3spfUFKZzp62t/aW1fUx7cIrwo5zjx3+J0KYzxmdzjTVjoSKxwQSqCvEoYpzTJ26xKBON1wvOmaDkhXbfI/0Osiixlv8aqfMac5EfxXP+SY1WuQ4YOYrDwCi6EtGhiuNA6hit0Ru99niZn73Af+JCdd16zYPxbI8ZRGBAWRIiG11zBj0nDz+kv9q+/A4Ei6Fo=', 'uuid': '8a58fc47-b75f-4d6f-bc5c-110320deee3c'}
+networks. In Advances in Neural Information Processing Systems, pages 3104–3112, 2014.
+
+[36] Christian Szegedy, Vincent Vanhoucke, Sergey Ioffe, Jonathon Shlens, and Zbigniew Wojna. Rethinking the inception architecture for computer vision. CoRR, abs/1512.00567, 2015.
+
+[37] Vinyals & Kaiser, Koo, Petrov, Sutskever, and Hinton. Grammar as a foreign language. In
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJzNU11r3DAQ/CuLn88+f/t8b2kKIaQ5UhKaptfjkK21LSJLRpaudw3575Xs0KYl0KdC3zyjGWt3Z7V98pBjj0LvGfXW4OVNUkYki30aFqGfJjT3y7okfkqKapXXMaZl5C3A61ETSjSxnievllJRJojGccKcnKTR+w5Z22nLFGUchNb0wn9jVHeWzqOZHiQT2jm32yguHZUVSVDuFvATr9IgcjjJsyB+A096S3jjadTYu05u2BH57UBq9J7tQcM47ilTWGupTk7w3pX/ciJIj44709rOgklxOZ5x/iDNBpEGA228qXzRGtJOTW49FK23m9hR73tJWcNwGmEcxpkfxn5U3EXZOgrXaeHcg3XuhekrVFYVxa4ojUc9XUsPRNQ4AhOwQaMIh0vRSNUTVwvcKGkPRyZauJ36GxcQh1EWuP/q0zCVfsc0n1r9M9IojYoiLxobaZn6aVVlvo1u5dM4LdMkp02C1b+MNFxNEZZFkE+RzjhPwyBxOAvTt/Cs/78j5Uw8Ts4nb9RE2YELikdLxHn2Kl2iPrMD2MzzsIQAwlWUps5uFHfHndbDerkk6sgOgVTtklTj0mmDWfm8+8v2bJPVDh6kaDvD4N4s4Jo9ItzWnbGDUwv40rHGtgbnHYoFfDSyhk/wAa1OdqTvCYWNVNJ8Zwu4l7xp7UzgmtQdKjxZETmyHq4UezTW/WCIgHMi7X/srl64jytOzPjKgBoID+BCypbjV2MXtRxBzFvdWxUTCFoRMfJ5u+d81/BOMdq6HdcdQksGqFB/QxTQmd5eSgR9yx7APN5B4aDs0s1w/Wt+01PJf3sqG6KUNR/wzk3wefcDMsiIrw==', 'uuid': 'c273e958-cee7-4aca-9017-ae1c27a9565e'}
+Advances in Neural Information Processing Systems, 2015.
+
+[38] Yonghui Wu, Mike Schuster, Zhifeng Chen, Quoc V Le, Mohammad Norouzi, Wolfgang Macherey, Maxim Krikun, Yuan Cao, Qin Gao, Klaus Macherey, et al. Google’s neural machine translation system: Bridging the gap between human and machine translation. arXiv preprint arXiv:1609.08144, 2016.
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 12, 'orig_elements': 'eJztVm1rHDcQ/iviPrVw2upt9eJvxiHg4ASThqSpa4y0mvWp3O0eu9ombuh/72jtBNf1hwucC6b3ZWHeVjN6nhnNxZcFrGEDXb5KcXFEFha05hyARs09VYYLGiyLtAZbQytjiEYtlmSxgeyjzx5jviyavh9i6nyGcZbX/qaf8tUK0vUqo8Y4UTEMutN/SjGvUK35rXrbpy6XyIsLzmxR6VpW9nJJvslGVabINVOPyrM/KhbjzZhhUyo5T59h/fPWN7D4Cw1tWsNVTAM0uR9uisOLkv6dpfMbKLrjnPEuUt+djsfr9cd+egMQq21sF3P63fXkr+ciLxbQXS8uZ+2YrzZ9TG2C+QoFEzVlgnLzjtdHnB0pU6K3GHnVTZsAA3pxUZLK8Lncz+JCukvyKgH5ddVPS/IxddfkxPdL8suEJ6LwAT9Lco5nkrO0JL6L5AMkNFfkBcCWYFnTMGDqBDOB9Ug+pbwiLaZG23745IdImr7rsHisbSSoIx1Mg1+TjW9WqQOSB9+Na1/sFTnp377FU8L4E9dMV0xx55ZEMK6rUkq+2c639cYPA0b8Ae9KHVjQQzZBHZXlQtFYM6CqZYa6JlpqwQF3OlrO6/+ATdZW4h6bjGAVu8eeh/Kt/zNmk2KX5PW0mjzyqdBpKsSaGfQBunUqhDpZQbckr1P31VIo9Qp5F/oSVJGXmMis9A1SC8Eg4yq1mQ4QpwYKm8ac8lQot/XDiJEVOe3I+dA3WCSKI+lbkldAao5/Ou66Cdn2GiAXct+Zjk/OyA/v+/W0AcKPyFmPpnO/hWH8cUlKiSNRUv02IfOkUrIqAUtyjE2BvyzK76OjCt41jkfqFVdIRx1oUIxRcDIiJb10QT8hHSXjM92UqHih21e5Frf0k/xxefZ/vnTk4j5IL/s+o9Mj6DjfuhhAUNYaTlVjCzqCUQONrzUz0lv29MPCiKq+NyusuhWFZJX9lzg7Pytk5H1kvh1L3qcR2zP9Oc//8T5e71Jew2NwWVYLkAao1rguKO05Dayx1EvjGylqE3R8erg4Y//YFCS7a667Wf5QvvV/vpCddtsp0/lLzvwNDPVuYDlhg/GGaihrnQZJfcTeapUB5LKOMhzA2j9YeSdwAg/WNLylMSpHlQBDPd4QBSkkbxTnztoDOPsGJ43ftzs4E+sWOwj310CVLK8Tb/Gd8poFCYah6gDS3kHqduog3WqnJbdUNl5TVXNOHWtbKnhsAk63VtinXOz+p+DkVdptVYBWMuuto3XbYO+E0OJmV7cUgFtlQ6zF7WEHePYJz7hNQ9rtBXLBSKM40MZEgyONKeq10LjLBRm0q3XL2wNA++8fvxs8gKhopSwV0eGqHXRDbRMdtd74Fuec5jYc4Nk3PH4nbGpc3ITnjoraC3x6CiwSHHV1y5XwoAM7tM7esdn433scbjePQHT5N5wxvWo=', 'uuid': '98617d29-8090-4b5e-9138-538280387a0e'}
+[39] Jie Zhou, Ying Cao, Xuguang Wang, Peng Li, and Wei Xu. Deep recurrent models with fast-forward connections for neural machine translation. CoRR, abs/1606.04199, 2016.
+
+[40] Muhua Zhu, Yue Zhang, Wenliang Chen, Min Zhang, and Jingbo Zhu. Fast and accurate shift-reduce constituent parsing. In Proceedings of the 51st Annual Meeting of the ACL (Volume 1: Long Papers), pages 434–443. ACL, August 2013.
+
+12
+
+Attention Visualizations
+
+Input-Input Layer5
+
+It
+
+is
+
+in
+
+this
+
+spirit
+
+that
+
+a
+
+majority
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 13, 'orig_elements': 'eJztnE2PG8cRhv+KwLNL6I/qjxICAwKSgy9OACuHQBCE6urq1SS75IJLSVaM/PfUrB3AMWxkVhiFPjR0EZsccpYPqup9q7v4+oeD3uqdHi9vl3548ezQRijoGoEnGoCjOWixMiQelHG42gcevnp2uNMLd76wXfPDQU6nc1+OfNGHx8e3/On0/vL2nS437y62Uig8d3bRT+sfl355Z8vZ/7h8f1qOl/XK16+9q+uSd+55ffPVs/88ji489+vj5PDXHv/4els4PHx6uOjd+pf8Zfleb7+7Z9HDv+yJsdzq276cVS6n86f1BX9cb/+nZ458p+vay8vFvovldPzm4eXt7d9O779V7c/v+zg83v7x5j3fPP6Rrw96vDm8eVx9uLy9O/VlLPr4FQYXErgAvrzy6YV3L7CsV9/blW+P7++anu1VPq43ddHv1+/ncHp8/8un+8ebeLVcbh9v+pdwfCiOSiFo1d4fQytQmxeoURFzj5hqnHD2hvPyTs+L8HEToijqg2MLGCUGdClCHc3DYCk5Oy9Z/ES0N6Kb0wc9H1cMD5souZRjRR0gwTtAiytgKhlKdzkkSdHlmeV2p/SOP+jP8XzL5zNflg/6an3Br2Aq3XdfaoGecwWk3KwYWW3inloKPKw88cS0N6Z7fniwi58CqmqvA2uCXJoVpl4RqqMEqs2lYjGGbUxQe4M66sdN2Y5KF2E/oIgKYG0JiHqHEnPs6I3cKJPO3nRu+eO2YlQI/ZDQACVmQE0OKGaC6DS6MvpopU08e+N5WI6im/j0XiTUiJBJPWAmS27kKwgN32MoyY80+ezNJzhHP8fz16PYl3lzOi//1P5bdajngl7Ms6bS0FCFCrVjguC94yHeeZ6ZbndUd/yPxd7uScqOO0pBy3RFCBDX/4XoQLOLWXIqSjRB7Q3q8m5bxhuMUUNx0JBNMJi4g1oZgWMMQ6sPo04Tuzuds94sD5c1bk7beg3FuzFK8cAJC2BLHViI7WObqyRWm2Y76Av06s4b4WSSRBFcJoMTJAKt3dSsuefulFybGW53OB9Ol1+Uot8ExDxi9UmAu+raqUOg1ix61IrQIJ+bzxPQ7s2F80n0YZsxihR7qmaMxJOVoeytApHFkUUQ6sicJPVJaHc1dzpvUwk8nGRJFUJvFXDkBK2YL2IZroi4Xtv0rbvjsYvHIu9vL5sYhez9CBKgSGmAycR2c4OhpKQ5iAudZwd1d0bPn2xczbUGiyCEKGMAVkpQOUUIWbyphdzMvk5Oe3P6w5/+/N3XT2YVsDtu6CFlNe/qSoGmQUAHlZ5KqpRnP2h/Vvfcv94mG7qEbtoOVNfNPVxjiSzxxWw5sJRuweQmn+vx0TpKxIYgta81qSqwN+9aMiZ1ZThyU9ZdkU8JRILRPBGutYhxQNWYgDRUF9cTQHVujl+RT+tZq5jkjp0sv5UegTx24CpS1WPJcWqFK/IJPjRpzTQ3JoufRGS2VQcUqia5O4ccpi+6ZvxQcINGhVzYklwkBKo1gvOJ1WWx0JqeaHc+32wzrKKo3QIIUliTW3AGB7WCU4qa0JFVoglnbzjLfzXk/ufuXU+he8oM5ljXzo8lt6YSoDccpfvh+lRwXwDStl0hluic5ACx1WD2tDto2RcYSs0731VnevsSW6vLxqZ2Xbe+laFy8aauYwDW1qEFreuBBcGuE8/up33ul/OyrQIVUwQNLa8FHNHiJ6IlN7IKlMuqG1I39zoB7R8/vA1P1uhiagVSW4/MecND2cxQi6yIpYVYZu3ZHQ9vYoODc+1merhWNGUtCrX7DMlpTcWiCP08N7I7mzv++8mS26dtzbcxoooUCF372uGx7FarQCplDPHBK9eJ6ErzXTnVoMNl6OveDzKunYNRwHWPNHIOZo4mnKvOd1UaqKbR1n0FNetDJuSqfWTLlKoFkhae/nR3RE+d7+omolsZHbJQBuwlGSWyQNJkDtUTZ5FJ6erzXWxFp5MEcD6waTlvxShXc0UuD8/rufrphX4X813rocXuLZ5UTHljNHdUSRL4Vqo94aXOhs/15rsqV8MQLb2lbNlOmgLxyOaLonFZt1PDlN2709k83xUkZVMNDUL06xSrqe3mA1ksETdJmqnP4Nkdz/b5rqY5huETpCrD+LAH8uuWg+c4MmUublqi3fl81nyXc8XRGAG0UVt3hzK00jx0qaWPyMI01ffuqD5nvmtUN3A9cvo4/aCOgVtfj257TVlq4jmacr35LrWklnJtYAUpANbYgNzwMKQxo2k9nWOSv4P5rpElefsHPUYrTNIbcMwWSbVjpIzBl5ntdse0cb7LkJhqEIIykKwUcYOqJu2GL6hhhCQ6Y2h3OE+Y72qcSvRhgMduSa5UhRYxQ85mhzyKlzxL0O6AnjLfxUyjKZncdshWhlICXuWCKQcJSbvrNI3R/mpu63zXoICFzbIqOmd4TMO1RtE+a9RaAqLMn4259nyXr0jEucOo6NffjkEw/6oQo08JR5dQJ6PdGT19vqtWQ5GDg6B+/Y0fg2UrCaqo19hcwzR7DLtz+sz5riE9DkZTClTXn8sqwAYPKA+OJSYRnJP7+7PaPj9UhhYxRySxr/MpYx05DgFaGKjkmBvPdvcV+RTvcJRWwYe1uyChA1VhMGbYexT2c/7hqvMPWRsHZ1ZV2eLHjWSpTUyFCwu76rD5qRmuyCe41lzqtO5HRMDuB7CFDUhwjF1RWpzG9f/G582/AZzINq8=', 'uuid': 'e673334b-a55a-409b-83ad-db86015600fd'}
+of
+
+American
+
+governments
+
+have
+
+passed
+
+new
+
+laws
+
+since
+
+2009
+
+making
+
+the
+
+registration
+
+or
+
+voting
+
+process
+
+more
+
+difficult
+
+.
+
+<EOS>
+
+<pad>
+
+<pad>
+
+<pad>
+
+<pad>
+
+<pad>
+
+<pad>
+
+It
+
+is
+
+in
+
+this
+
+spirit
+
+that
+
+a
+
+majority
+
+of
+
+American
+
+governments
+
+have
+
+passed
+
+new
+
+laws
+
+since
+
+2009
+
+making
+
+the
+
+registration
+
+or
+
+voting
+
+process
+
+more
+
+difficult
+
+.
+
+<EOS>
+
+<pad>
+
+<pad>
+
+<pad>
+
+<pad>
+
+<pad>
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 13, 'orig_elements': 'eJztmW1r3EYQx7/Kcq+9Yp+1a0rBJQQCaSjUfVGcYPZh9k5UJwlpLxc39Lt3pLMTO3XpvbgEQu+NuRnNaGf355n923fzcQUtbKErt01aXZIV97Z2yQuaFedUxeSok4FTx5hnSksIOq8uyGoLxSdfPOZ8XMW+H1PT+QLTYrf+rt+V2w00601BT+1ExTDp3r9vUtmg2/CDe+ibrsyZNzec2dnFGavsuwvyYEsmKj7bmqnn7EM8OlbT3VRgO+/kl+YDtL8OPsLqL3yQmxZuUzNCLP14Nwe8mMu/f9L5Lcy+q1LwLJq+ezVdte3v/e4NQKqGtOy59d1659fLJm9W0K1X7xbvVG63fWpyA8sRCiY0ZYLy+prrS84uVT1nD5h52+22AUaM4nIuqsCH+XxWPww+/TgHlbthqeO6Ke1S95d8mIPglJBUQTRUmWCoN8bTDDkGI2qXpf76fCS/P/8HW6sDr5mHeMZe4r9fPi+b9W4EIi/JVUfgg98OLZA+k7IB4h9KIluIG98105bkvm37fdOtSdt3a5qaqfguAkkwQJegiw1MpOmWfLT6BCOZoM3088vwKeJAv54XMhX52Xd3/1xzAz5NBzuR0hNPDouVz2t9ynoPYyBvd4Jxu/V/YHXLZ3dBYj9vqMz1znHDZvQTPImsqmrb4wngKeYm7tpySK3IJyATloIB06bfd6Tv2js8hHF53R5/+Z5ZtiIv8GWYg7XGvu3HiYwwjDDNjvTp0bLBivwEUyHvG9hDmo9mSaged8wbP46+NO/hemb2TOc4L1zWOdHAmadKO0d97YAGY73Q2dQ+w1fsHMn47KrVfec82BojF5s/b6vvu3O4fAzpZd8XDHqGDpe1jr5OtOYe51oOngbnAo0yGsuTCgrMN7h3lKnEk7nmDvbDvfOFfYj/ruiox3RedcOu0OUneT1PG33UJZSs9gkLpNowFAkoDaiVLFCIkXuB/VRneYZ1aljXGziKTpS2tsHX1DmfqBJcUe+ioMJ5rYVxwah0pnNqOq/9/ig6kFNCEpI6wwNVXGlqlU4UAldSMe8kiDOdU9PZN217FB6rUrRSIBlrFOprl6nNEaiJRnkjlElSnfGcGk8HqE2P4uMyYzY7jX+a4oRTkFAzW5xwQUMwWRrQyZ35nJpPeHLz/KfUNlpHrVEaGBaxiZIU1C/aTjrU2dErx85i7uSQBhgzFnbcvxG81CFYRqFGZaB8DtRyxGRMdMYjJh/imdCpCV08ZvNbF/Ek1/3Y/Anp3zpJ45aNMoyixgZU2iJSGyVQ3K5Oda1yFOzM6eTjbndcF0E2II2O1AhpUSwYQV2sFeUqGiFwYebOSvvkdBrc/jF0PHPRKpsQR8BbyNZylgqBMh6CMNoIo85S7uR0/DC0DU42XPgoSiHZVM/tY5cJx2OkLuCEM5IpCMFJWX+LLxz+Z5SmTb9r03FSwXpuc8I7JylOVQZDA+puWkMUoCwwe26jb6y43/0NI/M0Hw==', 'uuid': '2334fefe-edfc-4350-abbb-3dc4c765b135'}
+<pad>
+
+Figure 3: An example of the attention mechanism following long-distance dependencies in the encoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of the verb ‘making’, completing the phrase ‘making...more difficult’. Attentions here shown only for the word ‘making’. Different colors represent different heads. Best viewed in color.
+
+13
+
+Input-Input Layer5
+
+The
+
+Law
+
+will
+
+never
+
+be
+
+perfect
+
+,
+
+but
+
+its
+
+application
+
+should
+
+be
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 14, 'orig_elements': 'eJztmm1r40YQgP/K4s9Zs+8voRSulINACIWmH0oawuxbrCJLQpKTS4/+947khOZC2rrgMxz2l5AZza5m99mZnRG++bzIdV7nZryr0uKcLJJ2xlufqLWBUQUuUV8Kp6IIbrIJycayOCOLdR4hwQg45vMitm2fqgbGPMxyDU/tZrxb5ep+NaLGerFkOOhZ/1ilcYVqw7fqrq2acRp5c8OZm1RcmaW4PSMvstR+K2um3pO39qhYDE/DmNfTSn6qPuX65w5iXvyJD0pV57tU9TmObf80Gfw4uf/8pIF1nnQfxhH3omqbi+FDXf/abq5yTssuzWuuobnfwP28yJtFbu4Xt7N2GO/WbapKlectFExoygTl9prrc87OlZ1GdzjyrtmsQ+7RiqvJqTF/mvZn8ftmGCeb8amb3biuxnp2+y0eVnTg1kkqskA8ORcKohRaHGgJjmlW/AnPvvGQt3wuq2G8mBbyDqISbMgKgJrEBVUpeOqZxwiyPnBvhFFRHR6RmUi8QvJWPipE0hqMI6YpJjNHlUqOOl40RpGINrPEHcDXRyQN+1+ItvZHgkhpYwRApikoRVWRiKgkTSFyC8WaYPgBEt3RIfqug/T9royEsVwkj/ktgKfK5EiBYSxZY1SCKIW37uszMvyZwYus9NJtmeilekee7b9dRh+r+02fiTon148tgRcnyCpDGs4I1ENLqobg/uWeaNIWYlDbddCjYf2Ezx7a+iGnyQga6FZtD6TPQ1tvpnmW5LrtzsnHTV3/PflAStvPbyB6SX5ox7Fdn5MLHIMc0xd2fbueA52Mq0wekTX5bSMYd9U4zP/4eao3bqOf0CRiluSqHTMOhe34VxOj++Qh909kWEHfzZOMq2qYX7F8fWKvoO9hrB7y9bRh7x1bhfnDu0yN4hovaMEpFO4pc84VL7kIPH7FYysZn1RWiSWfjuWLrMX2GEv+vjzbf7vHlqvXkD62yLl/j04wyCdppIPpHxN/5tTzIqkErJ1ctMx5foDySbstnZeLwNovE/0beWv/TdHRr+lcNN1mpPNfcjllDr1TO2IS06AUo9rESJWwjAaPIgNXlCoC28cDFFLHBut6lXejw6PV0jlaCsNQkg4THUigPjFvwQsRvT7R2TedS3jciY7XPEelI2Vs6hODyNQZ7WkoGqMJW3knxYnOvuk8VnW9Gx5nErBYaEocGxDtIw0Wg6dYrafoYeUUPPvH02Ss8XZLbgEKJJ9oMFgsqIAZzjmZqOQsixRD8OXEZ+98whc3z3+W2ikLx52WVAFgfRBDwQbeZCwXvLZCSGN0OEHaN6Qu9wUd2ymMONPJa2motCFgD68tDSlMZZyzeB1ZF9MBevhjI3T2ms0vTcSdvG/76o+c/imStLXR+hKoSB5rOeDTtxYdqE2Kx6ij8+IQX5WPjFPY7BZFJbPoFAtYX3uLl5EW1AcrqAyeG2ZVFvGU5/ZOp8Ll70LHlpJ9ENilJoelgtJAAeOJRhDCOh2zTOZEZ990oOvqCjMbvni3m0harozDyEkWKUWDjarHfshZrRK303f/UwztndKwajd12q0j8iKzFBIF4aefBnBkw12gDqsGESXDovsQPw04MkD/WnHf/gV+5e4M', 'uuid': '7cd8de4b-78b2-4f91-813f-c779cc095c22'}
+just
+
+just
+
+just
+
+just
+
+<pad>
+
+Figure 4: Two attention heads, also in layer 5 of 6, apparently involved in anaphora resolution. Top: Full attentions for head 5. Bottom: Isolated attentions from just the word ‘its’ for attention heads 5 and 6. Note that the attentions are very sharp for this word.
+
+14
+
+Input-Input Layer5
+
+The
+
+Law
+
+will
+
+never
+
+be
+
+perfect
+
+,
+
+but
+
+its
+
+application
+
+should
+
+be
+
+--------------------------------------------------------------------------------
+
+{'source': 'Data/AttentionIsAllYouNeed.pdf', 'page_number': 15, 'orig_elements': 'eJztltuK3DgQhl9F+HrUSLLlw7AsBJZAIAmBHViWYWhKUqlbG9tqbHkyTci7b8nds/Qmc5GLHAjJlalSVflXfSWh2/cF9jjgmLbBFdeskHVbe6M1B1MCr1RX8Q5cw11pdCnbDgBNccWKARM4SEA57wsb4+TCCAnn1e7hGJe03WPY7RN5mk5tBCWd/e+CS3ty1/LkPsQwppx5eytFm11Stxt5d8Ue7bJpNiLbWlRP2ad4chTzcU445J28CQ/Y/3kAi8UHWvChx60LE9oUp2MO+CPLP6+MMGD2PUuJehHi+GJ+1vd/x+U1otscnC9W+eNugd26ydsCx11xt3rntB2iCz7g2kIllOZCcdncSH0txXXV5OwDZW7HZTA4UZTUWVTCh9yf4p9lTjkmHQ+rjJuQ+lX2J3g6rCvAhvuSoFRNa3krlOG6NVKCVrr1+AvPl8bDPubzMszpRd7IE4i8URoqBbwEK3mFHngnTck7W7lOKV1Z9R1OkKYC8gLJx/ZPhUgJ1F3bAjcdajpFWHLA1nAE54VrAHX5DRCVTXs6JZ+J6BT/kyCiy8wprZp8gAiRFZ6DqwwnOAoa27Xgy1+Ivjii3w7gfv9cRg60dLVXHJW1vBJWcFObjjsQtVOyVarzX59RLdT/brq6LDfdBZNP7DX+x2X0POyWCZm+Zq9gPLLoWdojg0cxbE+32MzwYR9MSMzgHu5DXCaKgsRmxGFmE/bUf8dSXHPnNC025aLnYjOVwtHihv2FbBfukaV3kc2L3VNdGA49zgxMvMcr5qc4rKu0J48TJZ4FnBaoGBWKDicq2tMZ/k8miSHE5Nf5r/WG3VDsKdX2CFN/ZPkznmQecPJxGi7+kmB+O28uR/U1TBMkUnuTO/XEvEJrfY2t5rrqOrr2O8WNqWt66qKU2JT0rhJfcV5LIbOrqc7z+mhrdbpjSvm0Xf3Y8yr1JaTnMSYK+nD3L3mNuic=', 'uuid': '266ab5a4-787d-4b48-825b-e230d68bd8b0'}
+just
+
+just
+
+just
+
+just
+
+<pad>
+
+Figure 5: Many of the attention heads exhibit behaviour that seems related to the structure of the sentence. We give two such examples above, from two different heads from the encoder self-attention at layer 5 of 6. The heads clearly learned to perform different tasks.
+
+15
+
+--------------------------------------------------------------------------------
+
