@@ -1,0 +1,21 @@
+# Core API Framework
+fastapi==0.104.1
+uvicorn
+pydantic
+
+# Vector Database & Embeddings
+langchain-qdrant
+langchain-ollama
+langchain-core
+langchain-unstructured
+langchain-community
+qdrant-client
+
+# AWS Services
+boto3
+
+# HTTP Client for testing
+requests
+
+# Standard libraries (usually included with Python, but listed for clarity)
+# pathlib, tempfile, uuid, os, json, logging, typing, collections, asyncio are built-in

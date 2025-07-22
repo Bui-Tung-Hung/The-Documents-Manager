@@ -1,0 +1,86 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+test_env/
+HCM_AI_Pipeline/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Version control
+.git/
+.gitignore
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Data files (keep small test files, exclude large datasets)
+Data/
+*.pdf
+*.docx
+*.xlsx
+
+# Jupyter notebooks
+*.ipynb
+test*.ipynb
+
+# Test and development files
+test_api.py
+test.py
+
+# Documentation
+README*.md
+docs/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Original config files (using config_docker.py instead)
+
+
+
+
+# Backup and duplicate files
+*~
+*.bak
+*.backup
+*- Copy.*
+
+# Other project directories
+The-Documents-Manager/
