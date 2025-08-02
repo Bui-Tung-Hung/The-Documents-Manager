@@ -3,6 +3,14 @@
 echo "🚀 Starting Document Search API..."
 echo "======================================="
 
+# Start Ollama service
+echo "🔥 Starting Ollama service..."
+ollama serve &
+echo "⏳ Waiting for Ollama to be ready..."
+sleep 10
+echo "✅ Ollama should be ready now"
+echo ""
+
 # Install additional API dependencies
 echo "📦 Installing API dependencies..."
 pip install -r requirements_api.txt
