@@ -1,0 +1,208 @@
+"""
+FastAPI routes for the document search API
+"""
+
+import logging
+from typing import List, Dict, Any
+from fastapi import APIRouter, HTTPException, Depends
+from fastapi.responses import JSONResponse
+
+from .models import (
+    SearchFileRequest, 
+    FileSearchResponse, 
+    HealthResponse, 
+    APIInfoResponse,
+    CollectionInfoResponse,
+    IndexDocumentsRequest,
+    IndexResponse,
+    DeleteDocumentsRequest,
+    DeleteResponse,
+    ErrorResponse
+)
+from ..services.search_service import get_search_service, SearchService
+from ..providers.base import Document
+from ..core.exceptions import SearchError, ProviderError, ConfigurationError
+
+logger = logging.getLogger(__name__)
+
+# Create router
+router = APIRouter()
+
+@router.get("/", response_model=APIInfoResponse)
+async def root():
+    """Root endpoint with API information"""
+    return APIInfoResponse(
+        message="Document Search API v2 - Flexible & Modular",
+        version="2.0.0",
+        endpoints={
+            "health": "/health",
+            "search": "/search-files",
+            "index": "/index-documents",
+            "delete": "/delete-documents",
+            "collection": "/collection-info",
+            "docs": "/docs"
+        }
+    )
+
+@router.get("/health", response_model=HealthResponse)
+async def health_check(search_service: SearchService = Depends(get_search_service)):
+    """Health check endpoint"""
+    try:
+        health_status = await search_service.health_check()
+        
+        all_healthy = all(health_status.values())
+        status = "healthy" if all_healthy else "degraded"
+        message = "All services are healthy" if all_healthy else "Some services are unhealthy"
+        
+        return HealthResponse(
+            status=status,
+            message=message,
+            services=health_status
+        )
+        
+    except Exception as e:
+        logger.error(f"Health check failed: {e}")
+        return HealthResponse(
+            status="unhealthy",
+            message=f"Health check failed: {str(e)}",
+            services={}
+        )
+
+@router.post("/search-files", response_model=FileSearchResponse)
+async def search_files(
+    request: SearchFileRequest,
+    search_service: SearchService = Depends(get_search_service)
+):
+    """
+    Search for documents grouped by file_id
+    
+    Args:
+        request: SearchFileRequest containing the query string
+        
+    Returns:
+        FileSearchResponse with query and results
+    """
+    try:
+        logger.info(f"Searching for query: {request.query}")
+        
+        # Perform search
+        results = await search_service.search_by_file_id(
+            query=request.query,
+            k=50,  # Search more documents to ensure we get diverse file_ids
+            top_files=5  # Return top 5 file_ids
+        )
+        
+        logger.info(f"Found {len(results)} file_id results")
+        
+        return FileSearchResponse(
+            query=request.query,
+            results=results,
+            total_results=len(results)
+        )
+        
+    except SearchError as e:
+        logger.error(f"Search failed: {e}")
+        raise HTTPException(status_code=500, detail=f"Search failed: {str(e)}")
+    except Exception as e:
+        logger.error(f"Unexpected error during search: {e}")
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+
+@router.post("/index-documents", response_model=IndexResponse)
+async def index_documents(
+    request: IndexDocumentsRequest,
+    search_service: SearchService = Depends(get_search_service)
+):
+    """
+    Index documents into the vector database
+    
+    Args:
+        request: IndexDocumentsRequest containing documents to index
+        
+    Returns:
+        IndexResponse with operation result
+    """
+    try:
+        logger.info(f"Indexing {len(request.documents)} documents")
+        
+        # Convert to Document objects
+        documents = []
+        for doc_data in request.documents:
+            doc = Document(
+                content=doc_data.get("content", ""),
+                file_id=doc_data.get("file_id", ""),
+                metadata=doc_data.get("metadata", {})
+            )
+            documents.append(doc)
+        
+        # Index documents
+        await search_service.index_documents(documents)
+        
+        logger.info(f"Successfully indexed {len(documents)} documents")
+        
+        return IndexResponse(
+            message="Documents indexed successfully",
+            documents_processed=len(documents)
+        )
+        
+    except SearchError as e:
+        logger.error(f"Indexing failed: {e}")
+        raise HTTPException(status_code=500, detail=f"Indexing failed: {str(e)}")
+    except Exception as e:
+        logger.error(f"Unexpected error during indexing: {e}")
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+
+@router.delete("/delete-documents", response_model=DeleteResponse)
+async def delete_documents(
+    request: DeleteDocumentsRequest,
+    search_service: SearchService = Depends(get_search_service)
+):
+    """
+    Delete documents by file IDs
+    
+    Args:
+        request: DeleteDocumentsRequest containing file IDs to delete
+        
+    Returns:
+        DeleteResponse with operation result
+    """
+    try:
+        logger.info(f"Deleting documents with file_ids: {request.file_ids}")
+        
+        # Delete documents
+        await search_service.delete_documents(request.file_ids)
+        
+        logger.info(f"Successfully deleted documents: {request.file_ids}")
+        
+        return DeleteResponse(
+            message="Documents deleted successfully",
+            deleted_count=len(request.file_ids)
+        )
+        
+    except SearchError as e:
+        logger.error(f"Deletion failed: {e}")
+        raise HTTPException(status_code=500, detail=f"Deletion failed: {str(e)}")
+    except Exception as e:
+        logger.error(f"Unexpected error during deletion: {e}")
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+
+@router.get("/collection-info", response_model=CollectionInfoResponse)
+async def get_collection_info(search_service: SearchService = Depends(get_search_service)):
+    """
+    Get information about the vector database collection
+    
+    Returns:
+        CollectionInfoResponse with collection details
+    """
+    try:
+        logger.info("Getting collection information")
+        
+        collection_info = await search_service.get_collection_info()
+        
+        return CollectionInfoResponse(**collection_info)
+        
+    except SearchError as e:
+        logger.error(f"Failed to get collection info: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to get collection info: {str(e)}")
+    except Exception as e:
+        logger.error(f"Unexpected error getting collection info: {e}")
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")

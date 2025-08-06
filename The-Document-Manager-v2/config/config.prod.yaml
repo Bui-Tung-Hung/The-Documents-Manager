@@ -1,0 +1,24 @@
+# Production configuration
+vector_db:
+  provider: "qdrant"
+  url: "${QDRANT_URL}"  # Cloud Qdrant instance
+  api_key: "${QDRANT_API_KEY}"
+  collection: "${QDRANT_COLLECTION:-TestCollection6}"
+  timeout: 30
+
+embedding:
+  provider: "ollama"
+  model: "bge-m3"
+  base_url: "${OLLAMA_BASE_URL:-http://localhost:11434}"
+  api_key: "${OPENAI_API_KEY:-}"
+  dimensions: 1024
+
+api:
+  host: "0.0.0.0"
+  port: 8001
+  reload: false  # No auto-reload in production
+  log_level: "INFO"
+  cors_origins:
+    - "*"
+
+environment: "production"
