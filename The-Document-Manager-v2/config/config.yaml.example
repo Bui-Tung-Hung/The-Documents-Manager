@@ -1,0 +1,24 @@
+# Configuration example - copy to config.yaml and customize
+vector_db:
+  provider: "qdrant"  # qdrant, chroma, pinecone
+  url: "https://your-cluster.qdrant.tech"  # Vector DB URL
+  api_key: "your_api_key_here"  # API key for cloud instances
+  collection: "TestCollection6"  # Collection name
+  timeout: 30  # Connection timeout
+
+embedding:
+  provider: "ollama"  # ollama, openai, huggingface
+  model: "bge-m3"  # Model name
+  base_url: "http://localhost:11434"  # Ollama base URL
+  api_key: ""  # API key for cloud providers
+  dimensions: 1024  # Embedding dimensions
+
+api:
+  host: "0.0.0.0"  # API host
+  port: 8001  # API port
+  reload: false  # Auto-reload (development only)
+  log_level: "INFO"  # Log level
+  cors_origins:
+    - "*"  # CORS allowed origins
+
+environment: "development"  # Environment name
