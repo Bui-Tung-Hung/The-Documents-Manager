@@ -33,9 +33,9 @@ Dự án này tái tạo **pipeline xử lý tài liệu doanh nghiệp thực t
 
 ```mermaid
 graph LR
-    A[Backend Services] --> B[AWS SQS Queue]
-    B --> C[Document Processor]
-    C --> D[LocalStack S3]
+    A[Backend Services] --> B[LocalStack S3]
+    B --> C[AWS SQS Queue]
+    C --> D[Document Processor]
     D --> E[AI Processing]
     E --> F[Vector Database]
     F --> G[Search API]
