@@ -1,4 +1,4 @@
-# 🔍 AI-Powered Document Search Engine v2.0 - Enterprise Architecture
+# 🔍 AI-Powered Document Search Engine 
 
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://docker.com)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green.svg)](https://fastapi.tiangolo.com)
