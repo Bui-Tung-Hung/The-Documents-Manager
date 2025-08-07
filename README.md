@@ -13,11 +13,11 @@ Một **hệ thống tìm kiếm tài liệu** . Dự án này showcase **thực
 
 ### 🏆 **Thành Tựu Kỹ Thuật Chính**
 
-- **🏗️ Kiến Trúc Microservices**: Mẫu provider modular với dependency injection
-- **☁️ Thiết Kế Cloud-Native**: Tích hợp AWS S3 + SQS với LocalStack (Giả lập AWS) cho phát triển local  
-- **🤖 Tích Hợp AI/ML**: Tìm kiếm ngữ nghĩa sử dụng BGE-M3 embeddings và vector databases Qdrant
-- **🔧 Xuất Sắc DevOps**: Multi-stage Docker builds, quản lý cấu hình, giám sát Healths
-- **📊 Sẵn Sàng Production**: Xử lý async, xử lý lỗi, logging, và mẫu khả năng mở rộng
+- **🏗️  Microservices**: Mẫu provider modular với dependency injection
+- **☁️ Cloud-Native**: Tích hợp AWS S3 + SQS với LocalStack (Giả lập AWS) cho phát triển local  
+- **🤖 AI/ML**: Tìm kiếm ngữ nghĩa sử dụng BGE-M3 embeddings và vector databases Qdrant
+- **🔧 DevOps**: Multi-stage Docker builds, quản lý cấu hình, giám sát Healths
+- **📊 Production**: Xử lý async, xử lý lỗi, logging, và mẫu khả năng mở rộng
 
 
 Dự án này mô phỏng **hệ thống quản lý tài liệu doanh nghiệp thực tế**:
