@@ -1,1 +1,1 @@
-"""Document Search API v2 - AI-Powered Search System"""
+"""Document Search API - AI-Powered Search System"""

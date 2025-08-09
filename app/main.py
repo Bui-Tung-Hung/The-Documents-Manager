@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 async def lifespan(app: FastAPI):
     """Application lifespan context manager"""
     # Startup
-    logger.info("🚀 Starting Document Search API v2...")
+    logger.info("🚀 Starting Document Search API...")
     
     try:
         # Load and validate configuration
@@ -60,7 +60,7 @@ async def lifespan(app: FastAPI):
     yield
     
     # Shutdown
-    logger.info("🔄 Shutting down Document Search API v2...")
+    logger.info("🔄 Shutting down Document Search API ...")
     try:
         search_service = await get_search_service()
         await search_service.close()
@@ -81,7 +81,7 @@ def create_app() -> FastAPI:
     
     # Create FastAPI app
     app = FastAPI(
-        title="Document Search API v2",
+        title="Document Search API",
         description="AI-Powered Document Search System with Flexible Architecture",
         version="2.0.0",
         docs_url="/docs",

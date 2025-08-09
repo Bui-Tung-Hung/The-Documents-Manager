@@ -163,6 +163,28 @@ class SearchService:
         except Exception as e:
             raise SearchError(f"Failed to search by file_id: {e}")
     
+    async def search_with_file_filter(self, query: str, file_ids: List[str], limit: int = 10) -> List[SearchResult]:
+        """Search for documents similar to the query within specified files"""
+        if not self._initialized:
+            await self.initialize()
+        
+        try:
+            # Generate embedding for query
+            query_embedding = await self.embedding.embed_text(query)
+            
+            # Search in vector database with file filter
+            results = await self.vector_db.search_with_filter(
+                self.config.vector_db.collection,
+                query_embedding,
+                file_ids,
+                limit
+            )
+            
+            return results
+            
+        except Exception as e:
+            raise SearchError(f"Failed to search documents with file filter: {e}")
+    
     async def delete_documents(self, file_ids: List[str]) -> None:
         """Delete documents by file IDs"""
         if not self._initialized:

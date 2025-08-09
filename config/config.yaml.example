@@ -21,4 +21,11 @@ api:
   cors_origins:
     - "*"  # CORS allowed origins
 
+chat:
+  provider: "ollama"  # Chat provider
+  model: "qwen2.5:1.5b"  # Chat model name
+  base_url: "http://localhost:11434"  # Ollama base URL for chat
+  context_limit: 3000  # Maximum context tokens
+  max_chunks: 5  # Maximum chunks per query
+
 environment: "development"  # Environment name

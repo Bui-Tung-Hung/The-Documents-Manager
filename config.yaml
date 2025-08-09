@@ -1,0 +1,30 @@
+vector_db:
+  provider: "qdrant"
+  url: "http://localhost:6333"
+  api_key: ""
+  collection: "TestCollection6"
+  timeout: 30
+
+embedding:
+  provider: "ollama"
+  model: "bge-m3"
+  base_url: "http://localhost:11434"
+  api_key: ""
+  dimensions: 1024
+
+api:
+  host: "0.0.0.0"
+  port: 8001
+  reload: false
+  log_level: "INFO"
+  cors_origins:
+    - "*"
+
+chat:
+  provider: "ollama"
+  model: "qwen2.5:1.5b"
+  base_url: "http://localhost:11434"
+  context_limit: 3000
+  max_chunks: 5
+
+environment: "development"

@@ -11,7 +11,7 @@ PyYAML==6.0.1
 qdrant-client==1.15.1
 
 # HTTP Client
-aiohttp==3.9.1
+aiohttp
 
 # Data Processing
 numpy==1.24.3

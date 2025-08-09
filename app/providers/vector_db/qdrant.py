@@ -169,6 +169,57 @@ class QdrantProvider(VectorDBProvider):
         except Exception as e:
             raise VectorDBError(f"Failed to search documents: {e}")
     
+    async def search_with_filter(self, collection_name: str, query_embedding: List[float], file_ids: List[str], limit: int = 10) -> List[SearchResult]:
+        """Search for similar documents within specified files"""
+        if not self.client:
+            raise VectorDBError("Qdrant client not initialized")
+        
+        try:
+            loop = asyncio.get_event_loop()
+            
+            # Create filter for file_ids
+            file_filter = models.Filter(
+                must=[
+                    models.FieldCondition(
+                        key="file_id",
+                        match=models.MatchAny(any=file_ids)
+                    )
+                ]
+            )
+            
+            # Use direct method call for qdrant-client with filter
+            search_result = await loop.run_in_executor(
+                None,
+                lambda: self.client.search(
+                    collection_name=collection_name,
+                    query_vector=query_embedding,
+                    query_filter=file_filter,
+                    limit=limit,
+                    with_payload=True,
+                    with_vectors=False
+                )
+            )
+            
+            results = []
+            for hit in search_result:
+                payload = hit.payload
+                # Handle both file_id and fileID for compatibility
+                file_id = payload.get("file_id") or payload.get("fileID", "")
+                # Handle different content field names
+                content = payload.get("page_content") or payload.get("content") or payload.get("text") or payload.get("Content", "")
+                result = SearchResult(
+                    file_id=file_id,
+                    score=hit.score,
+                    content=content,
+                    metadata={k: v for k, v in payload.items() if k not in ["file_id", "fileID", "page_content", "content", "text", "Content"]}
+                )
+                results.append(result)
+            
+            return results
+            
+        except Exception as e:
+            raise VectorDBError(f"Failed to search documents with filter: {e}")
+    
     async def delete_documents(self, collection_name: str, file_ids: List[str]) -> None:
         """Delete documents by file IDs"""
         if not self.client:

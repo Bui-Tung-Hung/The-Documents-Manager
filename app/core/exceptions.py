@@ -10,8 +10,12 @@ class ProviderError(Exception):
     """Raised when there's an error with a provider"""
     pass
 
-class VectorDBError(ProviderError):
-    """Raised when there's an error with vector database operations"""
+class VectorDBError(Exception):
+    """Vector database related errors"""
+    pass
+
+class ChatError(Exception):
+    """Chat provider related errors"""
     pass
 
 class EmbeddingError(ProviderError):

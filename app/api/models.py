@@ -18,6 +18,12 @@ class DeleteDocumentsRequest(BaseModel):
     """Request model for deleting documents"""
     file_ids: List[str] = Field(..., description="List of file IDs to delete")
 
+class ChatWithFilesRequest(BaseModel):
+    """Request model for chatting with specific files"""
+    file_ids: List[str] = Field(..., description="List of file IDs to chat with", min_items=1)
+    message: str = Field(..., description="User message/question", min_length=1, max_length=2000)
+    max_chunks: Optional[int] = Field(5, description="Maximum number of chunks to retrieve", ge=1, le=20)
+
 # Response models
 class SearchResultItem(BaseModel):
     """Individual search result item"""
@@ -60,6 +66,18 @@ class DeleteResponse(BaseModel):
     message: str = Field(..., description="Operation result message")
     deleted_count: int = Field(..., description="Number of documents deleted")
 
+class ChatChunk(BaseModel):
+    """Individual chat source chunk"""
+    file_id: str = Field(..., description="Source file ID")
+    content: str = Field(..., description="Chunk content")
+    score: float = Field(..., description="Relevance score")
+
+class ChatWithFilesResponse(BaseModel):
+    """Response model for chat with files"""
+    response: str = Field(..., description="Chat response from LLM")
+    source_chunks: List[ChatChunk] = Field(..., description="Source chunks used for response")
+    total_chunks: int = Field(..., description="Total number of chunks found")
+
 # Error response models
 class ErrorResponse(BaseModel):
     """Error response model"""
@@ -72,3 +90,12 @@ class ValidationErrorResponse(BaseModel):
     error: str = Field(default="validation_error", description="Error type")
     message: str = Field(..., description="Validation error message")
     field_errors: List[Dict[str, Any]] = Field(..., description="Field-specific errors")
+
+class ChatRequest(BaseModel):
+    """Request model for chat messages"""
+    message: str = Field(..., description="Chat message content")
+
+class ChatResponse(BaseModel):
+    """Response model for chat messages"""
+    message: str = Field(..., description="Chat response message")
+    timestamp: str = Field(..., description="Timestamp of the response")

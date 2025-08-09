@@ -47,6 +47,34 @@ async def root():
             "docs": "/docs"
         }
     )
+    ChatWithFilesRequest,
+    ChatWithFilesResponse
+)
+from ..services.search_service import get_search_service, SearchService
+from ..services.chat_service import get_chat_service, ChatService
+from ..providers.base import Document
+from ..core.exceptions import SearchError, ProviderError, ConfigurationError, ChatError
+
+logger = logging.getLogger(__name__)
+
+# Create router
+router = APIRouter()
+
+@router.get("/", response_model=APIInfoResponse)
+async def root():
+    """Root endpoint with API information"""
+    return APIInfoResponse(
+        message="Document Search API - Flexible & Modular",
+        version="2.0.0",
+        endpoints={
+            "health": "/health",
+            "search": "/search-files",
+            "index": "/index-documents",
+            "delete": "/delete-documents",
+            "collection": "/collection-info",
+            "docs": "/docs"
+        }
+    )
 
 @router.get("/health", response_model=HealthResponse)
 async def health_check(search_service: SearchService = Depends(get_search_service)):
@@ -189,6 +217,7 @@ async def chat_with_files(
     except Exception as e:
         logger.error(f"Unexpected error during chat: {e}")
         raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
+
 
 @router.delete("/delete-documents", response_model=DeleteResponse)
 async def delete_documents(

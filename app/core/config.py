@@ -40,11 +40,21 @@ class APIConfig:
     cors_origins: list = field(default_factory=lambda: ["*"])
 
 @dataclass
+class ChatConfig:
+    """Chat model configuration"""
+    provider: str = "ollama"
+    model: str = "qwen2.5:1.5b"
+    base_url: str = "http://localhost:11434"
+    context_limit: int = 3000
+    max_chunks: int = 5
+
+@dataclass
 class AppConfig:
     """Main application configuration"""
     vector_db: VectorDBConfig = field(default_factory=VectorDBConfig)
     embedding: EmbeddingConfig = field(default_factory=EmbeddingConfig)
     api: APIConfig = field(default_factory=APIConfig)
+    chat: ChatConfig = field(default_factory=ChatConfig)
     environment: str = "development"
 
 class ConfigManager:
@@ -147,6 +157,13 @@ class ConfigManager:
                 "log_level": "INFO",
                 "cors_origins": ["*"]
             },
+            "chat": {
+                "provider": "ollama",
+                "model": "qwen2.5:1.5b",
+                "base_url": "http://localhost:11434",
+                "context_limit": 3000,
+                "max_chunks": 5
+            },
             "environment": "development"
         }
         
@@ -195,6 +212,17 @@ class ConfigManager:
             config_data["api"]["log_level"] = os.getenv("LOG_LEVEL")
         if os.getenv("ENVIRONMENT"):
             config_data["environment"] = os.getenv("ENVIRONMENT")
+        # Chat config
+        if os.getenv("CHAT_PROVIDER"):
+            config_data["chat"]["provider"] = os.getenv("CHAT_PROVIDER")
+        if os.getenv("CHAT_MODEL"):
+            config_data["chat"]["model"] = os.getenv("CHAT_MODEL")
+        if os.getenv("CHAT_BASE_URL"):
+            config_data["chat"]["base_url"] = os.getenv("CHAT_BASE_URL")
+        if os.getenv("CHAT_CONTEXT_LIMIT"):
+            config_data["chat"]["context_limit"] = int(os.getenv("CHAT_CONTEXT_LIMIT"))
+        if os.getenv("CHAT_MAX_CHUNKS"):
+            config_data["chat"]["max_chunks"] = int(os.getenv("CHAT_MAX_CHUNKS"))
         
         return config_data
     
@@ -203,11 +231,13 @@ class ConfigManager:
         vector_db_config = VectorDBConfig(**config_data["vector_db"])
         embedding_config = EmbeddingConfig(**config_data["embedding"])
         api_config = APIConfig(**config_data["api"])
+        chat_config = ChatConfig(**config_data["chat"])
         
         return AppConfig(
             vector_db=vector_db_config,
             embedding=embedding_config,
             api=api_config,
+            chat=chat_config,
             environment=config_data["environment"]
         )
     

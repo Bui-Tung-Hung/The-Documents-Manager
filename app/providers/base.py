@@ -58,6 +58,11 @@ class VectorDBProvider(ABC):
         pass
     
     @abstractmethod
+    async def search_with_filter(self, collection_name: str, query_embedding: List[float], file_ids: List[str], limit: int = 10) -> List[SearchResult]:
+        """Search for similar documents within specified files"""
+        pass
+    
+    @abstractmethod
     async def delete_documents(self, collection_name: str, file_ids: List[str]) -> None:
         """Delete documents by file IDs"""
         pass
@@ -98,4 +103,27 @@ class EmbeddingProvider(ABC):
     @abstractmethod
     def get_model_info(self) -> Dict[str, Any]:
         """Get information about the embedding model"""
+        pass
+
+class ChatProvider(ABC):
+    """Abstract base class for chat providers"""
+    
+    @abstractmethod
+    async def initialize(self) -> None:
+        """Initialize the chat provider"""
+        pass
+    
+    @abstractmethod
+    async def health_check(self) -> bool:
+        """Check if the chat provider is healthy"""
+        pass
+    
+    @abstractmethod
+    async def generate_response(self, context: str, message: str) -> str:
+        """Generate chat response given context and message"""
+        pass
+    
+    @abstractmethod
+    def get_model_info(self) -> Dict[str, Any]:
+        """Get information about the chat model"""
         pass

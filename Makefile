@@ -1,10 +1,10 @@
-# Makefile for Document Search API v2
+# Makefile for Document Search API
 
 .PHONY: help install dev test lint format clean docker docker-local run health check-config
 
 # Default target
 help:
-	@echo "🔍 Document Search API v2 - Available Commands:"
+	@echo "🔍 Document Search API - Available Commands:"
 	@echo ""
 	@echo "📦 Setup & Installation:"
 	@echo "  install          Install dependencies"
@@ -81,7 +81,7 @@ check-config:
 # Docker
 docker-build:
 	@echo "🐳 Building Docker image..."
-	docker build -f docker/Dockerfile -t document-search-api:v2 .
+	docker build -f docker/Dockerfile -t document-search-api .
 
 docker:
 	@echo "🐳 Building and running with Docker..."
