@@ -16,7 +16,8 @@ Một **hệ thống tìm kiếm tài liệu** . Dự án này showcase **thực
 - **🏗️  Microservices**: Mẫu provider modular với dependency injection
 - **☁️ Cloud-Native**: Tích hợp AWS S3 + SQS với LocalStack (Giả lập AWS) cho phát triển local  
 - **🤖 AI/ML**: Tìm kiếm ngữ nghĩa sử dụng BGE-M3 embeddings và vector databases Qdrant
-- **🔧 DevOps**: Multi-stage Docker builds, quản lý cấu hình, giám sát Healths
+- **� RAG System**: Chat với tài liệu sử dụng Ollama models và retrieval augmented generation
+- **�🔧 DevOps**: Multi-stage Docker builds, quản lý cấu hình, giám sát Healths
 - **📊 Production**: Xử lý async, xử lý lỗi, logging, và mẫu khả năng mở rộng
 
 
@@ -48,6 +49,7 @@ graph LR
 3. **🤖 Xử Lý AI**: Embeddings đa ngôn ngữ được tạo bằng BGE-M3 model
 4. **🗄️ Lưu Trữ Vector**: Tài liệu được đánh index trong Qdrant cho similarity search
 5. **🔍 Search Engine**: RESTful API cung cấp khả năng tìm kiếm ngữ nghĩa
+6. **💬 RAG Chat**: Chat với tài liệu sử dụng Ollama models (qwen2.5:1.5b)
 
 ## 📋 Mục Lục
 
@@ -75,7 +77,7 @@ graph LR
 ```bash
 # Clone repository
 git clone https://github.com/Bui-Tung-Hung/The-Documents-Manager.git
-cd The-Documents-Manager/The-Document-Manager-v2
+cd The-Documents-Manager/docker
 
 # Thiết lập environment variables
 cp .env.example .env
@@ -150,6 +152,15 @@ curl -X POST "http://localhost:8001/search-files" \
      -H "Content-Type: application/json" \
      -d '{"query": "machine learning"}'
 
+# Chat với tài liệu (RAG - Retrieval Augmented Generation)
+curl -X POST "http://localhost:8001/chat-with-files" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "file_ids": ["doc_123", "doc_456"], 
+       "message": "Tóm tắt nội dung chính",
+       "max_chunks": 5
+     }'
+
 # Tài liệu API (Swagger UI cấp doanh nghiệp)
 open http://localhost:8001/docs
 ```
@@ -184,6 +195,12 @@ CONFIG_PATH=config/config.dev.yaml python -m app.main
 # Thiết lập production credentials
 export QDRANT_URL=https://your-cluster.qdrant.tech
 export QDRANT_API_KEY=your_secure_api_key
+
+# Cấu hình Chat Models (Ollama)
+export CHAT_PROVIDER=ollama
+export CHAT_MODEL=qwen2.5:1.5b
+export CHAT_BASE_URL=http://localhost:11434
+export CHAT_MAX_CHUNKS=5
 
 # Chạy với production config
 CONFIG_PATH=config/config.prod.yaml python -m app.main
@@ -227,6 +244,33 @@ Content-Type: application/json
 }
 ```
 
+#### Chat Với Tài Liệu (RAG)
+```http
+POST /chat-with-files
+Content-Type: application/json
+
+{
+  "file_ids": ["doc_123", "doc_456"],
+  "message": "Tóm tắt nội dung chính của các tài liệu này",
+  "max_chunks": 5
+}
+```
+
+**Response:**
+```json
+{
+  "response": "Dựa trên các tài liệu được cung cấp...",
+  "source_chunks": [
+    {
+      "file_id": "doc_123",
+      "content": "Nội dung chunk liên quan...",
+      "score": 0.85
+    }
+  ],
+  "total_chunks": 3
+}
+```
+
 #### Index Tài Liệu
 ```http
 POST /index-documents
@@ -254,7 +298,7 @@ GET /docs
 
 ### Enterprise Simulation Design
 
-Dự án này thể hiện **các mẫu doanh nghiệp thực tế**:
+Dự án này thể hiện **các mẫu doanh nghiệp thực tế** với **RAG (Retrieval Augmented Generation)**:
 
 ```
 ┌─────────────────┐    ┌──────────────┐    ┌─────────────────┐
@@ -266,6 +310,9 @@ Dự án này thể hiện **các mẫu doanh nghiệp thực tế**:
 ┌─────────────────┐    ┌──────────────┐    ┌─────────────────┐
 │   Search API    │◄───│   Vector DB  │◄───│   File Storage  │
 │   (FastAPI)     │    │   (Qdrant)   │    │   (S3)          │
+│                 │    │              │    │                 │
+│   Chat API      │◄───│   Chat Model │    │                 │
+│   (RAG)         │    │   (Ollama)   │    │                 │
 └─────────────────┘    └──────────────┘    └─────────────────┘
 ```
 
@@ -278,6 +325,9 @@ Dự án này thể hiện **các mẫu doanh nghiệp thực tế**:
 │   FastAPI       │    │  Embedding   │    │  Vector DB      │
 │   Application   │◄──►│  Provider    │◄──►│  Provider       │
 │                 │    │              │    │                 │
+│                 │    ┌──────────────┐    │                 │
+│                 │◄──►│  Chat        │    │                 │
+│                 │    │  Provider    │    │                 │
 └─────────────────┘    └──────────────┘    └─────────────────┘
 ```
 
@@ -295,6 +345,12 @@ Dự án này thể hiện **các mẫu doanh nghiệp thực tế**:
 - 🔄 OpenAI (Sắp có)
 - 🔄 Hugging Face (Sắp có)
 - 🔄 Azure OpenAI (Sắp có)
+
+**Chat Models (RAG):**
+- ✅ Ollama (qwen2.5:1.5b, llama3, khác)
+- 🔄 OpenAI GPT (Sắp có)
+- 🔄 Azure OpenAI (Sắp có)
+- 🔄 Anthropic Claude (Sắp có)
 
 ---
 
